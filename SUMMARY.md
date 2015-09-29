@@ -3,6 +3,7 @@
 * [README](README.md)
 * [導論](introductionmd.md)
 * [數學基礎](math_fundamentals.md)
+   * 貝氏網路
 * [語言學基礎](linguistic_fundamentals.md)
 * [前處理](text_preprocessing.md)
    * [文本收集](text_collection.md)
