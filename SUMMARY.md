@@ -7,6 +7,7 @@
 * [前處理](text_preprocessing.md)
 * [文本語意與統計](text_semantics.md)
 * [分類](text_classification.md)
+   * 垃圾訊息偵測
 * [聚類](text-clustering.md)
 * [檢索與儲存](text_retrieval_storage.md)
 * [自動摘要](text_summarization.md)
