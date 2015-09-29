@@ -1,6 +1,22 @@
 # 文本相似與關聯計算
 
 
+## 文本相似性
+- The concept of **similarity** is quite elusive.
+- 先定義好，再來想數學模式。
+
+
+
+
+
+
+
+
+
+
+
+----
+
 - **Multidimensional scaling**
 
     * Multidimensional scaling takes a table of similarities among words and turns it into a visual display like a map showing distances among words.And you can use a diagram called **word cloud** to display the results.
