@@ -18,7 +18,9 @@ Word cloud with Kernel density covers
 
 
 
+## 字詞的熱力圖
 
+Heat maps of words
 
 ## 文本網路
 
