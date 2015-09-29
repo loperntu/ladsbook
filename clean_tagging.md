@@ -3,7 +3,7 @@
 
 
 ## 文本清理
-Cleaning up texts (Stuhl, 2105)
+Cleaning up texts (Stuhl, 2105): Steps
 
 
 - stop words (such as the, of, and, a, to, and so on) must be removed. These words do not contain any meanings that will help the analysis, and they can occur so frequently that that they swamp all the words that do have meaning.
@@ -18,4 +18,18 @@ Cleaning up texts (Stuhl, 2105)
 
 - Depending on the stemming program, we may also look for word pairs or larger groups of words (eg ‘not good’ or ‘not bad’ or ‘South Gas Works’). We will discuss this process directly below.
 - Programs may remove infrequent words. Some have a setting you can adjust to screen words based on how often they appear. For instance, the 100 or so words that made up the entire table excerpted in Figure 2.1 all appeared in at least 1 per cent of all individual documents. Eliminating infrequent words helps reduce the overall analytical burden considerably.
+
+
+## Tokenization
+
+
+```
+前述作法預設了 token 的「存在」，但是在中文與其他字詞邊界不明顯的語言，tokenization 變成了一個研究的主題。
+```
+
+
+
+- The words taken from a block of text sometimes are called tokens, and the process of identifying the words is sometimes called tokenization.
+
+
 
