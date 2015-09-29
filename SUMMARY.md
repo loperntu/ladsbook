@@ -6,6 +6,6 @@
 * [語言學基礎](linguistic_fundamentals.md)
 * [前處理](text_preprocessing.md)
 * [分類](text_classification.md)
-* [文本聚類](text-clustering.md)
+* [聚類](text-clustering.md)
 * 檢索與儲存
 
