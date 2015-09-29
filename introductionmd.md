@@ -12,16 +12,13 @@
 ---
 ## 語言與文本分析
 
-* 文本資料來源：網頁，新聞，網誌，電郵，社交媒體等等。
+* 文本四處都在，特別是網路。文本資料來源：網頁，新聞，網誌，電郵，社交媒體等等。（reviews, postings, tweets, blogs, news, articles, responses to surveys, advertisements, product descriptions, scholarly papers, emails, comments collected for insurance, retail, health care and research (to name a few)。
 * 文本資料的構成：以自然語言為主，常常伴隨各種表情符號，以及其他的多媒體素材。
 * 語言與文本分析的用意，就是運用語言學與文本分析的知識與技術，將文本中蘊含的**訊息**發掘出來，進一步轉化成**知識**，應用在各個領域。
 
 
 # Data Science and Text Analytics
 
-
-- 文本四處都在，特別是網路。
-- 文本形式：reviews, postings, tweets, blogs, news, articles, responses to surveys, advertisements, product descriptions, scholarly papers, emails, comments collected for insurance, retail, health care and research (to name a few)。
 
 資料科學家的工作，可以視為是一個探索、預測與解讀資料意義的互動歷程。而語言分析的工作，在了解文本資料的語意與情緒表現上是重要的關鍵。本課程結合了目前統計程式設計與自然語言處理技術，以較為簡潔容易入門的設計與實際操作導引，希望可以讓毫無相關程式學習基礎的學生在本課程的帶領下，達到以下的學習目標：
 
