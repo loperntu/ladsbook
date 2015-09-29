@@ -7,6 +7,7 @@
 * [前處理](text_preprocessing.md)
    * [文本收集](text_collection.md)
    * [文本清理與自動訊息標注](clean_tagging.md)
+   * 文本標記
 * [文本語意與統計](text_semantics.md)
 * [分類](text_classification.md)
    * [垃圾訊息偵測](spam.md)
