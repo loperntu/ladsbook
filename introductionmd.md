@@ -45,7 +45,8 @@
 -->
 
 * 文本挖掘可以被定義成`以自動化或半自動化文本處理方法，挖掘文本中的知識的歷程`。
-* You do not need to have big data to do text analytics. The methods work with large, medium and small datasets.
+
+* You do not need to have **big data** to do text analytics. The methods work with large, medium and small datasets.
 
 * 通常的應用涉及了文本分類與叢聚、模式與趨勢偵測、文體風格分析應用、隨著社群網站與物聯網的興起，應用更延伸到即時情緒意見偵測判斷與預測。
 
