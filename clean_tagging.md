@@ -17,5 +17,5 @@ Cleaning up texts (Stuhl, 2105)
 ```
 
 - Depending on the stemming program, we may also look for word pairs or larger groups of words (eg ‘not good’ or ‘not bad’ or ‘South Gas Works’). We will discuss this process directly below.
-    Programs may remove infrequent words. Some have a setting you can adjust to screen words based on how often they appear. For instance, the 100 or so words that made up the entire table excerpted in Figure 2.1 all appeared in at least 1 per cent of all individual documents. Eliminating infrequent words helps reduce the overall analytical burden considerably.
+- Programs may remove infrequent words. Some have a setting you can adjust to screen words based on how often they appear. For instance, the 100 or so words that made up the entire table excerpted in Figure 2.1 all appeared in at least 1 per cent of all individual documents. Eliminating infrequent words helps reduce the overall analytical burden considerably.
 
