@@ -1,12 +1,29 @@
 # Text pre-processing
 ## 目的：清理與調整
 
+> Text does not follow any regular pattern amenable to being analysed using standard statistical methods.
 > How do we get text ready for analysis?
 
 * A large amount of available textual data are unstructured, massive, and of tremendous variety.
 * We need adjustments to thes texts to make it more analyzable.
 * R functions/Command line for manipulating text. 
 ---
+
+
+## 文本收集
+
+
+
+
+
+
+
+---
+
+
+
+
+
 
 ## 基本的文本清理步驟
 
