@@ -9,6 +9,8 @@ text analytics 涉及到的統計技術，主要是 **描述分析** (descriptiv
 
 
 
+### ngram
+
 
 
 
