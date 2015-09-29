@@ -12,6 +12,7 @@
 * [文本語意與統計](text_semantics.md)
    * [文本訊息視覺化](visualization.md)
    * [文本相似與關聯](similarity_association.md)
+* 迴歸預測
 * [分類](text_classification.md)
    * [垃圾訊息偵測](spam.md)
 * [聚類](text-clustering.md)
@@ -24,5 +25,4 @@
 * [附錄](appendix.md)
 * [Glossary](glossary.md)
 * [參考書目](references.md)
-* 迴歸預測
 
