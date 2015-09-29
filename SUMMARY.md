@@ -9,6 +9,7 @@
    * [文本清理與自動訊息標注](clean_tagging.md)
    * [文本標記](text_annotation.md)
 * [文本語意與統計](text_semantics.md)
+   * 文本訊息視覺化
 * [分類](text_classification.md)
    * [垃圾訊息偵測](spam.md)
 * [聚類](text-clustering.md)
