@@ -1,6 +1,7 @@
 # Text pre-processing
 ## 目的：清理與調整
 
+> How do we get text ready for analysis?
 
 * A large amount of available textual data are unstructured, massive, and of tremendous variety.
 * We need adjustments to thes texts to make it more analyzable.
