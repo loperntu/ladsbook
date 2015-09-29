@@ -2,5 +2,5 @@
 
 * [Introduction](README.md)
 * [Math Fundamentals](math_fundamentals.md)
-* Linguistic Fundamentals
+* [Linguistic Fundamentals](linguistic_fundamentals.md)
 
