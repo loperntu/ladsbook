@@ -5,6 +5,7 @@
 * [數學基礎](math_fundamentals.md)
 * [語言學基礎](linguistic_fundamentals.md)
 * [前處理](text_preprocessing.md)
+   * 文本收集
 * [文本語意與統計](text_semantics.md)
 * [分類](text_classification.md)
    * [垃圾訊息偵測](spam.md)
