@@ -20,6 +20,11 @@
 # Data Science and Text Analytics
 
 
+文本四處都在，特別是網路。
+Text in many varieties explodes in torrents through the web, including: reviews, postings, tweets, blogs, news, articles, responses to surveys, advertisements, product descriptions, scholarly papers, emails, comments collected for insurance, retail, health care and research (to name a few), recapitulations, aggregations and summaries of other information – and so on. There is an immense amount out there, and what to do with it is a critical, ongoing question.
+
+
+
 資料科學家的工作，可以視為是一個探索、預測與解讀資料意義的互動歷程。而語言分析的工作，在了解文本資料的語意與情緒表現上是重要的關鍵。本課程結合了目前統計程式設計與自然語言處理技術，以較為簡潔容易入門的設計與實際操作導引，希望可以讓毫無相關程式學習基礎的學生在本課程的帶領下，達到以下的學習目標：
 
 
