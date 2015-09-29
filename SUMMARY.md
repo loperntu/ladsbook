@@ -13,5 +13,5 @@
 * [情緒分析](sentiment_analysis.md)
 * [立場偵測](stance-detection.md)
 * [附錄](appendix.md)
-* 文本語意與統計
+* [文本語意與統計](text_semantics.md)
 
