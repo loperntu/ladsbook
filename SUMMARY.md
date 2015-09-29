@@ -24,4 +24,5 @@
 * [附錄](appendix.md)
 * [Glossary](glossary.md)
 * [參考書目](references.md)
+* 迴歸預測
 
