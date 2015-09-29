@@ -16,8 +16,9 @@ text analytics 涉及到的統計技術，主要是 **描述分析** (descriptiv
 ...
 #### Factor analysis
 
-- 因子分析 Factor analysis 可以用來 reducing the number of words in a set of documents to a more manageable level. 
+- 統計學的因子分析 Factor analysis 可以用來 reducing the number of words in a set of documents to a more manageable level. 
 
+> Factors analysis finds communalities in questions or other items, including the way text appears in documents. Factors can capture groups of questions that reflect some underlying idea, or groups of words that tend to appear together.(Stuhl, 2015)
 
 
 
