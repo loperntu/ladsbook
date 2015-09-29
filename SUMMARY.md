@@ -16,5 +16,5 @@
 * [個人文體風格](stylometrics.md)
 * [立場偵測](stance-detection.md)
 * [附錄](appendix.md)
-* Glossary
+* [Glossary](glossary.md)
 
