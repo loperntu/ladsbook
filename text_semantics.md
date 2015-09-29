@@ -10,11 +10,26 @@ text analytics 涉及到的統計技術，主要是 **描述分析** (descriptiv
 
 
 ### ngram
+...
+
+### 文本分析的降維
+...
+#### Factor analysis
+
+- 因子分析 Factor analysis 可以用來 reducing the number of words in a set of documents to a more manageable level. 
 
 
 
 
 
+
+
+
+
+
+
+
+---
 ## 邏輯語意
 
 
