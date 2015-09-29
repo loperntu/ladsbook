@@ -1,2 +1,4 @@
 # 語言分析與資料科學
-台大通識課 Linguistic Analysis and Data Science
+## Linguistic Analysis and Data Science
+
+台大通識課課程講義 
