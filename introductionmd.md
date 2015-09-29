@@ -114,6 +114,26 @@ Text Analytics with R (III)
     
 ```
 
+---
+## 解析流程
+
+
+---
+## 例子
+
+我們用 physical sensor/social sensor 的想像資料當例子說明流程。
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ---
