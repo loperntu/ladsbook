@@ -9,4 +9,5 @@
 * [聚類](text-clustering.md)
 * [檢索與儲存](text_retrieval_storage.md)
 * [自動摘要](text_summarization.md)
+* 主題模型
 
