@@ -11,4 +11,5 @@
 * [自動摘要](text_summarization.md)
 * [主題模型](topic-modeling.md)
 * [情緒分析](sentiment_analysis.md)
+* 立場偵測
 
