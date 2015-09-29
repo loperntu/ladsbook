@@ -15,4 +15,5 @@
 * [情緒分析](sentiment_analysis.md)
 * [立場偵測](stance-detection.md)
 * [附錄](appendix.md)
+* 個人文體風格
 
