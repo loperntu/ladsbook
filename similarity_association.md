@@ -19,3 +19,7 @@ Word cloud with Kernel density covers
 
 
 
+
+## 文本網路
+
+Graph layout of words
