@@ -3,5 +3,5 @@
 * [Introduction](README.md)
 * [Math Fundamentals](math_fundamentals.md)
 * [Linguistic Fundamentals](linguistic_fundamentals.md)
-* Text Preprocessing
+* [Text Preprocessing](text_preprocessing.md)
 
