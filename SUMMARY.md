@@ -10,4 +10,5 @@
 * [檢索與儲存](text_retrieval_storage.md)
 * [自動摘要](text_summarization.md)
 * [主題模型](topic-modeling.md)
+* 情緒分析
 
