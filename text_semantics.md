@@ -5,6 +5,11 @@
 
 text analytics 涉及到的統計技術，主要是 **描述分析** (descriptive analysis) 與 **推論分析** (predictive analysis)。
 
+> - Descriptive methods show patterns and similarities but not effects on any outcome or behaviour. 
+> - Predictive methods are required to show what effects are.
+
+
+
 > Descriptive analytics makes up a very large part of text analytics. These methods show broad patterns, count items, or shows what is near another item. This form of analytics does not show what influences an outcome and by how much. The business of predictive analytics, however, is doing just that – showing what leads to a change in some target variable, such as liking, preference or behaviour, and how strong those influences are likely to be.
 
 
