@@ -136,11 +136,9 @@ Text Analytics with R (III)
 
 
 ---
-## 套件
+## 相關套件
 
-- `tm`, `openNLP`, `qdap`, `koRpus`,`zipfR`,`Rwordseg/JiebaR`, working at various levels: **keyword extraction**, **word clouds**, **word frequency distribution**, **wordnet**,**qdap**, **word segmentation**, **stemmer**, **pos tagger**, **sense tagger**, **emotion tagger**,...
-
-- social media: `Rweibo`, `twitteR`,`facebookR`
+- `tm`, `openNLP`, `qdap`, `koRpus`,`zipfR`,`Rwordseg/JiebaR`, `wordnet`,`qdap`, `RTextTools`,`Rweibo`, `twitteR`,`facebookR`,..
 
 The current standard for text analysis in R is the `tm` package. It provides facilities to manage text collections and to perform the most common data preparation operations prior to statistical text analysis.
 
