@@ -129,7 +129,7 @@ Text Analytics with R (III)
 - Step.4 預測模型
   - Predictive modeling (regression, classification, clustering,...)
   - Estimation of Performance
-- Step.5 重置性報告與呈現 
+- Step.5 重製性報告與呈現 
   - Reproducible (and infographic) Report
 
 
