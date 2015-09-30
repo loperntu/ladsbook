@@ -117,6 +117,20 @@ Text Analytics with R (III)
 ---
 ## 解析流程
 
+- Step.1 收集與準備
+  - [x] Crawling/storing the text(s)  
+  - [x] Pre-processing the text(s) <span style="color:Teal; font-weight:bold">可能就花掉妳 50% 的時間!!</span>
+- Step.2 探索觀察與假設 
+  - [x] Exploratory data analysis (statistic summary/graphical representation)
+  - [ ] Missing value and outlier treatment
+- Step.3 自然語言處理、標注與分析
+  - [ ] Natural Language Processing w/o Linguistic Analysis
+  - [ ] Annotation, analysis (and back to Step.2 if necessary) 
+- Step.4 預測模型
+  - [ ] Predictive modeling (regression, classification, clustering,...)
+  - [ ] Estimation of Performance
+- Step.5 重置性報告與呈現 
+  - [ ] Reproducible (and infographic) Report
 
 
 
