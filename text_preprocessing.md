@@ -59,6 +59,9 @@
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 
+> `jiebaR`, `Rwordseg`
+
+
 ---
 進階：XML 文件處理參見 附錄
 
