@@ -24,6 +24,7 @@
 * [立場偵測](stance-detection.md)
 * [附錄](appendix.md)
    * [XML tutorial](xml_tutorial.md)
+   * 正則表示法
 * [Glossary](glossary.md)
 * [參考書目](references.md)
 
