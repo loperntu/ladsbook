@@ -23,7 +23,7 @@
 * [個人文體風格](stylometrics.md)
 * [立場偵測](stance-detection.md)
 * [附錄](appendix.md)
-   * XML tutorial
+   * [XML tutorial](xml_tutorial.md)
 * [Glossary](glossary.md)
 * [參考書目](references.md)
 
