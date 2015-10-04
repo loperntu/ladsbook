@@ -10,15 +10,17 @@
 ## 文本統計 
 
 * 一般討論文本解析時所涉及到的統計技術，主要是 **描述分析** (descriptive analysis) 與 **推論分析** (predictive analysis)。
+    * 描述統計處理文本的表層量化資訊、關聯與分佈。
+    * 推論統計則涉及影響因素、假說的顯著與否，推論的信心等。
+
 
 * 法國的資料分析傳統 (`Textometrie`，最近改稱 `Lexicometrie`) 與歐洲的量化語言學 (`quantatitive linguistics`) 則更強調**多變量的統計技術**，與語言法則的分佈 (Lebart et al. 1998) (<http://textometrie.ens-lyon.fr/?lang=en>)。
 
+```
+ R 的相關參考套件 `koRpus`, `qdap`,`quanteda`,`languageR` 等等。
+```
+
 先從一般的文本統計開始
-* 描述統計處理文本的表層量化資訊、關聯與分佈。
-* 推論統計則涉及影響因素、假說的顯著與否，推論的信心等。
-* R 的參考套件 `koRpus`, `qdap`,`quanteda`,`languageR` 等等。
-
-
 ## 詞頻計量與分佈
 
 
