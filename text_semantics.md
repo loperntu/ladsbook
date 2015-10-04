@@ -2,23 +2,22 @@
 
 
 * 文本解析，不管基於何種目的，在第一個層次大概不脫離 **描述、比較、分類** 工作。
-* 為了達到更進一步的文本「語意」訊息，常常需要對於文本進行**形式表徵處理 **(representation)。
+* 為了達到更進一步的文本「語意」訊息，常常需要對於文本進行**形式表徵處理 **(representation)。在 (以前的) 語言學中最常利用**邏輯**，最近則利用**向量**。
 
 
 
 
 ## 文本統計 
 
-一般討論文本解析時所涉及到的統計技術，主要是 **描述分析** (descriptive analysis) 與 **推論分析** (predictive analysis)。
+* 一般討論文本解析時所涉及到的統計技術，主要是 **描述分析** (descriptive analysis) 與 **推論分析** (predictive analysis)。
 
-法國的資料分析傳統 (`Textometrie`，最近改稱 `Lexicometrie`) 與歐洲的量化語言學 (`quantatitive linguistics`) 則更強調**多變量的統計技術**，與語言法則的分佈 (Lebart et al. 1998) (<http://textometrie.ens-lyon.fr/?lang=en>)。
+* 法國的資料分析傳統 (`Textometrie`，最近改稱 `Lexicometrie`) 與歐洲的量化語言學 (`quantatitive linguistics`) 則更強調**多變量的統計技術**，與語言法則的分佈 (Lebart et al. 1998) (<http://textometrie.ens-lyon.fr/?lang=en>)。
 
-> - Descriptive methods show patterns and similarities but not effects on any outcome or behaviour. 
-> - Predictive methods are required to show what effects are.
+先從一般的文本統計開始
+* 描述統計處理文本的表層量化資訊、關聯與分佈。
+* 推論統計則涉及影響因素、假說的顯著與否，推論的信心等。
 
 
-
-> Descriptive analytics makes up a very large part of text analytics. These methods show broad patterns, count items, or shows what is near another item. This form of analytics does not show what influences an outcome and by how much. The business of predictive analytics, however, is doing just that – showing what leads to a change in some target variable, such as liking, preference or behaviour, and how strong those influences are likely to be.
 
 * 參考套件 `koRpus`, `qdap` 
 
