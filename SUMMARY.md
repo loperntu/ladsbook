@@ -5,7 +5,7 @@
 * [數學基礎](math_fundamentals.md)
    * [貝氏網路](bayesian_network.md)
 * [語言學基礎](linguistic_fundamentals.md)
-   * 語料庫
+   * [語料庫](corpus.md)
 * [前處理](text_preprocessing.md)
    * [文本收集](text_collection.md)
    * [文本清理與自動訊息標注](clean_tagging.md)
