@@ -17,7 +17,7 @@
 * 法國的資料分析傳統 (`Textometrie`，最近改稱 `Lexicometrie`) 與歐洲的量化語言學 (`quantatitive linguistics`) 則更強調**多變量的統計技術**，與語言法則的分佈 (Lebart et al. 1998) (<http://textometrie.ens-lyon.fr/?lang=en>)。
 
 ```
- R 的相關參考套件 `koRpus`, `qdap`,`quanteda`,`languageR` 等等。
+ R 的相關參考套件 `koRpus`, `qdap`,`quanteda`,`languageR`,`zipfR` 等等。
 ```
 
 先從一般的文本統計開始
@@ -41,14 +41,7 @@
 
 
 ---
-
-
-
-### ngram
-...
-
 ### 文本多變量分析的降維
-...
 #### Factor analysis
 
 - 統計學的因子分析 Factor analysis 可以用來 reducing the number of words in a set of documents to a more manageable level. 
