@@ -1,9 +1,16 @@
 # 文本語意與統計學
 
 
-## 文本統計
+* 文本解析，不管基於何種目的，在第一個層次大概不脫離 **描述、比較、分類**工作。
 
-text analytics 涉及到的統計技術，主要是 **描述分析** (descriptive analysis) 與 **推論分析** (predictive analysis)。
+
+
+
+## 文本統計 
+
+一般討論文本解析時所涉及到的統計技術，主要是 **描述分析** (descriptive analysis) 與 **推論分析** (predictive analysis)。
+
+法國的資料分析傳統 (`Textometrie`，最近改稱 ｀Lexicometrie｀) 與歐洲的量化語言學 (`quantatitive linguistics`) 則更強調**多變量的統計技術**，與語言法則的分佈 (Lebart et al. 1998) (<http://textometrie.ens-lyon.fr/?lang=en>)。
 
 > - Descriptive methods show patterns and similarities but not effects on any outcome or behaviour. 
 > - Predictive methods are required to show what effects are.
@@ -25,7 +32,7 @@ text analytics 涉及到的統計技術，主要是 **描述分析** (descriptiv
 ### ngram
 ...
 
-### 文本分析的降維
+### 文本多變量分析的降維
 ...
 #### Factor analysis
 
