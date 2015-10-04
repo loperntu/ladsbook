@@ -44,7 +44,8 @@ text analytics 涉及到的統計技術，主要是 **描述分析** (descriptiv
 ## 分佈語意 
 
 - distributional semantics：語意的向量表達
-- 
+
+語意的向量空間模式(Vector Space Model，VSM)
 
 
 
