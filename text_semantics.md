@@ -21,12 +21,20 @@
 ```
 
 先從一般的文本統計開始
-## 詞頻計量與分佈
+
+### 各種單位的頻率
+* feature tokens and types
+* feature n-grams
 
 
 
 
-(Baayen) 
+
+
+
+
+
+大神要拜 (Baayen) 
 
 
 
