@@ -165,15 +165,6 @@ The current standard for text analysis in R is the `tm` package. It provides fac
 
 
 
----
-習題
-
-<!--
-You are expected to independently finish machine problems and collaborate with your team members in the final course project.
--->
-
-
-
 
 
 
