@@ -12,6 +12,14 @@ text analytics 涉及到的統計技術，主要是 **描述分析** (descriptiv
 
 > Descriptive analytics makes up a very large part of text analytics. These methods show broad patterns, count items, or shows what is near another item. This form of analytics does not show what influences an outcome and by how much. The business of predictive analytics, however, is doing just that – showing what leads to a change in some target variable, such as liking, preference or behaviour, and how strong those influences are likely to be.
 
+* `koRpus`, `qdap` 
+
+
+<http://www.opensourceshakespeare.org/stats/>
+
+
+---
+
 
 
 ### ngram
@@ -45,7 +53,7 @@ text analytics 涉及到的統計技術，主要是 **描述分析** (descriptiv
 
 - distributional semantics：語意的向量表達
 
-語意的向量空間模式(Vector Space Model，VSM)
+語意的向量空間模式 (Vector Space Model，VSM) 在 IR/text mining 領域中應用廣泛。
 
 
 
