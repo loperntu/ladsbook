@@ -1,1 +1,1 @@
-Unix Pipeline
+Unix Pipeline Exercise Plugin
