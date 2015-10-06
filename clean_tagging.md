@@ -69,8 +69,9 @@ a3 <- annotate(words, pos_tag_annotator, a2)
 a3w <- subset(a3, type == "word")
 tags <- sapply(a3w$features, `[[`, "POS")
 tagged_text <- paste(sprintf("%s/%s", words[a3w], tags),
-collapse=" ") write(tagged_text, paste("data/taggedCorpus/",
-files.v[i], ".txt", sep=""))
+                collapse=" ") 
+
+write(tagged_text, paste("data/taggedCorpus/", files.v[i], ".txt", sep=""))
 }
 
 ```
