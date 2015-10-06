@@ -37,9 +37,7 @@ predicted <- predict(linear,x_test)
 logistic <- glm(y_train ~ ., data = x,family = 'binomial')
 summary(logistic)
 # Predict Output
-predicted <- predict(logistic,x_test)
-
-
+predicted <- predict(logistic, x_test)
 ```
 
 
