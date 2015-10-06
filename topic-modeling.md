@@ -2,11 +2,11 @@
 
 
 
-* Topic modeling 指的是一組從文集中抽取隱藏「主題」thematic structures 的方法技術。
+* Topic modeling 指的是一組從文集中抽取隱藏「主題」thematic structures 的技術方法。
 
 * 最早的模型是 **pLSI** (probabilistic latent semantic indexing) ，後來發展的 **LDA** (Latent Dirichlet allocation) (LDA,潜在狄利克雷分配模型) 模型及其延伸變成了最常用的模型。LDA topic model 涉及比較深一點的數學， 包括 Dirichlet distribution, 多項分佈、EM 算法、Gibbs sampling 等等。
 
-
+* 
 
 ## LDA
 
@@ -30,7 +30,9 @@ doc topic 这一级,PLSA 把这一级的所有变量都看作模型的参数,即
 
 
 
-# Topic model with R
-在 R 中可以使用 topicmodels 包来构建主题模型,下面我用一个例子简单的介绍一下关于 这个包的使用。在各大互联网门户网站上收集了 720 篇文章,他们涉及了很多内容,而这些文 章是分别属于不同主题的,比如有些可能是军事题材的、有些是社会题材的等等。
+## Topic model with R
+`mallet`, `topicmodels`, `lda`
 
-假如我按照 6 类进行划分,那么分成了这些主题(见表 2。请注意:主题的关键词是通过 LDA 模型计算,无人工干预):
+
+
+
