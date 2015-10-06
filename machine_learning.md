@@ -28,14 +28,24 @@ x <- cbind(x_train,y_train)
 ```
 # Import required library
 library(rpart)
-# grow tree
+# Fitting model (growing tree)
 fit <- rpart(y_train ~ ., data = x, method="class")
 summary(fit)
 # Predict Output
 predicted <- predict(fit,x_test)
-
 ```
 
+#### 支持向量機 Support Vector Machines
+
+```
+# Import required library
+library(e1071)
+# Fitting model
+fit <-svm(y_train ~ ., data = x) summary(fit)
+#Predict Output
+predicted= predict(fit,x_test)
+
+```
 
 
 #### kNN
