@@ -40,24 +40,20 @@ See <http://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html>
 
 
 
-```r
+```{r}
 library(openNLP)
 library(NLP)
-
-
 library(XML)
+
 inputDir <- "data/XMLAuthorCorpus"
 files.v <- dir(path=inputDir, pattern=".*xml")
 
 for(i in 1:length(files.v)){
-    doc.object <- xmlTreeParse(file.path(inputDir, files.v[i]), useInternalNodes=TRUE)
-    
-    
-    
-    
-    
-    paras <- getNodeSet(doc.object,                       "/d:TEI/d:text/d:body//d:p",
-c(d = "http://www.tei-c.org/ns/1.0")) words <- as.String(paste(sapply(paras,xmlValue),
+    doc.object <- xmlTreeParse(file.path(inputDir, 
+                  files.v[i]), useInternalNodes=TRUE)
+    paras <- getNodeSet(doc.object,"/d:TEI/d:text/d:body//d:p",
+                  c(d = "http://www.tei-c.org/ns/1.0")) 
+    words <- as.String(paste(sapply(paras,xmlValue),
 collapse=" ")) # Need sentence and word tokens first
 sent_token_annotator <- Maxent_Sent_Token_Annotator() word_token_annotator <- Maxent_Word_Token_Annotator() a2 <- annotate(words, list(sent_token_annotator,
                                word_token_annotator))
