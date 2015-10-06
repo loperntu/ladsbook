@@ -76,3 +76,6 @@
 
 
 ## `word2vector` 
+
+
+`tmcn.word2vec`: R interface to word2vec
