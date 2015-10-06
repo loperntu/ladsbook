@@ -1,3 +1,25 @@
 # 文本迴歸預測
 
 Text regression using `tm` and `glmnet`
+
+
+
+
+
+## Linear Regression Coding 
+
+```
+# Load Train and Test datasets
+# Identify feature and response variable(s) and values must be numeric
+
+x_train <- input_variables_values_training_datasets 
+y_train <- target_variables_values_training_datasets 
+x_test <- input_variables_values_test_datasets
+x <- cbind(x_train, y_train)
+#Train the model using the training sets and
+#check score
+linear <- lm(y_train ~ ., data = x)
+summary(linear)
+#Predict Output
+predicted= predict(linear,x_test)
+```
