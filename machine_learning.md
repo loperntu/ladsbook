@@ -32,7 +32,7 @@ library(rpart)
 fit <- rpart(y_train ~ ., data = x, method="class")
 summary(fit)
 # Predict Output
-predicted <- predict(fit,x_test)
+predicted <- predict(fit, x_test)
 ```
 
 #### 支持向量機 Support Vector Machines
@@ -44,7 +44,7 @@ library(e1071)
 fit <-svm(y_train ~ ., data = x) 
 summary(fit)
 # Predict Output
-predicted <- predict(fit,x_test)
+predicted <- predict(fit, x_test)
 
 ```
 
