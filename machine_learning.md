@@ -97,6 +97,16 @@ predicted <- predict(fit, x_test)
 ---
 ### 非監督式學習 (Supervised learning)
 
+- 降維技術 (PCA, ...)
+
+```
+library(stats)
+pca <- princomp(train, cor = TRUE) 
+train_reduced <- predict(pca, train) 
+test_reduced <- predict(pca, test)
+```
+
+
 
 #### k-means
 
