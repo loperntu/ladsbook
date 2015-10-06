@@ -12,3 +12,19 @@ Wordles 單純對於詞作計量計算。
 - `treemap` of words. 
 check [this tutorial](http://unixlab.sfsu.edu/~trogu/523/02_2013_fall/demo/treemap_key/treemap_legend_key_step-by-step.pdf)
 
+
+
+
+
+
+
+
+
+
+
+## Linguistic Motion Charts
+
+
+<a href = "https://www.youtube.com/embed/6LUjgHPhxRw" target = "_blank"><img src = "http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg"
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
