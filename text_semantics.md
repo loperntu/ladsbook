@@ -28,13 +28,16 @@
 
 
 
+### 詞彙的變異量度 Measures of Lexical Variety
 
+* 詞彙豐富度 (vocabulary richness) 對於理解文本特性有一定的幫助，在文體風格偵測或文本難易度量度上也有應用。
+* 最常用，但是很簡化的一種量度式子叫做 **TTR** (Type-Token Ratio):
 
+$$
+\frac{num.of.types}{num.of.tokens}
+$$
 
-
-
-
-大神要拜 (Baayen) 
+* H. Baayen (大神要拜) 提出了一個 $$P$$ measure。
 
 
 
