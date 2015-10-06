@@ -1,6 +1,13 @@
 # 文本訊息視覺化
 
 
+- 視覺化是資料科學的一個重點。
+- 以數值訊息為主的作圖套件有很多，如 `ggplot2`, `ggvis`, `rCharts`, `d3Network`。
+
+
+
+
+
 ## 線上工具試玩
 
 - [wordle]()
@@ -11,7 +18,6 @@ Wordles 單純對於詞作計量計算。
 
 - `treemap` of words. 
 check [this tutorial](http://unixlab.sfsu.edu/~trogu/523/02_2013_fall/demo/treemap_key/treemap_legend_key_step-by-step.pdf)
-
 
 
 
