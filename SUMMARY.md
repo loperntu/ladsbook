@@ -28,6 +28,7 @@
    * [XML tutorial](xml_tutorial.md)
    * [正則表示法](regular expression.md)
    * [習題解答](solution.md)
+   * R 存活指令
 * [Glossary](glossary.md)
 * [參考書目](references.md)
 
