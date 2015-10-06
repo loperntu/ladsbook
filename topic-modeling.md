@@ -19,14 +19,6 @@ $$
 
 
 
-简单的说,即为两种分布:一种是 topic-word 分布,即 p(w|z),一种是 doc-topic 分布,即 p(z|d),而这两者构成了 word-topic-doc 的关系。
-
-
-
-doc topic 这一级,PLSA 把这一级的所有变量都看作模型的参数,即有多少文档那么就有 多少模型的参数;而 LDA 引入了一个超参数,对 doc topic 这一个层级进行 model。这样无论 文档有多少,那么最外层模型显露出来的[对于 doc topic]就只有一个超参数。
-
-最基本的 PLSA 和 LDA 在刻画 doc topic 和 topic word 都利用了一个模型,就是 multi- nomial model。为了计算的方便及先验的有意义,共轭先验是首选。multinomial distribution 的共轭分布是 Dirichlet distribution,很 nice 的一个分布。这也是 Latent Dirichlet Allocation 中 Dirichlet 的由来。
-
 
 
 
