@@ -15,7 +15,7 @@
 資料前處理
 
 ```
-# 載入訓練與測試語料
+# 載入訓練與測試語料 
 x_train <- input_variables_values_training_datasets 
 y_train <- target_variables_values_training_datasets 
 x_test <- input_variables_values_test_datasets
@@ -34,6 +34,9 @@ summary(fit)
 # Predict Output
 predicted <- predict(fit, x_test)
 ```
+
+#### 素樸貝氏
+
 
 #### 支持向量機 Support Vector Machines
 
