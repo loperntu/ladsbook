@@ -45,7 +45,6 @@ fit <-svm(y_train ~ ., data = x)
 summary(fit)
 # Predict Output
 predicted <- predict(fit, x_test)
-
 ```
 
 
