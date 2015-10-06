@@ -2,16 +2,9 @@
 
 
 
-Topic modeling 指的是一組從文集中抽取隱藏「主題」thematic structures 的方法技術。
+* Topic modeling 指的是一組從文集中抽取隱藏「主題」thematic structures 的方法技術。
 
-modeling, two basic topic models, i.e., Probabilistic Latent Semantic Indexing (pLSI) and
-Latent Dirichlet Allocation (LDA), and their variants for different application scenarios,
-including classification, imagine annotation, collaborative filtering, and hierarchical topical
-structure modeling.
-
-
-
-最早的模型是 **pLSI** (probabilistic latent semantic indexing) ，後來發展的 **LDA** (Latent Dirichlet allocation) (LDA,潜在狄利克雷分配模型) 模型及其延伸變成了最常用的模型。LDA topic model 涉及比較深一點的數學， 包括 Dirichlet distribution, 多項分佈、EM 算法、Gibbs sampling 等等。
+* 最早的模型是 **pLSI** (probabilistic latent semantic indexing) ，後來發展的 **LDA** (Latent Dirichlet allocation) (LDA,潜在狄利克雷分配模型) 模型及其延伸變成了最常用的模型。LDA topic model 涉及比較深一點的數學， 包括 Dirichlet distribution, 多項分佈、EM 算法、Gibbs sampling 等等。
 
 
 
@@ -20,7 +13,9 @@ structure modeling.
 LDA 是一个三层的贝叶斯概率模型,且有一个假设:bag of word。意思就是认为文档就是一个词的集合,忽略任何语法或者出现顺序关系。不论 PLSI 还是 LDA,都遵循一个通式:
 
 
-$$ P(w|d) = \Sigma p(w|z) * p(z|d) $$
+$$ 
+P(w|d) = \Sigma p(w|z) * p(z|d) 
+$$
 
 
 
