@@ -52,7 +52,7 @@ predicted <- predict(fit, x_test)
 ```
 
 
-#### 支持向量機 Support Vector Machines
+#### 支持向量機 Support Vector Machines (SVM)
 
 ```
 # Import required library
@@ -65,7 +65,7 @@ predicted <- predict(fit, x_test)
 ```
 
 
-#### kNN
+#### k-Nearest Neighbours (kNN)
 
 ```
 # Import required library
@@ -97,6 +97,13 @@ predicted <- predict(fit, x_test)
 
 #### k-means
 
+
+```
+# Assumed you have X attributes for training data set 
+# Import required library 
+library(cluster) 
+fit <- kmeans(X, 3)
+```
 
 #### Hierarchical Clustering
 
