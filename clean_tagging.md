@@ -54,9 +54,15 @@ for(i in 1:length(files.v)){
     paras <- getNodeSet(doc.object,"/d:TEI/d:text/d:body//d:p",
                   c(d = "http://www.tei-c.org/ns/1.0")) 
     words <- as.String(paste(sapply(paras,xmlValue),
-collapse=" ")) # Need sentence and word tokens first
-sent_token_annotator <- Maxent_Sent_Token_Annotator() word_token_annotator <- Maxent_Word_Token_Annotator() a2 <- annotate(words, list(sent_token_annotator,
-                               word_token_annotator))
+                collapse=" ")) 
+                
+# Need sentence and word tokens first
+sent_token_annotator <- Maxent_Sent_Token_Annotator() 
+word_token_annotator <- Maxent_Word_Token_Annotator() 
+
+a2 <- annotate(words, list(sent_token_annotator,
+                            word_token_annotator))
+
 # now pos tags
 pos_tag_annotator <- Maxent_POS_Tag_Annotator()
 a3 <- annotate(words, pos_tag_annotator, a2)
