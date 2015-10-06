@@ -11,7 +11,7 @@ Text regression using `tm` and `glmnet`
 
 
 
-### 線性迴歸
+### 線性迴歸 R
 
 ```
 # Load Train and Test datasets
@@ -28,3 +28,30 @@ summary(linear)
 # Predict Output
 predicted <- predict(linear,x_test)
 ```
+
+
+### Logistic 迴歸 R
+
+```
+x <- cbind(x_train,y_train)
+
+# Train the model using the training sets and check score
+logistic <- glm(y_train ~ ., data = x,family='binomial')
+summary(logistic)
+# Predict Output
+predicted <- predict(logistic,x_test)
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
