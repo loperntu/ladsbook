@@ -71,7 +71,7 @@ predicted <- predict(fit, x_test)
 # Import required library
 library(knn)
 # Fitting model
-fit <-knn(y_train ~ ., data = x, k = 5) 
+fit <-knn(y_train ~ ., data = x, k = 4) 
 summary(fit)
 # Predict Output
 predicted <- predict(fit, x_test)
