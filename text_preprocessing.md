@@ -2,11 +2,11 @@
 
 
 
-* 目的：清理與調整文本訊息，方便後續處理分析。
+* 目的：擷取 (collecting)、清理 (cleaning) 與調整 (reshaping) 文本訊息，方便後續處理分析。
+* 注意：有些作法會把表徵 (represention) 的處理放到這個部分，我們則放在文本語意的章節再談。 
 
 
-> Text does not follow any regular pattern amenable to being analysed using standard statistical methods.
-> How do we get text ready for analysis?
+> Text does not follow any regular pattern amenable to being analysed using standard statistical methods. How do we get text ready for analysis?
 
 * A large amount of available textual data are unstructured, massive, and of tremendous variety.
 * We need adjustments to thes texts to make it more analyzable.
