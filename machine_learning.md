@@ -80,14 +80,17 @@ predicted <- predict(fit, x_test)
 
 
 
-
-
-#### 羅吉斯迴歸 logistic regression
-
-
-
 #### Random Forest
 
+```
+# Import required Library
+library(randomForest)
+# Fitting model
+fit <- randomForest(Species ~ ., x, ntree = 500) 
+summary(fit)
+# Predict Output
+predicted <- predict(fit, x_test)
+```
 
 
 
