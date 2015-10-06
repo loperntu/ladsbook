@@ -35,4 +35,21 @@ Cleaning up texts (Stuhl, 2105): Steps
 ## 詞類自動標記 POS tagging
 
 
-part of speech tagging with`openNLP`
+- English part of speech tagging with`openNLP`(which implements the Penn Treebank tag set.) 
+See <http://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html>.
+
+
+
+```{r}
+library(openNLP)
+library(NLP)
+
+
+```
+
+
+
+
+
+
+
