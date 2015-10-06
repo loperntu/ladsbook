@@ -4,6 +4,7 @@
 * [導論](introductionmd.md)
 * [數學基礎](math_fundamentals.md)
    * [貝氏網路](bayesian_network.md)
+   * 機器學習基本概念
 * [語言學基礎](linguistic_fundamentals.md)
    * [語料庫](corpus.md)
 * [前處理](text_preprocessing.md)
