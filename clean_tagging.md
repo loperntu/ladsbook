@@ -32,4 +32,7 @@ Cleaning up texts (Stuhl, 2105): Steps
 - The words taken from a block of text sometimes are called tokens, and the process of identifying the words is sometimes called tokenization.
 
 
+## 詞類自動標記 POS tagging
 
+
+part of speech tagging with`openNLP`
