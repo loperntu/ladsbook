@@ -41,9 +41,10 @@ predicted <- predict(fit,x_test)
 # Import required library
 library(e1071)
 # Fitting model
-fit <-svm(y_train ~ ., data = x) summary(fit)
-#Predict Output
-predicted= predict(fit,x_test)
+fit <-svm(y_train ~ ., data = x) 
+summary(fit)
+# Predict Output
+predicted <- predict(fit,x_test)
 
 ```
 
