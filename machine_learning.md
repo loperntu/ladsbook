@@ -35,7 +35,17 @@ summary(fit)
 predicted <- predict(fit, x_test)
 ```
 
-#### 素樸貝氏
+#### 素樸貝氏 Naive Bayes
+
+```
+#Import Library
+library(e1071)
+x <- cbind(x_train,y_train)
+#Fitting model
+fit <-naiveBayes(y_train ~ ., data = x) summary(fit)
+#Predict Output
+predicted= predict(fit,x_test)
+```
 
 
 #### 支持向量機 Support Vector Machines
