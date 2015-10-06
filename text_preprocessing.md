@@ -1,12 +1,16 @@
 # Text pre-processing
-## 目的：清理與調整
+
+
+
+* 目的：清理與調整文本訊息，方便後續處理分析。
+
 
 > Text does not follow any regular pattern amenable to being analysed using standard statistical methods.
 > How do we get text ready for analysis?
 
 * A large amount of available textual data are unstructured, massive, and of tremendous variety.
 * We need adjustments to thes texts to make it more analyzable.
-* R functions/Command line for manipulating text. 
+* You can use R functions/Linux command line tools for manipulating text. 
 ---
 
 
