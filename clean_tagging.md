@@ -40,10 +40,36 @@ See <http://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html>
 
 
 
-```{r}
+```r
 library(openNLP)
 library(NLP)
 
+
+library(XML)
+inputDir <- "data/XMLAuthorCorpus"
+files.v <- dir(path=inputDir, pattern=".*xml")
+
+for(i in 1:length(files.v)){
+    doc.object <- xmlTreeParse(file.path(inputDir, files.v[i]), useInternalNodes=TRUE)
+    
+    
+    
+    
+    
+    paras <- getNodeSet(doc.object,                       "/d:TEI/d:text/d:body//d:p",
+c(d = "http://www.tei-c.org/ns/1.0")) words <- as.String(paste(sapply(paras,xmlValue),
+collapse=" ")) # Need sentence and word tokens first
+sent_token_annotator <- Maxent_Sent_Token_Annotator() word_token_annotator <- Maxent_Word_Token_Annotator() a2 <- annotate(words, list(sent_token_annotator,
+                               word_token_annotator))
+# now pos tags
+pos_tag_annotator <- Maxent_POS_Tag_Annotator()
+a3 <- annotate(words, pos_tag_annotator, a2)
+a3w <- subset(a3, type == "word")
+tags <- sapply(a3w$features, `[[`, "POS")
+tagged_text <- paste(sprintf("%s/%s", words[a3w], tags),
+collapse=" ") write(tagged_text, paste("data/taggedCorpus/",
+files.v[i], ".txt", sep=""))
+}
 
 ```
 
