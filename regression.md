@@ -25,6 +25,6 @@ x <- cbind(x_train, y_train)
 # Train the model using the training sets and check score
 linear <- lm(y_train ~ ., data = x)
 summary(linear)
-#Predict Output
-predicted= predict(linear,x_test)
+# Predict Output
+predicted <- predict(linear,x_test)
 ```
