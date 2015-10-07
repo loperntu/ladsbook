@@ -43,6 +43,16 @@ $$
 
 
 
+
+## Global dimenstions of text
+
+
+
+
+
+
+
+
 ---
 ### 文本多變量分析的降維
 #### Factor analysis
