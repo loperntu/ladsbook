@@ -23,8 +23,14 @@
 另一種反擊（個人見解）
 
 - 花大錢的迷思：想想 `wikipedia` 是怎麼完成的？人類自己的無私熱情可以解決人類的處境。甚至 `Game with a purpose` 利用遊戲讓人不知不覺「標記」知識與常識也是個做法。
-- 大數據的假說：
+- 大數據的假說 (let big data speak for themselves)：巨量資料中的雜訊可以在計算過程中被處理。在文本處理是否如此需要證明！
 
+<!-- plurk studies-->
+
+- **Active Learning** attempts to reduce the number of labeled data needed for training the model. 把 label 當成是成本問題。
+
+    1. Classify the document using the current decision model. Let $$C$$ be the assigned category.
+    2. If $$Prob(C) < $$ threshold, request a label; otherwise, ignore the document.
 
 
 
