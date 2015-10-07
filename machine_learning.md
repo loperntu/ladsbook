@@ -32,7 +32,7 @@
     1. Classify the document using the current decision model. Let $$C$$ be the assigned category.
     2. If $$Prob(C) < $$ threshold, request a label; otherwise, ignore the document.
 
-
+> Experimenting with text categorization and with some numerical data-mining applications, researchers have found that active learning can often drastically reduce their overall sample size while achieving results comparable to training on the full set of labeled documents.(Weiss et al. 2005)
 
 
 
