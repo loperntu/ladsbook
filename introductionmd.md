@@ -150,9 +150,11 @@ The current standard for text analysis in R is the `tm` package. It provides fac
 ---
 ## 本書例子
 
-我們在本書中用的例子將以下來源為主：
--  physical sensor (**sensory description of products** obtained )
--  web and social sensor ('ptt','FB','twitter',...) 
+物聯網時代，資料來源的大宗除了網路之外，可能會是感測器。我們在本書中用的例子將以下來源為主：
+
+- 網路文本 web
+- 實體感測器：即時紀錄語音轉文本後的各種訊息。physical sensor (**sensory description** obtained by rating a set of products/events/ according to a list of sensory attributes.)
+- 各種社會媒體作為社會感測器：social sensor ('ptt','FB','twitter',...) 
 
 
 
