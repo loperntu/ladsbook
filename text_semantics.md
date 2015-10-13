@@ -44,7 +44,7 @@ $$
 
 ### TF-IDF
 
-* `tf-idf` (term frequency - inverse document frequency)
+* `tf-idf` (term frequency - inverse document frequency) 是從 Information Retrieval 的領域發展出來的常用「特徵」，用來表示一個語詞對於文集中的一份文件的重要性。`tf` 是詞頻，`idf` 是逆向文件頻率。
 
 
 ## Global dimenstions of text
