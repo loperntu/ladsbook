@@ -27,6 +27,15 @@
 * feature tokens and types
 * feature n-grams
 
+```{r}
+library(ngramr)
+library(ggplot2)
+
+# Case-insensitive search
+lines <- ngrami(c("line chart", "line graph"), year_start = 1913)
+ggplot(lines, aes(Year, Frequency, colour = Phrase)) + theme_minimal() + geom_line(lwd = 1)
+```
+
 
 
 ### 詞彙的變異量度 Measures of Lexical Variety
