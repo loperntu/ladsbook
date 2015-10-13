@@ -42,7 +42,9 @@ $$
 
 
 
+### TF-IDF
 
+* `tf-idf` (term frequency - inverse document frequency)
 
 
 ## Global dimenstions of text
