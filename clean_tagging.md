@@ -31,6 +31,8 @@ Cleaning up texts (Stuhl, 2105): Steps
 
 - 中文分詞演算法從早期的 `最大匹配查找`一直到進階的各種`統計機器學習模式` (e.g., Conditional Ramdom Field) 已經有很大的進展。(如果不管語言學的討論)
 
+
+---
 ## 詞類自動標記 POS tagging
 
 
