@@ -22,15 +22,14 @@ Cleaning up texts (Stuhl, 2105): Steps
 
 ## Tokenization
 
+- The words taken from a block of text sometimes are called tokens, and the process of identifying the words is sometimes called tokenization.
 
 ```
 前述作法預設了 token 的「存在」，但是在中文與其他字詞邊界不明顯的語言，tokenization 變成了一個研究的主題。
 ```
+- 中文分詞（斷詞）Chinese word segmentation 可以看成是 tokenization 的一個特例，但是涉及更深一層的語言與認知互動。
 
-
-
-- The words taken from a block of text sometimes are called tokens, and the process of identifying the words is sometimes called tokenization.
-
+- 中文分詞演算法從早期的 `最大匹配查找`一直到進階的各種`統計機器學習模式` (e.g., Conditional Ramdom Field) 已經有很大的進展。(如果不管語言學的討論)
 
 ## 詞類自動標記 POS tagging
 
