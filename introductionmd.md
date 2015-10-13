@@ -129,7 +129,7 @@ Text Analytics with R (III)
 - Step.3 自然語言處理、標注與分析
   - Natural Language Processing w/o Linguistic Analysis
   - Annotation, analysis (and back to Step.2 if necessary) 
-- Step.4 預測模型
+- Step.4 預測模型建立與評估
   - Predictive modeling (regression, classification, clustering,...)
   - Estimation of Performance
 - Step.5 重製性報告與呈現 
