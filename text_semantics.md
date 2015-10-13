@@ -32,7 +32,7 @@ library(ngramr)
 library(ggplot2)
 
 # Case-insensitive search
-lines <- ngrami(c("line chart", "line graph"), year_start = 1913)
+lines <- ngrami(c("爱人", "老婆"), year_start = 1913)
 ggplot(lines, aes(Year, Frequency, colour = Phrase)) + theme_minimal() + geom_line(lwd = 1)
 ```
 
