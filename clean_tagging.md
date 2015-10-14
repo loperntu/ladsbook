@@ -36,6 +36,21 @@ Cleaning up texts (Stuhl, 2105): Steps
     - 新詞識別 
 
 
+
+## Stemmatization
+
+- 詞幹 (stem)
+- 
+
+```r
+libray(SnowballC)
+ 
+
+```
+
+
+
+
 ---
 ## 詞類自動標記 POS tagging
 
