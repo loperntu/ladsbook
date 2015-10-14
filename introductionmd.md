@@ -64,7 +64,7 @@
 ---
 ## 涉及學門間的關係
 
-![lads](lads.svg)
+![lads](lads.png)
 
 
 
