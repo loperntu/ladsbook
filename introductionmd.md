@@ -53,9 +53,16 @@
 
 * You do not need to have **big data** to do text analytics. The methods work with large, medium and small datasets.
 
-* 通常的應用涉及了文本分類與叢聚、模式與趨勢偵測、文體風格分析應用、隨著社群網站與物聯網的興起，應用更延伸到即時情緒意見偵測判斷與預測。 甚至：文本產生器，報告產生器 `Data <> Story`
+* 通常的應用涉及了文本分類與叢聚、模式與趨勢偵測、文體風格分析應用、隨著社群網站與物聯網的興起，應用更延伸到即時情緒意見偵測判斷與預測。 甚至：文本產生器，報告產生器。
 
 * 對於人文歷史與社會科學也是很重要。e.g., `historical text mining`
+
+
+
+
+
+---
+## 涉及學門間的關係
 
 
 
