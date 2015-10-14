@@ -8,7 +8,7 @@
 
 先看看說謊的語言行為：
 
-{% youtube %}https://www.youtube.com/embed/H0-WkpmTPrM{% endyoutube %}
+{% youtube %}https://www.youtube.com/embed/H0-WkpmTPrM {% endyoutube %}
 
 
 ---
