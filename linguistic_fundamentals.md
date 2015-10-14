@@ -2,6 +2,15 @@
 
 
 
+
+
+為什麼語言學/語言分析在 text analytics 中的角色很重要？
+
+先看看說謊的語言行為：
+
+{% youtube %}https://www.youtube.com/embed/H0-WkpmTPrM{% endyoutube %}
+
+
 ---
 ## 語言學與文本分析
 
