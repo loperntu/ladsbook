@@ -30,6 +30,7 @@
    * [XML tutorial](xml_tutorial.md)
    * [正則表示法](regular expression.md)
    * [習題解答](solution.md)
+   * Linux Survival 
 * [Glossary](glossary.md)
 * [參考書目](references.md)
 
