@@ -350,8 +350,8 @@ while (a > 4) {
 - 基本語法
 ```
 myfun <- function(arg1, arg2, ...){
-+   statements
-+   return(object)
+   statements
+   return(object)
 }
 ```
 - 例如 `scale()` 這個內建函式做的是將向量**標準化** (standardization)：亦即給定一個數值向量，它將每個分量減去樣本平均數，再除以樣本標準差。（標準化可提供不同單位的向量之間一個共同的比較基準）。可以用自訂函式的方式來實作。
