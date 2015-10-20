@@ -18,7 +18,7 @@ variables, data types and basic arithmetic
 
 - 變數與賦值
     - 變數命名大小寫有區別 (x 和 X 不一樣)
-    - 賦值算子 `<-`，注意 R 官方文件強調不該使用「=」
+    - 賦值算子 `<-`，`=` 貌似可以，但 R 官方文件強調不該使用，在某些地方會失效。
 
 ```{r}
 x <- 38
@@ -45,6 +45,15 @@ log(20)
     - complex：複數
     - logical：True 或 False
 
+`NA` 是保留字，邏輯常數
+
+```
+> NA <-2
+Error in NA <- 2 : (do_set) 賦值公式左側不正確
+> NULL <-2
+Error in NULL <- 2 : (do_set) 賦值公式左側不正確
+```
+
 - 資料類型之間的轉換可透過不同內建函式
 
 
@@ -59,6 +68,12 @@ log(20)
 
 
 ### 向量 Vector
+
+- 利用 `c()` 建立向量，向量元素必須是同個資料類型
+```
+
+```
+
 ### 矩陣 Matrix
 ### 因子 Factor
 ### 資料框架 Data Frame
