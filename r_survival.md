@@ -364,6 +364,11 @@ scaleFun <- function(x){
    z <- sweep(w, MARGIN = 2, STATS = v, FUN = "/")
    return(z)
 }
+C <- matrix(1:15, nrow = 5, ncol = 3)
+scaleFun(C)
+
+# 比較 scale(C) 
+
 ```
 
 
