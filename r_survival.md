@@ -150,7 +150,17 @@ x[1]
 
 - 文字向量 (character vector) 有一些特殊的運算函式。
 ```
-
+> aa <- c("I", "do", "not", "know") 
+> nchar(aa)
+## [1] 1 2 3 4 
+> substr("internationalization", 6, 13) 
+## [1] "national"
+> tolower(aa)
+> toupper(aa)
+> chartr("o", "x", aa)
+> paste("I", "do", "not", "know", sep = " ")
+> strsplit("I do not know", " ")
+> unlist(strsplit("I do not know", " "))
 ```
 
 
