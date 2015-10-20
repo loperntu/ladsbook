@@ -14,8 +14,9 @@ plot(iris)
 ```
 
 ### 變數、資料類型與基本運算
-variables, data types and basic  arithmetic
+variables, data types and basic arithmetic
 
+- 變數與賦值
 
 ```{r}
 x <- 38
@@ -33,7 +34,7 @@ log(20)
 ```
 
 
-* R 的基本資料類型性包含以下五種，可用 `class()` 函數判斷
+* 資料類型包含以下五種，可用 `class()` 函數判斷
 
     - character：文字字串，用 "" 包起來，ex："test"
     - numeric：實數
