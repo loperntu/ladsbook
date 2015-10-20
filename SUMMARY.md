@@ -21,7 +21,7 @@
 * [聚類](text-clustering.md)
 * [檢索與儲存](text_retrieval_storage.md)
 * [自動摘要](text_summarization.md)
-   * [文本自動產生](text_generator.md)
+* [文本自動產生](text_generator.md)
 * [主題模型](topic-modeling.md)
 * [情緒分析](sentiment_analysis.md)
 * [個人文體風格](stylometrics.md)
