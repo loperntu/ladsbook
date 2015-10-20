@@ -17,11 +17,14 @@ plot(iris)
 variables, data types and basic arithmetic
 
 - 變數與賦值
+    - 變數命名大小寫有區別 (x 和 X 不一樣)
+    - 賦值算子 `<-`，注意 R 官方文件強調不該使用「=」
 
 ```{r}
 x <- 38
 x
 ```
+
 
 - 基本算術運算
 
