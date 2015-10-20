@@ -62,6 +62,27 @@ Error in NULL <- 2 : (do_set) 賦值公式左側不正確
 
 ## 資料匯入與匯出
 
+```{r}
+> mydata <- read.table()
+```
+
+- 文件編碼與轉碼
+
+```{r}
+
+
+```
+
+- 匯出檔案
+
+    - 用 `write.table()` 輸出 csv
+
+```{r}
+> mydata <- rivers 
+# rivers 是 R 內建的資料集。
+> write.table(mydata, file = "rivers.csv", sep = ",")
+```
+
 
 ## 資料結構 
 
