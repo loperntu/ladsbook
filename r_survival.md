@@ -164,19 +164,16 @@ Levels: 2 3 5 6 7 8
 - Sorting
 
 
-進階學習者可以考慮使用 [dplyr 套件](https://www.datacamp.com/courses/dplyr-data-manipulation-r-tutorial)。
-
-
-
-
-
-
-
-
 
 
 `重組`的部分可能涉及到
 reshape, aggregate
+
+
+
+進階學習者可以考慮使用 [dplyr 套件](https://www.datacamp.com/courses/dplyr-data-manipulation-r-tutorial)。
+
+
 
 
 
