@@ -222,6 +222,7 @@ if (4 > 3) {
 
 ### 迴圈結構 Loops and the `apply` family
 
+- `for` 和 `while`
 
 ```
 for (i in 1:4) {
@@ -237,9 +238,7 @@ while (a > 4) {
 }
 ```
 
-- Keep in mind that for and while loops run slowly in R
-Operations on entire vectors (i.e. a whole row, a whole column)
-or apply()-type functions are preferred
+- 儘量使用內建函式 (`apply`) 並且避免使用迴圈，可以增加程式執行速度。
 
 ---
 ## 資料探索分析
