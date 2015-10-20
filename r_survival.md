@@ -75,9 +75,15 @@ Error in NULL <- 2 : (do_set) 賦值公式左側不正確
 
 ```
 
-### 矩陣 Matrix
+
+
+### 陣列 Array 與矩陣 Matrix
+
+- 陣列可視為多維度的向量變數，跟向量一樣，所有陣列元素的資料屬性必須一致。
+- 當陣列是 2 維的狀況就是所謂的矩陣
+
 ### 因子 Factor
-### 資料框架 Data Frame
+### 資料框 Data Frame
 ### 列表 List 
 
 
