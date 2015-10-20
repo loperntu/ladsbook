@@ -70,6 +70,9 @@ Warning message:
 
 ## 資料匯入與匯出
 
+資料匯入
+
+- 
 
 ```{r}
 > mydata <- read.table()
@@ -84,14 +87,19 @@ such a facility. It accepts a path to a file (or a file connection) and, optiona
 > alice[1920:1927]
 ```
 
-- 文件編碼與轉碼
+- R also provides a powerful function `scan()` to load the contents of text files into *vectors*.
+ 
+
+
+
+文件編碼與轉碼
 
 ```{r}
 
 
 ```
 
-- 匯出檔案
+匯出檔案
 
     - 用 `write.table()` 輸出 csv
 
