@@ -54,8 +54,14 @@ $$
 
 ### TF-IDF
 
-* `tf-idf` (term frequency - inverse document frequency) 是從 Information Retrieval 的領域發展出來的常用「特徵」，用來表示一個語詞對於文集中的一份文件的重要性。`tf` 是詞頻，`idf` 是逆向文件頻率。
+- `tf-idf` (term frequency - inverse document frequency) 是從 Information Retrieval 的領域發展出來的常用「特徵」，用來表示一個語詞對於文集中的一份文件的重要性。`tf` 是詞頻，`idf` 是逆向文件頻率。
 
+$$
+tf - idf=f_{ij} * log\left(\frac{n}{d_j}\right)
+$$
+
+
+- 假設一個文件有 10,000 個詞，其中「好」出現了 300 次。那麼「好」的 $$tf = \frac{300}{1000}=0.03$$。假定我們總共有 1,000 份文件，「好」出現在其中的 10 份。那麼 「好」的 $$idf = log(\frac{1000}{10})=2$$。最後得出 `tf-idf` $$= 0.03 * 2 = 0.06 $$
 
 ## Global dimenstions of text
 
