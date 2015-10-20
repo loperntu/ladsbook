@@ -354,7 +354,8 @@ myfun <- function(arg1, arg2, ...){
     return(object)
 }
 ```
-- 例如 `scale()` 這個內建函式做的是將向量**標準化** (standardization)：亦即給定一個數值�向量，它將每個分量
+- 例如 `scale()` 這個內建函式做的是將向量**標準化** (standardization)：亦即給定一個數值 
+- �向量，它將每個分量
 
 
 
