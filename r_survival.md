@@ -7,8 +7,9 @@
 ## 十分鐘上手
 
 ```{r}
-head(cars)
-summary(cars)
+head(iris)
+str(iris)
+summary(iris)
 
 ```
 
