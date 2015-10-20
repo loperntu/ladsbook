@@ -172,8 +172,9 @@ x[1]
 - **當陣列是 2 維時** 稱作矩陣 (matrix)
 
 ```{r}
-> matrix(c(1:9), nrow = 3, ncol =3) 
-# 預設是按照 column 填入資料
+> matrix(c(1:9), nrow = 3, ncol = 3) 
+# 預設是按照 by column 填入資料，也可以設定 by row
+> matrix(c(1:9), nrow = 3, ncol = 3, byrow = TRUE)
 ```
 ### 因子 Factor
 - 把向量中的元素做「分類」
@@ -191,7 +192,7 @@ Levels: 2 3 5 6 7 8
 
 ### 資料框 Data Frame
 
-
+- 最常用的資料結構物件。
 
 進階學習者可以考慮使用增強版的 `data.table`
 
@@ -200,6 +201,9 @@ Levels: 2 3 5 6 7 8
 ### 列表 List 
 
 - 列表可以包含不同資料類型的資料
+- 可用 `list()` 來建立，`[[]]` 來存取。
+
+
 
 ## 資料處理流程邏輯
 ### 條件與邏輯判斷式 Conditionals and Control Flow
@@ -223,7 +227,7 @@ Levels: 2 3 5 6 7 8
 在進行統計分析之前，常需要資料操控 (data manipulation) 的步驟。 包括對於資料的：
 
 - 重整 (transforming data)
-- 重組 (re-structuring data)（合併與分割）
+- 重組 (re-structuring data)
 
 
 `重整`的部分可能涉及到：
@@ -242,6 +246,9 @@ Levels: 2 3 5 6 7 8
 
 
 `重組`的部分可能涉及到
+- 合併 merge
+- 分割 split
+- 
 reshape, aggregate
 
 
