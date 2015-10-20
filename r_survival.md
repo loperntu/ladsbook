@@ -182,7 +182,8 @@ reshape, aggregate
 - `setwd()`
 - `crtl + l` 清除 console 畫面
 - `rm(list = ls())` 清楚 workspace 所有物件
-- ? 看對於內建資料或是指令的輔助說明，如 `?iris`, `?rep` 
+- `?`看對於內建資料或是指令的輔助說明，如 `?iris`, `?rep` 
+- 好習慣提早養成。參考像是 [Google's R Style Guide](http://google-styleguide.googlecode.com/svn/trunk/Rguide.xml#assignment)
 
 
 
