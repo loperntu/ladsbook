@@ -54,8 +54,11 @@ Error in NA <- 2 : (do_set) 賦值公式左側不正確
 Error in NULL <- 2 : (do_set) 賦值公式左側不正確
 ```
 
-- 資料類型之間的轉換可透過不同內建函式
+- 資料類型之間的強制轉換可透過不同內建函式：`as.numeric()`, `as.integer()`, `as.character()`, 等等。
 
+```
+> 
+```
 
 - 文本資料
 
@@ -105,15 +108,15 @@ Error in NULL <- 2 : (do_set) 賦值公式左側不正確
 - `seq()` 可產生序列 (sequence) 向量 
 
 ```{r}
-seq(from = -10, to = 10, by = 1)
-seq(from = -10, to = 10, length = 11)
+> seq(from = -10, to = 10, by = 1)
+> seq(from = -10, to = 10, length = 11)
 ```
 - `rep()` 可產生重複的序列
 
 ```{r}
-rep("lads",10)
-rep(c(3,8), each = 4)
-rep(c(3,8), length = 4)
+> rep("lads",10)
+> rep(c(3,8), each = 4)
+> rep(c(3,8), length = 4)
 ```
 
 ### 陣列 Array 與矩陣 Matrix
