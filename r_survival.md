@@ -72,7 +72,7 @@ Warning message:
 
 資料匯入
 
-- 
+- `read.table()`, `read.csv()`
 
 ```{r}
 > mydata <- read.table()
