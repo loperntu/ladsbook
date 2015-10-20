@@ -39,7 +39,7 @@ variables, data types and basic arithmetic
 
 * 資料類型包含以下五種，可用 `class()` 函數判斷
 
-    - character：文字字串，用 "" 包起來，ex："test"
+    - character：文字字串，用 "" 包起來
     - numeric：實數
     - integer：整數
     - complex：複數
@@ -125,7 +125,7 @@ Levels: 2 3 5 6 7 8
 
 
 
-進階學習者可以考慮使用增強版 `data.table`
+進階學習者可以考慮使用增強版的 `data.table`
 
 
 
