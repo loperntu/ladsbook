@@ -358,7 +358,12 @@ myfun <- function(arg1, arg2, ...){
 
 ```
 scaleFun <- function(x){
-+   u <- apply(x, MARGIN = 2, FUN = mean)
+   u <- apply(x, MARGIN = 2, FUN = mean)
+   v <- apply(x, MARGIN = 2, FUN = sd)
+   w <- sweep(x, MARGIN = 2, STATS = u, FUN = "-")
+   z <- sweep(w, MARGIN = 2, STATS = v, FUN = "/")
+   return(z)
+}
 ```
 
 
