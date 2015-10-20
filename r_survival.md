@@ -104,6 +104,11 @@ Error in NULL <- 2 : (do_set) 賦值公式左側不正確
 
 - `seq()` 可產生序列 (sequence) 向量 
 
+```{r}
+seq(from = -10, to = 10, by = 1)
+seq(from = -10, to = 10, length = 11)
+```
+
 
 
 ### 陣列 Array 與矩陣 Matrix
