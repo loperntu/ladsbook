@@ -241,7 +241,7 @@ while (a > 4) {
 - 儘量使用內建函式 (如 `apply()`) 並且避免使用迴圈，可以增加程式執行速度。
 
 ```
-apply(X, MARGIN,FUN,...)
+apply(X, MARGIN = 1, FUN = sum)
 ```
 
 
