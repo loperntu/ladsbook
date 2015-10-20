@@ -54,10 +54,15 @@ Error in NA <- 2 : (do_set) 賦值公式左側不正確
 Error in NULL <- 2 : (do_set) 賦值公式左側不正確
 ```
 
-- 資料類型之間的強制轉換可透過不同內建函式：`as.numeric()`, `as.integer()`, `as.character()`, 等等。
+- 資料類型之間的強制轉換可透過不同內建函式：`as.numeric()`, `as.integer()`, `as.character()`, 等等。但也不是都可以。
 
 ```
-> 
+> as.character(c(1,3,5))
+[1] "1" "3" "5"
+> as.integer(c("i", "like","you"))
+[1] NA NA NA
+Warning message:
+強制變更過程中產生了 NA
 ```
 
 - 文本資料
@@ -111,7 +116,7 @@ Error in NULL <- 2 : (do_set) 賦值公式左側不正確
 > seq(from = -10, to = 10, by = 1)
 > seq(from = -10, to = 10, length = 11)
 ```
-- `rep()` 可重複的序列
+- `rep()` 可建立重複的序列
 
 ```{r}
 > rep("lads",10)
