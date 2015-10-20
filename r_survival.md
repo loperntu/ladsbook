@@ -145,13 +145,13 @@ Levels: 2 3 5 6 7 8
 
 
 ### 資料操控 
-在進行統計分析之前，常需要資料操控 (data manipulation)的步驟。 包括對於資料的：
+在進行統計分析之前，常需要資料操控 (data manipulation) 的步驟。 包括對於資料的：
 
-- 重新整理 (transforming data)
-- 結構重組 (re-structuring data)（合併與分割）
+- 重整 (transforming data)
+- 重組 (re-structuring data)（合併與分割）
 
 
-重新整理的部分可能涉及到：
+`重整`的部分可能涉及到：
 
 - Treatingmissingvalues(NAs)
 - Renaming old and Adding new variables 
@@ -164,15 +164,25 @@ Levels: 2 3 5 6 7 8
 - Sorting
 
 
+進階學習者可以考慮使用 [dplyr 套件](https://www.datacamp.com/courses/dplyr-data-manipulation-r-tutorial)。
 
-結構重組的部分可能涉及到
+
+
+
+
+
+
+
+
+
+`重組`的部分可能涉及到
 reshape, aggregate
 
 
 
 ### 繪圖與資料視覺化
 
-
+- `ggvis`
 
 
 ### 資料統計
@@ -199,6 +209,8 @@ reshape, aggregate
 
 ## 資料科學的報告與表達
 Data product
+
+- DS reporting with `R Markdown`
 
 ## 機器學習
 Machine learning
