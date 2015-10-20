@@ -37,7 +37,7 @@ variables, data types and basic arithmetic
 ```
 
 
-* 資料類型包含以下五種，可用 `class()` 函數判斷
+* 資料類型包含以下幾種，可用 `class()` 函數判斷
 
     - character：文字字串，用 "" 包起來
     - numeric：實數
