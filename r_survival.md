@@ -347,6 +347,18 @@ while (a > 4) {
 
 ## 自訂函式
 
+- 基本語法
+```
+myfun <- function(arg1, arg2, ...){
+    statements
+    return(object)
+}
+```
+- `scale()` 這個內建函式做的是將向量**標準化** (standardization)：亦即
+
+
+
+
 ---
 (選修)
 
