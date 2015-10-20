@@ -1,15 +1,17 @@
-# R 存活指令
+# R 存活知識
 
 > The R survival guide for LADs (Linguistic Analysis and Data Science) 
 
-## 常用指令分類
-
-## I/O
+## 常用指令
 
 
+## 資料輸入輸出
 
 
-## Data Structure
+
+
+## 資料的類型與結構 
+
 ### 向量 Vector
 ### 矩陣 Matrix
 ### Factor
@@ -17,6 +19,23 @@
 ### List 
 
 
+
+
+## 資料處理邏輯
+### Conditionals and Control Flow
+
+
+### Loops and the `apply` family
+
+### Functions
+
+
+
+## 資料視覺化
+
+
+
+## 資料統計與建模
 
 
 
