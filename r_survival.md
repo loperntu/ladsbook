@@ -95,7 +95,7 @@ Error in NULL <- 2 : (do_set) 賦值公式左側不正確
 
 ### 向量 Vector
 
-- 利用 `c()` 建立向量，向量元素必須是同個資料類型，不然就會按照 *character > complex > numeric > integer > logical* 進行資料類型迫轉 (type coersion) 
+- 利用 `c()` 建立向量，向量元素必須是同個資料類型，不然就會按照 *character > complex > numeric > integer > logical* 進行資料類型迫轉 (type coercion) 
 
 ```
 > x <- c(1,2,3)
@@ -105,13 +105,13 @@ Error in NULL <- 2 : (do_set) 賦值公式左側不正確
 [1] "1"    "2"    "3"    "me"   "you"  "they"
 ```
 
-- `seq()` 可產生序列 (sequence) 向量 
+- `seq()` 可建立序列 (sequence) 向量 
 
 ```{r}
 > seq(from = -10, to = 10, by = 1)
 > seq(from = -10, to = 10, length = 11)
 ```
-- `rep()` 可產生重複的序列
+- `rep()` 可重複的序列
 
 ```{r}
 > rep("lads",10)
