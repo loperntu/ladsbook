@@ -33,7 +33,7 @@ variables, data types and basic arithmetic
 ```{r}
 > 20^3
 > exp(20)
-> log(20)
+> logl0(20)
 ```
 
 
