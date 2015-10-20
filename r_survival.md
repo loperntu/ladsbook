@@ -330,7 +330,7 @@ while (a > 4) {
 (選修)
 
 ## 資料科學的報告與表達
-Data product
+Deploying data product
 
 - DS reporting with `R Markdown`
 - Inforgraphics
