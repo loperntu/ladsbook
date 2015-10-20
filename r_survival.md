@@ -102,6 +102,8 @@ Error in NULL <- 2 : (do_set) 賦值公式左側不正確
 [1] "1"    "2"    "3"    "me"   "you"  "they"
 ```
 
+- `seq()` 可產生序列 (sequence) 向量 
+
 
 
 ### 陣列 Array 與矩陣 Matrix
