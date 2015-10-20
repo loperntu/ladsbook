@@ -241,7 +241,17 @@ while (a > 4) {
 - 儘量使用內建函式 (如 `apply()`) 並且避免使用迴圈，可以增加程式執行速度。
 
 ```
-apply(X, MARGIN = 1, FUN = sum)
+# apply(X, MARGIN = 1, FUN = sum)
+
+> A <- matrix(1:15, nrow = 5, ncol = 3); A
+     [,1] [,2] [,3]
+[1,]    1    6   11
+[2,]    2    7   12
+[3,]    3    8   13
+[4,]    4    9   14
+[5,]    5   10   15
+> apply(A, MARGIN = 1, FUN = mean)
+[1]  6  7  8  9 10
 ```
 
 
