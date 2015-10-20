@@ -4,7 +4,7 @@
 
 ---
 (必修)
-## 十分鐘上手
+## 三分鐘上手指令
 
 ```{r}
 head(iris)
@@ -13,21 +13,36 @@ summary(iris)
 
 ```
 
-### 基本運算、變數與資料
+### 變數、資料類型與基本運算
+variables, data types and basic  arithmetic
+
+
 
 ```{r}
 x <- 38
 x
 
 ```
+R 的基本資料類型性包含以下五種，可用 `class()` 函數判斷
+
+
+- character：文字字串，用 "" 包起來，ex："test"
+- numeric：實數
+- integer：整數
+- complex：複數
+- logical：True 或 False
+
+
 
 
 ## 資料匯入與匯出
 
 
-## 資料的類型與結構 
+## 資料結構 
 
-向量 Vector
+
+
+### 向量 Vector
 ### 矩陣 Matrix
 ### 因子 Factor
 ### 資料框架 Data Frame
