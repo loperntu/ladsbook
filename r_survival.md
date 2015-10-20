@@ -19,13 +19,11 @@
 ### 列表 List 
 
 
-
-
 ## 資料處理流程邏輯
-### Conditionals and Control Flow
+### 條件與邏輯判斷式 Conditionals and Control Flow
 
 
-### Loops and the `apply` family
+### 迴圈結構 Loops and the `apply` family
 
 ### 自訂函式
 
