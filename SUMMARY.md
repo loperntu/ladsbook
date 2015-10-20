@@ -1,6 +1,7 @@
 # Summary
 
 * [README](README.md)
+   * 文本真實性
 * [導論](introductionmd.md)
 * [語言學基礎](linguistic_fundamentals.md)
    * [語料庫](corpus.md)
