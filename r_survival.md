@@ -2,10 +2,10 @@
 
 > The R survival guide for LADs (Linguistic Analysis and Data Science) 
 
-## 常用指令
+## 十分鐘上手
+### 基本運算、變數與資料
 
-
-## 資料輸入輸出
+## 資料匯入與匯出
 
 
 
@@ -14,24 +14,29 @@
 
 ### 向量 Vector
 ### 矩陣 Matrix
-### Factor
-### Data Frame
-### List 
+### 因子 Factor
+### 資料框架 Data Frame
+### 列表 List 
 
 
 
 
-## 資料處理邏輯
+## 資料處理流程邏輯
 ### Conditionals and Control Flow
 
 
 ### Loops and the `apply` family
 
-### Functions
+### 自訂函式
+
+
+## 繪圖與資料視覺化
+
+### 資料科學的報告與表達
 
 
 
-## 資料視覺化
+
 
 
 
