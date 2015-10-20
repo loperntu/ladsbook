@@ -69,7 +69,8 @@ Error in NULL <- 2 : (do_set) 賦值公式左側不正確
 
 ### 向量 Vector
 
-- 利用 `c()` 建立向量，向量元素必須是同個資料類型
+- 利用 `c()` 建立向量，向量元素必須是同個資料類型，不然就會按照*character > complex > numeric > integer > logical* 進行類型迫轉 (type coersion) 
+
 ```
 
 ```
