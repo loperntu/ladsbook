@@ -250,10 +250,12 @@ while (a > 4) {
 [3,]    3    8   13
 [4,]    4    9   14
 [5,]    5   10   15
+# 求矩陣中每一列的平均值 (row mean)
 > apply(A, MARGIN = 1, FUN = mean)
 [1]  6  7  8  9 10
 ```
 
+- `sweep()` 是另一個可以避免迴圈的內建函式。
 
 ---
 ## 資料探索分析
@@ -331,6 +333,7 @@ while (a > 4) {
 Data product
 
 - DS reporting with `R Markdown`
+- Inforgraphics
 
 ## 機器學習
 Machine learning
