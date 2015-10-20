@@ -144,9 +144,10 @@ Levels: 2 3 5 6 7 8
 
 
 
-## 資料操控 
-資料操控 (data manipulation) 是 **資料探索分析** (exploratory data analysis) 所需要的重要技能之一。包括對於資料的：
-- 重新編碼
+### 資料操控 
+資料操控 (data manipulation) 包括對於資料的：
+
+- 重新編碼 (transformation)
 - 資料變形
 - 資料合併與分割
 
