@@ -277,6 +277,7 @@ while (a > 4) {
 
 - `tapply()` `sapply()` `lapply()`
 
+- 進階學習者可以考慮使用 [dplyr 套件](https://www.datacamp.com/courses/dplyr-data-manipulation-r-tutorial)。
 
 ---
 ## 資料探索分析
