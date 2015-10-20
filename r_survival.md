@@ -42,8 +42,8 @@ variables, data types and basic arithmetic
     - 文字字串 (character)：用 "" 包起來。 `is.character()`
     - 實數 (或數值) (numeric)：`is.numeric()`
     - 整數 (integer)：`is.integer()`
-    - 複數 (complex)：
-    - 邏輯 (logical)：True 或 False
+    - 複數 (complex)：`is.complex()`
+    - 邏輯 (logical)：True 或 False `is.logical()`
 
 `NA` 是保留字，邏輯常數
 
