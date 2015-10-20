@@ -210,6 +210,15 @@ Levels: 2 3 5 6 7 8
 ## 資料處理流程邏輯
 ### 條件與邏輯判斷式 Conditionals and Control Flow
 
+- 邏輯變數 (logical variable) 也是原型向量，每一分量的值為 `TRUE`(1) 或 `FALSE`(0)。
+
+```
+if (4 > 3) {
+	print("4 is greater than 3")
+} else {
+	print("4 is not greater than 3")
+}
+```
 
 ### 迴圈結構 Loops and the `apply` family
 
