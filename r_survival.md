@@ -27,7 +27,7 @@ x
 
 ## 資料的類型與結構 
 
-### 向量 Vector
+向量 Vector
 ### 矩陣 Matrix
 ### 因子 Factor
 ### 資料框架 Data Frame
