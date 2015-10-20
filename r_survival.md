@@ -237,6 +237,10 @@ while (a > 4) {
 }
 ```
 
+- Keep in mind that for and while loops run slowly in R
+Operations on entire vectors (i.e. a whole row, a whole column)
+or apply()-type functions are preferred
+
 ---
 ## 資料探索分析
 
