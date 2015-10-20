@@ -223,6 +223,20 @@ if (4 > 3) {
 ### 迴圈結構 Loops and the `apply` family
 
 
+```
+for (i in 1:4) {
+  print(i)
+}
+
+```
+```
+a <- 10
+while (a > 4) {
+	cat(a, "...", sep = "")
+	a <- a - 1
+}
+```
+
 ---
 ## 資料探索分析
 
