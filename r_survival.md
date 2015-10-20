@@ -37,13 +37,13 @@ variables, data types and basic arithmetic
 ```
 
 
-* 資料類型包含以下幾種，可用 `class()` 函數判斷
+* 資料類型 (data type) 包含以下幾種，可用 `class()` 函數判斷
 
-    - character：文字字串，用 "" 包起來
-    - numeric：實數
-    - integer：整數
-    - complex：複數
-    - logical：True 或 False
+    - 文字字串 (character)：用 "" 包起來
+    - 實數 (或數值) (numeric)：
+    - 整數 (integer)：
+    - 複數 (complex)：
+    - 邏輯 (logical)：True 或 False
 
 `NA` 是保留字，邏輯常數
 
@@ -95,7 +95,11 @@ Error in NULL <- 2 : (do_set) 賦值公式左側不正確
 - 利用 `c()` 建立向量，向量元素必須是同個資料類型，不然就會按照 *character > complex > numeric > integer > logical* 進行資料類型迫轉 (type coersion) 
 
 ```
-
+> x <- c(1,2,3)
+> y <- c("me","you","they")
+> z <- c(x,y)
+> z
+[1] "1"    "2"    "3"    "me"   "you"  "they"
 ```
 
 
