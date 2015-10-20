@@ -275,6 +275,9 @@ while (a > 4) {
 
 ```
 
+- `tapply()` `sapply()` `lapply()`
+
+
 ---
 ## 資料探索分析
 
