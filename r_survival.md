@@ -147,10 +147,13 @@ Levels: 2 3 5 6 7 8
 ### 資料操控 
 資料操控 (data manipulation) 包括對於資料的：
 
-- 重新編碼 (transformation)
+- 重新編碼 (transforming data)
 - 資料變形
-- 資料合併與分割
+- 資料重組 (re-structuring data)（合併與分割）
 
+
+
+資料重組
 
 ## 繪圖與資料視覺化
 
