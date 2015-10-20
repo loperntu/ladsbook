@@ -1,7 +1,6 @@
 # Summary
 
 * [README](README.md)
-   * 文本真實性
 * [導論](introductionmd.md)
 * [語言學基礎](linguistic_fundamentals.md)
    * [語料庫](corpus.md)
@@ -25,6 +24,7 @@
 * [主題模型](topic-modeling.md)
 * [情緒分析](sentiment_analysis.md)
 * [個人文體風格](stylometrics.md)
+* 文本真實性
 * [立場偵測](stance-detection.md)
 * [附錄](appendix.md)
    * [R 存活指令](r_survival.md)
