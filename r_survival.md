@@ -10,29 +10,39 @@
 head(iris)
 str(iris)
 summary(iris)
-
+plot(iris)
 ```
 
 ### 變數、資料類型與基本運算
 variables, data types and basic  arithmetic
 
 
-
 ```{r}
 x <- 38
 x
-
 ```
-R 的基本資料類型性包含以下五種，可用 `class()` 函數判斷
+
+- 基本算術運算
+
+    加減乘除、次方、平方根、商數與餘數、指數與對數、等等。
+
+```{r}
+   
+```
 
 
-- character：文字字串，用 "" 包起來，ex："test"
-- numeric：實數
-- integer：整數
-- complex：複數
-- logical：True 或 False
+* R 的基本資料類型性包含以下五種，可用 `class()` 函數判斷
+
+    - character：文字字串，用 "" 包起來，ex："test"
+    - numeric：實數
+    - integer：整數
+    - complex：複數
+    - logical：True 或 False
+
+- 資料類型之間的轉換可透過不同內建函式
 
 
+- 文本資料
 
 
 ## 資料匯入與匯出
