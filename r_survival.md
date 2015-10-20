@@ -145,28 +145,49 @@ Levels: 2 3 5 6 7 8
 
 
 ### 資料操控 
-資料操控 (data manipulation) 包括對於資料的：
+在進行統計分析之前，常需要資料操控 (data manipulation)的步驟。 包括對於資料的：
 
-- 重新編碼 (transforming data)
-- 資料變形
-- 資料重組 (re-structuring data)（合併與分割）
-
+- 重新整理 (transforming data)
+- 結構重組 (re-structuring data)（合併與分割）
 
 
-資料重組
+重新整理的部分可能涉及到：
 
-## 繪圖與資料視覺化
+- Treatingmissingvalues(NAs)
+- Renaming old and Adding new variables 
+- Calculating New Numeric Variables
+- Dividing a Continuous Variable into Categories
+- Working with Factor Variables
+- More on Type Conversion
+
+- Subsectting
+- Sorting
+
+
+
+結構重組的部分可能涉及到
+reshape, aggregate
+
+
+
+### 繪圖與資料視覺化
 
 
 
 
-## 資料統計
+### 資料統計
 ---
 (增效小訣竅)
 
+- `setwd()`
 - `crtl + l` 清除 console 畫面
 - `rm(list = ls())` 清楚 workspace 所有物件
 - ? 看對於內建資料或是指令的輔助說明，如 `?iris`, `?rep` 
+
+
+
+> EDA with data.table
+
 
 
 
@@ -176,11 +197,13 @@ Levels: 2 3 5 6 7 8
 (選修)
 
 ## 資料科學的報告與表達
+Data product
 
 ## 機器學習
+Machine learning
 
 ## 大數據處理
-
+Big data
 
 
 
