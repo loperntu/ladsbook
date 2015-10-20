@@ -69,7 +69,7 @@ Error in NULL <- 2 : (do_set) 賦值公式左側不正確
 
 ### 向量 Vector
 
-- 利用 `c()` 建立向量，向量元素必須是同個資料類型，不然就會按照 *character > complex > numeric > integer > logical* 進行類型迫轉 (type coersion) 
+- 利用 `c()` 建立向量，向量元素必須是同個資料類型，不然就會按照 *character > complex > numeric > integer > logical* 進行資料類型迫轉 (type coersion) 
 
 ```
 
@@ -79,7 +79,7 @@ Error in NULL <- 2 : (do_set) 賦值公式左側不正確
 
 ### 陣列 Array 與矩陣 Matrix
 
-- 陣列可視為多維度的向量變數，跟向量一樣，所有陣列元素的資料屬性必須一致。
+- 陣列可視為多維度的向量變數，跟向量一樣，所有陣列元素的資料類型必須一致。
 - 當陣列是 2 維的狀況就是所謂的矩陣
 
 ### 因子 Factor
