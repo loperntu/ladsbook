@@ -7,10 +7,10 @@
 ## 三分鐘上手指令
 
 ```{r}
-head(iris)
-str(iris)
-summary(iris)
-plot(iris)
+> head(iris)
+> str(iris)
+> summary(iris)
+> plot(iris)
 ```
 
 ### 變數、資料類型與基本運算
@@ -21,8 +21,8 @@ variables, data types and basic arithmetic
     - 賦值算子 `<-`，`=` 貌似可以，但 R 官方文件強調不該使用，在某些地方會失效。
 
 ```{r}
-x <- 38
-x
+> x <- 38
+> x
 ```
 
 
@@ -31,9 +31,9 @@ x
     加減乘除、次方、平方根、商數與餘數、指數與對數、等等。
 
 ```{r}
-20^3
-exp(20)
-log(20)
+> 20^3
+> exp(20)
+> log(20)
 ```
 
 
@@ -82,6 +82,10 @@ Error in NULL <- 2 : (do_set) 賦值公式左側不正確
 - 陣列 (array) 可視為多維度的向量變數，跟向量一樣，所有陣列元素的資料類型必須一致。
 - **當陣列是 2 維時** 稱作矩陣 (matrix)
 
+```{r}
+> matrix(c(1:9), nrow = 3, ncol =3) 
+# 預設是按照 column 填入資料
+```
 ### 因子 Factor
 ### 資料框 Data Frame
 ### 列表 List 
