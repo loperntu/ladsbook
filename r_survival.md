@@ -255,7 +255,7 @@ while (a > 4) {
 [1]  6  7  8  9 10
 ```
 
-- `sweep(X, MARGIN, STATS, FUN)` 是另一個可以避免迴圈的內建函式。STATS 是 FUN 函式的另一個運算元。
+- `sweep(X, MARGIN, STATS, FUN)` 是另一個可以避免使用迴圈的內建函式。STATS 是 FUN 函式的另一個運算元。
 
 ```
 > B <- matrix(1:12, nrow = 4, ncol = 3); B
@@ -354,7 +354,7 @@ myfun <- function(arg1, arg2, ...){
     return(object)
 }
 ```
-- `scale()` 這個內建函式做的是將向量**標準化** (standardization)：亦即
+- 例如 `scale()` 這個內建函式做的是將向量**標準化** (standardization)：亦即給定一個�向量，它將每個分量
 
 
 
