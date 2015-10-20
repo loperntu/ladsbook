@@ -24,7 +24,7 @@
 * [主題模型](topic-modeling.md)
 * [情緒分析](sentiment_analysis.md)
 * [個人文體風格](stylometrics.md)
-* 文本真實性
+* [文本真實性](authenticity.md)
 * [立場偵測](stance-detection.md)
 * [附錄](appendix.md)
    * [R 存活指令](r_survival.md)
