@@ -101,7 +101,7 @@ such a facility. It accepts a path to a file (or a file connection) and, optiona
 
 匯出檔案
 
-    - 用 `write.table()` 輸出 csv
+- 用 `write.table()` 輸出 csv
 
 ```{r}
 > mydata <- rivers 
@@ -163,7 +163,20 @@ x[1]
 > unlist(strsplit("I do not know", " "))
 ```
 
+### 因子 Factor
 
+- 基本上是**文字向量**，但是許多元素(分量)的內容是一樣的。
+- 因子可用來描述具等級和類別屬性的資料，如「血型」、「性別」、「職業」。**類別變數** (categorical variable) 通常用因子來表示。
+
+```{r}
+> x <- c(5,6,7,7,8,3,5,2)
+> x
+[1] 5 6 7 7 8 3 5 2
+> factor(x)
+[1] 5 6 7 7 8 3 5 2
+Levels: 2 3 5 6 7 8
+
+```
 
 
 ### 陣列 Array 與矩陣 Matrix
@@ -176,18 +189,7 @@ x[1]
 # 預設是按照 by column 填入資料，也可以設定 by row
 > matrix(c(1:9), nrow = 3, ncol = 3, byrow = TRUE)
 ```
-### 因子 Factor
-- 把向量中的元素做「分類」
 
-```{r}
-> x <- c(5,6,7,7,8,3,5,2)
-> x
-[1] 5 6 7 7 8 3 5 2
-> factor(x)
-[1] 5 6 7 7 8 3 5 2
-Levels: 2 3 5 6 7 8
-
-```
 
 
 ### 資料框 Data Frame
