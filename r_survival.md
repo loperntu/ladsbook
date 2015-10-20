@@ -238,7 +238,6 @@ Levels: 2 3 5 6 7 8
 - Dividing a Continuous Variable into Categories
 - Working with Factor Variables
 - More on Type Conversion
-
 - Subsectting
 - Sorting
 
@@ -246,11 +245,12 @@ Levels: 2 3 5 6 7 8
 
 
 `重組`的部分可能涉及到
-- 合併 merge
+- 合併 merge (`rbind()`, `merge()`)
 - 分割 split
-- 
-reshape, aggregate
-
+- Stacking and unstacking
+- reshape, aggregate
+    - When you aggregate data, you replace groups of observations with summary statistics based on those observations.
+    - When you reshape data,you alter the structure(rows and columns) determining how the data is organized.
 
 
 進階學習者可以考慮使用 [dplyr 套件](https://www.datacamp.com/courses/dplyr-data-manipulation-r-tutorial)。
