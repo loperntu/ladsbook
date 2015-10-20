@@ -103,6 +103,7 @@ Levels: 2 3 5 6 7 8
 ### 資料框 Data Frame
 ### 列表 List 
 
+- 列表可以包含不同資料類型的資料
 
 ## 資料處理流程邏輯
 ### 條件與邏輯判斷式 Conditionals and Control Flow
