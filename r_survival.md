@@ -70,8 +70,18 @@ Warning message:
 
 ## 資料匯入與匯出
 
+
 ```{r}
 > mydata <- read.table()
+```
+
+- For unstructured textual data, it is often easier to
+read in the file as lines of texts and then parse the contents￼ ￼ ￼ afterward. readLines() (notice the capital "L") provides
+such a facility. It accepts a path to a file (or a file connection) and, optionally, a maximum number of lines to read.
+
+```
+> alice <- readLines( "http://www.gutenberg.org/ebooks/11.txt.utf-8" )
+> alice[1920:1927]
 ```
 
 - 文件編碼與轉碼
@@ -124,11 +134,19 @@ Warning message:
 > rep(c(3,8), length = 4)
 ```
 
-- 查詢擷取向量中的元素（分量）。索引 (index) 從 1 
+- 用 `[]`查詢擷取向量中的元素（分量）。索引 (index) 從 1 開始。
 
 ```
 x[1]
 ```
+
+- 文字向量 (character vector) 有一些特殊的運算函式。
+```
+
+```
+
+
+
 
 ### 陣列 Array 與矩陣 Matrix
 
