@@ -213,11 +213,11 @@ Levels: 2 3 5 6 7 8
 - 邏輯變數 (logical variable) 也是原型向量，每一分量的值為 `TRUE`(1) 或 `FALSE`(0)。
 
 ```
-if (4 > 3) {
-	print("4 is greater than 3")
-} else {
-	print("4 is not greater than 3")
-}
+> if (4 > 3) {
+> 	 print("4 is greater than 3")
+> } else {
+> 	 print("4 is not greater than 3")
+> }
 ```
 
 ### 迴圈結構 Loops and the `apply` family
@@ -258,7 +258,7 @@ while (a > 4) {
 - `sweep(X, MARGIN, STATS, FUN)` 是另一個可以避免迴圈的內建函式。STATS 是 FUN 函式的另一個運算元。
 
 ```
-B <- matrix(1:12, nrow = 4, ncol = 3); B
+> B <- matrix(1:12, nrow = 4, ncol = 3); B
      [,1] [,2] [,3]
 [1,]    1    5    9
 [2,]    2    6   10
@@ -266,7 +266,7 @@ B <- matrix(1:12, nrow = 4, ncol = 3); B
 [4,]    4    8   12
 
 # 將第一到第三行的數字分別依行 (by column) 加上 1,2,3  
-sweep(B, MARGIN = 2, STATS = 1:3, FUN = "+")
+> sweep(B, MARGIN = 2, STATS = 1:3, FUN = "+")
      [,1] [,2] [,3]
 [1,]    2    7   12
 [2,]    3    8   13
