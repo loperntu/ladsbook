@@ -108,8 +108,13 @@ Error in NULL <- 2 : (do_set) 賦值公式左側不正確
 seq(from = -10, to = 10, by = 1)
 seq(from = -10, to = 10, length = 11)
 ```
+- `rep()` 可產生重複的序列
 
-
+```{r}
+rep("lads",10)
+rep(c(3,8), each = 4)
+rep(c(3,8), length = 4)
+```
 
 ### 陣列 Array 與矩陣 Matrix
 
