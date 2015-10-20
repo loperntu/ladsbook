@@ -1,3 +1,4 @@
-1. XML tutorial
-2. 正規表示法
-3. 習題解答
+- R survival guide
+- XML tutorial
+- 正規表示法
+- 習題解答
