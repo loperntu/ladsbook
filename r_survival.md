@@ -169,10 +169,11 @@ grep(pattern, x, ignore.case = FALSE)
 sub(pattern, replacement, x, ignore.case = FALSE)
 ```
 ```{r}
-> txt <- c("馬的政府","老公對我很好der","自己的人生自己救",)
+> txt <- c("馬的政府","老公對我很好der","自己的人生自己救")
 > grep("的", txt)
+> grep("der$", txt)
 > txt[grep("的", txt)]
-
+> sub("der", "的", txt)
 
 
 ```
