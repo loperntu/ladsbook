@@ -85,7 +85,8 @@ $$
 
 
 
-## 文本語意表徵 (semantic representation)
+## 文本語意表徵 
+semantic representation
 
 
 
