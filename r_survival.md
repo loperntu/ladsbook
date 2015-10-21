@@ -46,7 +46,8 @@ variables, data types and basic arithmetic
     - 邏輯 (logical)：True 或 False `is.logical()`
 
 
-* `NA` (missing value) 是保留字，邏輯常數。許多函式都帶有 `na.rm` 的 (刪除) 參數（預設是 `na.rm = FALSE`）。另外有幾個處理 `NA` 內建的函式。
+* `NA` (missing value) 是保留字，邏輯常數。許多函式都帶有 `na.rm` 的 (刪除) 參數（預設是 `na.rm = FALSE`）。另外有幾個專門處理 `NA` 內建的函式如下。
+    * `is.na()`
     * `na.fail()`
     * `na.pass()`
     * `na.omit()`, `na.exclude()`
@@ -375,7 +376,7 @@ while (a > 4) {
 ## 自訂函式
 
 - 基本語法
-```
+```{r}
 myfun <- function(arg1, arg2, ...){
    statements
    return(object)
@@ -383,7 +384,7 @@ myfun <- function(arg1, arg2, ...){
 ```
 - 例如 `scale()` 這個內建函式做的是將向量**標準化** (standardization)：亦即給定一個數值向量，它將每個分量減去樣本平均數，再除以樣本標準差。（標準化可提供不同單位的向量之間一個共同的比較基準）。可以用自訂函式的方式來實作。
 
-```
+```{r}
 scaleFun <- function(x){
    u <- apply(x, MARGIN = 2, FUN = mean)
    v <- apply(x, MARGIN = 2, FUN = sd)
