@@ -45,7 +45,12 @@ variables, data types and basic arithmetic
     - 複數 (complex)：`is.complex()`
     - 邏輯 (logical)：True 或 False `is.logical()`
 
-`NA` 是保留字，邏輯常數
+
+* `NA` (missing value) 是保留字，邏輯常數。許多函式都帶有 `na.rm` 的 (刪除) 參數（預設是 `na.rm = FALSE`）。另外有幾個處理 `NA` 內建的函式。
+    * `na.fail()`
+    * `na.pass()`
+    * `na.omit()`, `na.exclude()`
+
 
 ```
 > NA <-2
