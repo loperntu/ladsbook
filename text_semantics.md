@@ -85,7 +85,7 @@ $$
 
 
 
-## 文本語意表徵 (represention)
+## 文本語意表徵 (representation)
 
 
 
