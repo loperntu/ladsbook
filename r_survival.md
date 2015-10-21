@@ -162,6 +162,30 @@ x[1]
 > strsplit("I do not know", " ")
 > unlist(strsplit("I do not know", " "))
 ```
+另外特別值得一提的是 `grep()` 和 `sub()`。前者可用來搜尋特定的字串模式，後者可用來將符合搜尋條件的取代字串。
+
+```
+grep(pattern, x, ignore.case = FALSE)
+sub(pattern, replacement, x, ignore.case = FALSE)
+```
+```{r}
+> txt <- c("馬的政府","老公對我很好der","自己的人生自己救",)
+> grep("的", txt)
+> txt[grep("的", txt)]
+
+
+
+```
+
+
+
+`pattern`可用 **regular expression**
+
+
+
+
+更多的用法與指令請參見附錄「正則表示法」。
+
 
 ### 因子 Factor
 
