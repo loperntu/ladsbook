@@ -159,6 +159,10 @@ x[1]
 > toupper(aa)
 > chartr("o", "x", aa)
 > paste("I", "do", "not", "know", sep = " ")
+# 也方便用來更改行列的變數名稱
+> paste("Student", 1:6, sep="-")
+# 或者將所有文字向量黏貼起來
+> paste("Student", 1:6, sep="-", collapse = ":")
 > strsplit("I do not know", " ")
 > unlist(strsplit("I do not know", " "))
 ```
@@ -175,17 +179,9 @@ sub(pattern, replacement, x, ignore.case = FALSE)
 > txt[grep("的", txt)]
 > sub("der", "的", txt)
 
-
 ```
 
-
-
-`pattern`可用 **regular expression**
-
-
-
-
-更多的用法與指令請參見附錄「正則表示法」。
+`pattern`可用 **regular expression**, 更多的用法與指令請參見附錄「正則表示法」。
 
 
 ### 因子 Factor
