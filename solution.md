@@ -2,19 +2,13 @@
 
 
 {% exercise %}
-Define a variable `x` equal to 10.
+HW1: Segment '中秋節' into vector.
 {% initial %}
-var x =
+library(jiebaR)
 {% solution %}
-var x = 10;
+worker()<='中秋節'
 {% validation %}
-assert(x == 10);
-{% context %}
-// This is context code available everywhere
-// The user will be able to call magicFunc in his code
-function magicFunc() {
-    return 3;
-}
+
 {% endexercise %}
 
 ---
