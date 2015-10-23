@@ -45,7 +45,3 @@ eat 1.6
 cold	3.3
 {% endexercise %}
 
-{% exercise %}
-{% validation %}
-{% solution %}
-{% endexercise %}
