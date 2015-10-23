@@ -1,7 +1,7 @@
 # 習題解答
 
 {% exercise %}
-HW1.R Segment 1001_chinatimes.txt
+HW1.R: Segment 1001_chinatimes.txt
 {% validation %}
 {% solution %}
 library(jiebaR)
