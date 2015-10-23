@@ -5,7 +5,14 @@ HW1.R
 library(jiebaR)
 worker()<='中秋節'
 ```
----
+
+{% exercise %}
+{% validation %}
+{% solution %}
+{% endexercise %}
+
+
+
 HW2.R
 ```{r}
 table(words_vector)
