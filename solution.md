@@ -7,16 +7,13 @@ worker()<='中秋節'
 ```
 
 {% exercise %}
+HW2.R: Segment 1001_chinatimes.txt and find the most frequent words.
 {% validation %}
 {% solution %}
-{% endexercise %}
-
-
-
-HW2.R
 ```{r}
 table(words_vector)
 ```
+{% endexercise %}
 
 {% exercise %}
 HW3.sh: Segment 1001_chinatimes.txt and find the most frequent words.
