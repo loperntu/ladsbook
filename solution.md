@@ -9,7 +9,7 @@ worker()<=txt
 {% endexercise %}
 
 {% exercise %}
-HW2.R: Segment 1001_chinatimes.txt and find the most frequent words.
+HW2.R: Find the most frequent words in 1001_chinatimes.txt
 {% validation %}
 {% solution %}
 table(words_vector)
