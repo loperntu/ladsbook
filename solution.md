@@ -21,17 +21,8 @@ HW4: How many times do I and like co-occur?
 {% solution %}
 X[1,2]
 {% validation %}
-
 {% endexercise %}
 
-
-{% exercise %}
-HW4: How many times do I and like co-occur?
-{% initial %}
-{% solution %}
-X[1,2]
-{% validation %}
-{% endexercise %}
 
 {% exercise %}
 HW5: For each word in https://ceiba.ntu.edu.tw/course/6d0f76/content/Word_Emotion_DT.csv
