@@ -36,6 +36,7 @@ X[1,2]
 {% exercise %}
 HW5: For each word in https://ceiba.ntu.edu.tw/course/6d0f76/content/Word_Emotion_DT.csv
 aggregate the mean scores of each word.
+{% validation %}
 {% solution %}
 good	2.0
 
