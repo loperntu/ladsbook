@@ -2,11 +2,10 @@
 
 {% exercise %}
 HW1.R Segment 1001_chinatimes.txt
-{% initial %}
-library(jiebaR)
-{% solution %}
-worker()<=txt
 {% validation %}
+{% solution %}
+library(jiebaR)
+worker()<=txt
 {% endexercise %}
 
 
