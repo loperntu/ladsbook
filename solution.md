@@ -1,18 +1,23 @@
 # 習題解答
 
-HW1.R
-```{r}
+{% exercise %}
+HW1.R Segment 1001_chinatimes.txt
+{% initial %}
+library(jiebaR)
+{% solution %}
+worker()<=txt
+{% validation %}
+{% endexercise %}
+
+
 library(jiebaR)
 worker()<='中秋節'
-```
 
 {% exercise %}
 HW2.R: Segment 1001_chinatimes.txt and find the most frequent words.
 {% validation %}
 {% solution %}
-```{r}
 table(words_vector)
-```
 {% endexercise %}
 
 {% exercise %}
