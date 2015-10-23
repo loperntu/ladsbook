@@ -1,5 +1,22 @@
 # 習題解答
 
+HW1.R
+```{r}
+library(jiebaR)
+worker()<='中秋節'
+```
+---
+HW2.R
+```{r}
+table(words_vector)
+```
+---
+HW3.sh
+```{bash}
+cat 1001_chinatimes.txt | Rscript segmentation.R | tr ' ' '\n' | sort | uniq -c | sort -nr
+```
+---
+HW4.R
 
 {% exercise %}
 HW1: Segment '中秋節' into vector.
@@ -11,26 +28,23 @@ worker()<='中秋節'
 
 {% endexercise %}
 
----
-HW1
-
-\#d00142002.R
 
 ```{r}
-library(jiebaR)
-
-words='中秋節'
-words_vector=worker()<=words
-write.table(x=t,file='d00142002.txt',row.names=FALSE,col.names=FALSE)
+X=rbind(I,like,enjoy,deep,learning,NLP,flying,period)
+X[1,2]
+sum(X[1,]
+sum(X[2,]/2
 ```
 ---
-HW2
+HW5.R
 
-\#d00142002.sh
+For each word in https://ceiba.ntu.edu.tw/course/6d0f76/content/Word_Emotion_DT.csv
 
-```{bash}
-sort d00142002.txt | uniq -c | sort > d00142002.txt
-```
+aggregate the mean scores of each word.
 
 
+good	2.0
 
+eat		1.6
+
+cold	3.3
