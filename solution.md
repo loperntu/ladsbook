@@ -8,10 +8,6 @@ library(jiebaR)
 worker()<=txt
 {% endexercise %}
 
-
-library(jiebaR)
-worker()<='中秋節'
-
 {% exercise %}
 HW2.R: Segment 1001_chinatimes.txt and find the most frequent words.
 {% validation %}
