@@ -19,11 +19,10 @@ cat 1001_chinatimes.txt | Rscript segmentation.R | tr ' ' '\n' | sort | uniq -c 
 HW4.R
 
 {% exercise %}
-HW1: Segment '中秋節' into vector.
+HW4: How many times do I and like co-occur?
 {% initial %}
-library(jiebaR)
 {% solution %}
-worker()<='中秋節'
+X[1,2]
 {% validation %}
 
 {% endexercise %}
