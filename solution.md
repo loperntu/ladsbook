@@ -36,7 +36,7 @@ aggregate the mean scores of each word.
 {% validation %}
 {% solution %}
 good	2.0
-eat 1.6
+eat     1.6
 cold	3.3
 {% endexercise %}
 
