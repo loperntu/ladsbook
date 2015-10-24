@@ -165,6 +165,13 @@ The current standard for text analysis in R is the `tm` package. It provides fac
 - [Calais](http://www.opencalais.com): 回傳 `專名`, `主題`, `事件`, `關係`, 與 `社會標籤`。
 - [BosonNLP]()
 
+
+---
+## 相關學術會議
+
+- Linguistic Annotation Workshops
+- Annual Text Analytics Summits. 
+
 ---
 ## 本書例子
 
