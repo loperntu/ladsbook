@@ -157,9 +157,13 @@ Text Analytics with R (III)
 The current standard for text analysis in R is the `tm` package. It provides facilities to manage text collections and to perform the most common data preparation operations prior to statistical text analysis.
 
 
+---
+## 相關網路服務 
 
+愈來愈多的文本解析的線上服務
 
-
+- [Calais](http://www.opencalais.com): 回傳 `專名`, `主題`, `事件`, `關係`, 與 `社會標籤`。
+- [BosonNLP]()
 
 ---
 ## 本書例子
