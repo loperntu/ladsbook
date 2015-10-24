@@ -35,8 +35,10 @@ libray(SnowballC)
 ---
 ## 詞類自動標記 POS tagging
 
+- 詞類是句法的概念。在文本解析的重要性上可以用 **named entity recognition** 來解釋。比方說， "the word general can be a job title as in the highest-ranking general, but in the general opinion it is not a job title. In the first example general is a noun, and in the second it is an adjective. If a part-of- speech tagger has already added these annotations, the named entity recognizer can use them to improve its precision."(Wilcock, 2009).
 
-- English part of speech tagging with`openNLP`(which implements the Penn Treebank tag set.) 
+
+- 實作上， English part of speech tagging with`openNLP`(which implements the Penn Treebank tag set.) 
 See <http://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html>.
 
 
@@ -80,5 +82,4 @@ write(tagged_text, paste("data/taggedCorpus/", files.v[i], ".txt", sep=""))
 
 
 
-## 詞類標記
-The value of linguistic annotations is seen again in text analytics applications such as named entity recognition. The word general can be a job title as in the highest-ranking general, but in the general opinion it is not a job title. In the first example general is a noun, and in the second it is an adjective. If a part-of- speech tagger has already added these annotations, the named entity recognizer can use them to improve its precision, 
+
