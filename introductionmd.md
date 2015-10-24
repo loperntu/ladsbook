@@ -64,7 +64,10 @@
 ---
 ## 涉及學門間的關係
 
-![lads](lads.jpg)
+
+
+![Re](lads.png)
+
 
 
 
@@ -149,7 +152,7 @@ Text Analytics with R (III)
 ---
 ## 相關套件
 
-- `tm`, `openNLP`, `qdap`,`koRpus`,`zipfR`,`Rwordseg/JiebaR`, `wordnet`,`qdap`, `RTextTools`,`Rweibo`,`corpora`,`textir` `twitteR`,`facebookR`,..
+- `tm`, `openNLP`, `qdap`,`koRpus`,`zipfR`,`Rwordseg/JiebaR`, `wordnet`,`qdap`, `RTextTools`,`languageR`,`Rweibo`,`corpora`,`textir` `twitteR`,`facebookR`,..
 
 The current standard for text analysis in R is the `tm` package. It provides facilities to manage text collections and to perform the most common data preparation operations prior to statistical text analysis.
 
