@@ -11,7 +11,7 @@
 * [前處理](text_preprocessing.md)
    * [文本收集](text_collection.md)
    * [文本清理與自動訊息標注](clean_tagging.md)
-   * 自動分詞與詞類標記
+   * [自動分詞與詞類標記](cws_pos.md)
    * [文本標記](text_annotation.md)
 * [文本語意與統計](text_semantics.md)
    * [文本訊息視覺化](visualization.md)
