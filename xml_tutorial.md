@@ -45,7 +45,7 @@
 
 - XML parser 用來 parse and validate XML。                
 - 免費的有很多，可用 [Apache Software Foundation’s Xerces-Java XML parser](http://xerces.apache.org/xerces2-j/)。因為可以從指令列使用。
-- 直接用 `GATE`
+- 直接用 [`GATE`](https://gate.ac.uk/)
 
 
 
