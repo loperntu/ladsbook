@@ -28,6 +28,10 @@
 
 
 - `openNLP`
-- `NLP`
+- `NLP`: - Basic functions for Natural Language Processing.
 - `coreNLP`
 - `KoNLP` 韓語自然語言處理
+- `tmcn` 適應中文的 `tm` 改良，方便編碼轉換。
+- `jiebaR`，`Rwordseg`中文斷詞
+
+
