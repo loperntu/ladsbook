@@ -47,6 +47,8 @@
 <!-- A common use of data mining is to detect patterns or rules in data.
 -->
 
+* `KDD (Knowledge Discovery in Database)` + `Data Mining`: 著重在如何從結構化的數據中挖掘出新的知識； `Text mining` + `NLP (Natural Language Processing)`則著重在如何從非結構化或半結構化的數據中挖掘出新的知識。
+
 * 文本挖掘可以被定義成`以自動化或半自動化文本處理方法，挖掘文本中的知識的歷程`。
 
 * 資料處理的層次來說，涉及如何把非結構性的數據轉化成結構化的數據，以方便機器學習分析與判讀。
