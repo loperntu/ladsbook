@@ -5,9 +5,9 @@
 
 
 ## 例子
+老莎的十四行
 
 ```xml
-
 <?xml version="1.0"?>
 <!DOCTYPE sonnet SYSTEM "sonnet.dtd">
 <sonnet type="Shakespearean">
@@ -36,11 +36,13 @@
     <line>As any she belied with false compare.</line>
   </lines>
 </sonnet>
-
-
-
-
 ```
+
+## 剖析器
+
+XML parser 用來 parse and validate XML。 免費的有很多，這裏用 [Apache Software Foundation’s Xerces-Java XML parser](http://xerces.apache.org/xerces2-j/)
+
+
 
 
 
