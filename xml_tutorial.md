@@ -56,5 +56,6 @@
 ---
 ## 參考
 
+- [W3School](http://www.w3schools.com) 有許多練習
 - (Tidwell 2002). Introduction to XML .
 - (Wilcock, 2009). Linguistic annotation and text analytics.
