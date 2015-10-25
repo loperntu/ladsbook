@@ -24,7 +24,8 @@ $$
 ----
 ## Topic model with R
 
--`mallet`
+
+- `mallet`:
 - `topicmodels`: Topic modeling interface to the C code developed by by David M. Blei for Topic Modeling (Latent Dirichlet Allocation (LDA), and Correlated Topics Models (CTM)).
 - `lda`
 - `LDAvis` Interactive visualization of topic models.
