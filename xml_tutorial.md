@@ -3,6 +3,9 @@
 
 基本知識：學會如何編輯(edit)，剖析(parse)，驗證 (validate) 與轉換 (transform) XML 標記文件。
 
+- 剖析(parse):
+- 驗證 (validate) : against certain DTD/ Schema(xsl)
+
 
 ## 例子
 老莎的十四行
@@ -40,7 +43,9 @@
 
 ## 剖析器
 
-XML parser 用來 parse and validate XML。 免費的有很多，這裏用 [Apache Software Foundation’s Xerces-Java XML parser](http://xerces.apache.org/xerces2-j/)
+- XML parser 用來 parse and validate XML。                
+- 免費的有很多，可用 [Apache Software Foundation’s Xerces-Java XML parser](http://xerces.apache.org/xerces2-j/)。因為可以從指令列使用。
+- 直接用 `GATE`
 
 
 
