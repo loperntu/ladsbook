@@ -170,7 +170,8 @@ The current standard for text analysis in R is the `tm` package. It provides fac
 ## 相關學術會議
 
 - Linguistic Annotation Workshops
-- Annual Text Analytics Summits. 
+- [Annual Text Analytics Summits](http://www.textanalyticsnews.com) 
+
 
 ---
 ## 本書例子
