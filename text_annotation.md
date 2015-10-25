@@ -22,3 +22,12 @@
 ---
 ## 文本前處理的管線回顧
 
+
+
+
+
+---
+## 相關會議
+- The Linguistic Annotation Workshop (Boguraev et al. 2007)
+- SIGANN (a Special Interest Group for Annotation)
+- 
