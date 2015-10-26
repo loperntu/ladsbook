@@ -27,3 +27,15 @@
 
 以下用 `coreNLP` 為例
 
+```{r}
+devtools::install_github("statsmaths/coreNLP")
+download.file("http://nlp.stanford.edu/software/stanford-corenlp-full-2015-01-29.zip")
+unzip("stanford-corenlp-full-2015-01-29.zip")
+```
+
+```{r}
+library(coreNLP)
+initCoreNLP("stanford-corenlp-full-2015-01-29")
+catInHat = c("the sun did not shine.", "it was too wet to play.","so we sat in the house all that cold, cold, wet day.")
+output = annotateString(catInHat)
+```
