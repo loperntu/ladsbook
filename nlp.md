@@ -25,7 +25,7 @@
 - `tmcn` 適應中文的 `tm` 改良，方便編碼轉換。
 - `jiebaR`，`Rwordseg`中文斷詞
 
-以下用 `coreNLP` 為例
+以下用 <a href=cran.r-project.org/web/packages/coreNLP>`coreNLP`</a> 為例
 
 ```{r}
 devtools::install_github("statsmaths/coreNLP")
