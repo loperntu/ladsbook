@@ -5,15 +5,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
 ---
 ## 中文語言處理平台
 - [語言雲](http://www.ltp-cloud.com)
@@ -34,4 +25,5 @@
 - `tmcn` 適應中文的 `tm` 改良，方便編碼轉換。
 - `jiebaR`，`Rwordseg`中文斷詞
 
+以下用 `coreNLP` 為例
 
