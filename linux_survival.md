@@ -67,7 +67,7 @@ $sed -e 's/keke/科科/g' mydata.csv > mydata2.csv
 > [注意]  轉不同系統處理的文件時常用這個指令！
 
 因為不同系統對於「換行字元」有不同的編碼方式。
-Windows 系統用了`\r\n` CR(carriage return) 與 LF(line feed) 來表達換行。蘋果用 CR, linux/unix 用 LF。[^1]
+Windows 系統用了`\r\n`，亦即 CR (carriage return) 與 LF (line feed) 來表達換行。在編輯器裡會在一行的節尾看到 `^M`，那就是`\r\n`。蘋果用 CR, linux/unix 用 LF。[^1]
 
 
 
