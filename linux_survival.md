@@ -61,25 +61,14 @@ $cat lex2.txt
 想要
 1. 比較兩個詞表，並且同時產生一個新詞表，其中只含有比較之後在 lex1.txt 但沒出現在 lex2.txt 的詞。（可想成用後者過濾前者）
 
-```bash
-$diff -u lex1.txt lex2.txt
-
-@@ -1,7 +1,4 @@
--動人心弦
--精湛
--美麗
--豐富
--美好
--漂亮
- 好
-+水喔
-+漂亮
-+正
-
-```
-
 
 ```bash
-comm -2 -3 <(sort lex1.txt) <(sort lex2.txt)
+$comm -2 -3 <(sort lex1.txt) <(sort lex2.txt) > lex3.txt
+$cat lex3.txt
+動人心弦
+精湛
+美好
+美麗
+豐富
 ```
 
