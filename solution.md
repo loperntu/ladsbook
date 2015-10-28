@@ -51,11 +51,11 @@ https://ceiba.ntu.edu.tw/course/6d0f76/content/Word_Emotion_UTF8.csv
 # HW6-2.R: Probability Distribution
 1. Randomly generate more than 100 data points for the normal distribution with μ=0 and σ=1: rnorm(n=100)
 
-a. How many data points are less than 0, 1, 2, 3, and the corresponding percentages?
+--1. How many data points are less than 0, 1, 2, 3, and the corresponding percentages?
 
-b. Produces quantiles corresponding to the given probabilities of 50%, 84%, 97.5%, and 99.85%
+--2. Produces quantiles corresponding to the given probabilities of 50%, 84%, 97.5%, and 99.85%
 
-c. Calculate the mean for all data points.
+--3. Calculate the mean for all data points.
 
 2. Produces quantiles corresponding to the given probabilities of 50%, 84%, 97.5%, and 99.85%
 in normal distribution with μ=0 and σ=1 (Hint: qnorm(p))
