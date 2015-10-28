@@ -51,9 +51,11 @@ $head -n 3 data.csv
 $wc mydata.csv
 $wc -l mydata.csv
 ```
-- grep: 可以利用**正則表示法** (參考本書附錄) 來搜尋文本中的特定模式。
+- grep: 可以利用**正則表示法** (參考本書附錄) 來搜尋文本中的特定模式。有許多參數可設定。
 
-
+```bash
+grep -i -A 1 -B 10  work mydata.csv
+```
 
 
 ## 比較詞表
