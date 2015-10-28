@@ -29,7 +29,7 @@
 * [文本真實性](authenticity.md)
 * [立場與價值偵測](stance-detection.md)
 * [附錄](appendix.md)
-   * [Linux Survival](linux_survival.md)
+   * [Linux 存活指令](linux_survival.md)
    * [R 存活指令](r_survival.md)
    * [XML tutorial](xml_tutorial.md)
    * [正則表示法](regular expression.md)
