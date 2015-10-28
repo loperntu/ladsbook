@@ -30,15 +30,19 @@ X[1,2]
 {% validation %}
 {% endexercise %}
 
-HW5.R: For each word in https://ceiba.ntu.edu.tw/course/6d0f76/content/Word_Emotion_DT.csv
+HW5-1.R: For each word in https://ceiba.ntu.edu.tw/course/6d0f76/content/Word_Emotion_DT.csv
 aggregate the mean scores of each word.
 ```{r}
 download.file(url='https://ceiba.ntu.edu.tw/course/6d0f76/content/Word_Emotion_DT.csv',destfile='Word_Emotion_DT.csv',method='wget')
 df=read.csv(file='Word_Emotion_DT.csv',header=FALSE)
-head(df)
+head(x=df)
 
-library(data.table)
+library(package=data.table)
 DT=data.table(df)
-DT[,j=.(mean=mean(V1)),by=V2]
+DT[,j=mean(V1),by=V2]
 ```
+
+HW6-1.R: Please explain your following figures from https://ceiba.ntu.edu.tw/course/6d0f76/content/Word_Emotion_UTF8.csv
+a. barplot, hist, plot, and boxplot the distribution of scores for eat, with appropriate vector or matrix.
+b. produce summary of eat by min, quantile, median, mean, and max
 
