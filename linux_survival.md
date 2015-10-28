@@ -61,18 +61,25 @@ $grep -i -A 1 -B 10  work mydata.csv | head -n 5
 可用來取代
 
 ```bash
-$sed -e 's/Block/Rejection/g' data.csv > rejection.csv
-# replace all instances of the word 'Block' in data.csv with 'Rejection'
-# stream the results to a new file called rejection.csv
+$sed -e 's/keke/科科/g' mydata.csv > mydata2.csv
 ```
 
-轉系統常用
-carriage return
+> [注意]  轉不同系統處理的文件時常用這個指令！
+
+因為不同系統對於「換行字元」有不同的編碼方式。
+Windows 系統用了`\r\n` CR(carriage return) 與 LF(line feed) 來表達換行。蘋果用 CR, linux/unix 用 LF。[^1]
+
+
 
 ```bash
 $sed -e 's/\^M//g' winfile.in > linuxfile.out
 # sed -e 's/^M//g' testfile > testfile.out 也可以，但是要用 ctrl-v ctrl-m 來打出^ 
 ```
+
+- sort 與 uniq
+
+
+
 ## 比較詞表
 
 - diff
@@ -117,7 +124,7 @@ $comm <(sort lex1.txt) <(sort lex2.txt)
 
 ```
 
-2.產生一個新詞表，其中只含有比較之後在 lex1.txt 但沒出現在 lex2.txt 的詞（可想成用後者過濾前者）。[^1] 
+2.產生一個新詞表，其中只含有比較之後在 lex1.txt 但沒出現在 lex2.txt 的詞（可想成用後者過濾前者）。[^2] 
 
 
 
@@ -136,4 +143,6 @@ $cat lex3.txt
 
 附註：
 
-[^1] 如果有安裝 `vim` 的進階使用者，可看看更炫的 `vim -d` lex1.txt lex2.txt。
+[^1] 參見 https://en.wikipedia.org/wiki/Newline
+
+[^2] 如果有安裝 `vim` 的進階使用者，可看看更炫的 `vim -d` lex1.txt lex2.txt。
