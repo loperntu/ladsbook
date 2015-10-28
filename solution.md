@@ -50,7 +50,8 @@ Please explain your following figures from https://ceiba.ntu.edu.tw/course/6d0f7
 
 
 # HW6-2.R
-Probability Distribution
+Probability Distribution ![alt text](http://upload.wikimedia.org/wikipedia/commons/1/12/Dice_Distribution_%28bar%29.svg "Logo Title Text 1")
+
 1. Randomly generate more than 100 data points for the normal distribution with μ=0 and σ=1, e.g. rnorm(n=100)  
 
   1. How many data points are less than 0, 1, 2 and 3 respectively? And the corresponding percentages?
