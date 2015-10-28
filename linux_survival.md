@@ -36,30 +36,50 @@ $echo "語言學很重要" > note.txt
 
 - diff
 - sdiff
-- comm
+- comm （需要先將文件排序過）
 
-假定你有兩份詞表 lexicon1.txt 和 lexicon2.txt,分別長這樣。
+假定你有兩份詞表 lex1.txt 和 lex2.txt,分別長這樣。
 
 ```bash
-$cat lexicon1.txt
-11	動人心弦
-12	精湛
-26	美麗
-33	豐富
-35	美好
-57	漂亮
-88	好
+$cat lex1.txt
+動人心弦
+精湛
+美麗
+豐富
+美好
+漂亮
+好
 
-$cat lexicon2.txt
-88	好
-69	水喔
-33	漂亮
-29	正
+$cat lex2.txt
+好
+水喔
+漂亮
+正
 
 ```
 
-想要比較兩個詞表，並且同時產生一個檔案
+想要
+1. 比較兩個詞表，並且同時產生一個新詞表，其中只含有比較之後在 lex1.txt 但沒出現在 lex2.txt 的詞。（可想成用後者過濾前者）
+
+```bash
+$diff -u lex1.txt lex2.txt
+
+@@ -1,7 +1,4 @@
+-動人心弦
+-精湛
+-美麗
+-豐富
+-美好
+-漂亮
+ 好
++水喔
++漂亮
++正
+
+```
 
 
-
+```bash
+comm -2 -3 <(sort lex1.txt) <(sort lex2.txt)
+```
 
