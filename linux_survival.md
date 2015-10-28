@@ -75,7 +75,7 @@ Windows 系統用了`\r\n`，亦即「回車」 CR (carriage return) 與 「換�
 
 ```bash
 $sed -e 's/\^M//g' winfile.in > linuxfile.out
-# sed -e 's/^M//g' testfile > testfile.out 也可以，但是要用 ctrl-v ctrl-m 來打出^ 
+# sed -e 's/^M//g' testfile > testfile.out 也可以，但是要用 ctrl-v ctrl-m 來打出 ^ 
 ```
 
 - sort 與 uniq
