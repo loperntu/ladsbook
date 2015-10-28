@@ -54,7 +54,7 @@ Probability Distribution
 ![alt text](http://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Dice_Distribution_%28bar%29.svg/320px-Dice_Distribution_%28bar%29.svg.png)
 
 1. Randomly generate more than 100 data points for the normal distribution with μ=0 and σ=1, e.g. rnorm(n=100)
-![](
+![](http://upload.wikimedia.org/wikipedia/commons/a/a9/Empirical_Rule.PNG)
 
   1. How many data points are less than 0, 1, 2 and 3 respectively? And the corresponding percentages?
   2. Produces quantiles corresponding to the given probabilities of 50%, 84%, 97.5%, and 99.85%
