@@ -12,7 +12,7 @@
 - rm（刪除檔案或目錄）
 
 ```bash
-rm -rf non-empty_dir
+$rm -rf non-empty_dir
 ```
 
 ## 輸入輸出與管線
@@ -24,7 +24,7 @@ rm -rf non-empty_dir
 - echo
 
 ```bash
-echo "語言學很重要" > note.txt
+$echo "語言學很重要" > note.txt
 ```
 - cat（依標準輸出顯示檔案內容）
 - head
@@ -34,10 +34,31 @@ echo "語言學很重要" > note.txt
 
 ## 比較詞表
 
-- diff; sdiff
+- diff
+- sdiff
 - comm
 
-假定你有兩份詞表 lexicon1.txt 和 lexicon2.txt,想要比較兩個詞表，並且同時產生一個檔案
+假定你有兩份詞表 lexicon1.txt 和 lexicon2.txt,分別長這樣。
+
+```bash
+$cat lexicon1.txt
+11	動人心弦
+12	精湛
+26	美麗
+33	豐富
+35	美好
+57	漂亮
+88	好
+
+$cat lexicon2.txt
+88	好
+69	水喔
+33	漂亮
+29	正
+
+```
+
+想要比較兩個詞表，並且同時產生一個檔案
 
 
 
