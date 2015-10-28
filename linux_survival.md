@@ -45,7 +45,7 @@ $head -n 3 data.csv
 - more（看檔案內容，滿頁暫停按 space 鍵繼續，按 q 結束）
 - less（同上，但允許游標鍵上下捲動對內容進行瀏覽）
 
-- wc
+- wc （計算字數、行數、字元數）
 
 ```bash
 $wc mydata.csv
@@ -54,10 +54,25 @@ $wc -l mydata.csv
 - grep: 可以利用**正則表示法** (參考本書附錄) 來搜尋文本中的特定模式。有許多參數可設定。
 
 ```bash
-grep -i -A 1 -B 10  work mydata.csv | head -n 5
+$grep -i -A 1 -B 10  work mydata.csv | head -n 5
 ```
 
+- sed
+可用來取代
 
+```bash
+$sed -e 's/Block/Rejection/g' data.csv > rejection.csv
+# replace all instances of the word 'Block' in data.csv with 'Rejection'
+# stream the results to a new file called rejection.csv
+```
+
+轉系統常用
+carriage return
+
+```bash
+$sed -e 's/\^M//g' winfile.in > linuxfile.out
+# sed "s/^M//g" testfile > testfile.out 也可以，但是要用 ctrl-v ctrl-m 來打出^ 
+```
 ## 比較詞表
 
 - diff
