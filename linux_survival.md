@@ -63,7 +63,16 @@ $cat lex2.txt
 1. 比較並顯示兩個詞表的差異。
 
 ```bash
-
+$comm <(sort lex1.txt) <(sort lex2.txt)
+動人心弦
+		好
+	正
+	水喔
+		漂亮
+精湛
+美好
+美麗
+豐富
 
 ```
 
