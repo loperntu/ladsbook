@@ -50,7 +50,7 @@ Please explain your following figures from https://ceiba.ntu.edu.tw/course/6d0f7
 
 
 # HW6-2.R
-Probability Distribution ![alt text](http://upload.wikimedia.org/wikipedia/commons/1/12/Dice_Distribution_%28bar%29.svg "Logo Title Text 1")
+Probability Distribution !(https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Dice_Distribution_%28bar%29.svg/320px-Dice_Distribution_%28bar%29.svg.png)
 
 1. Randomly generate more than 100 data points for the normal distribution with μ=0 and σ=1, e.g. rnorm(n=100)  
 
