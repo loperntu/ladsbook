@@ -57,4 +57,4 @@ Probability Distribution
   2. Produces quantiles corresponding to the given probabilities of 50%, 84%, 97.5%, and 99.85%
   3. Calculate the mean for all data points.
 
-2. Produces quantiles corresponding to the given probabilities of 50%, 84%, 97.5%, and 99.85% in normal distribution with μ=0 and σ=1 (Hint: qnorm(p))
+2. Check quantiles corresponding to the given probabilities of 50%, 84%, 97.5%, and 99.85% in normal distribution with μ=0 and σ=1 (Hint: qnorm(p))
