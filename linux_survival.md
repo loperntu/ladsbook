@@ -31,3 +31,14 @@ echo "語言學很重要" > note.txt
 - tail
 - more（看檔案內容，滿頁暫停按 space 鍵繼續，按 q 結束）
 - less（同上，但允許游標鍵上下捲動對內容進行瀏覽）
+
+## 比較詞表
+
+- diff; sdiff
+- comm
+
+假定你有兩份詞表 lexicon1.txt 和 lexicon2.txt,想要比較兩個詞表，並且同時產生一個檔案
+
+
+
+
