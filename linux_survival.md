@@ -71,7 +71,7 @@ carriage return
 
 ```bash
 $sed -e 's/\^M//g' winfile.in > linuxfile.out
-# sed "s/^M//g" testfile > testfile.out 也可以，但是要用 ctrl-v ctrl-m 來打出^ 
+# sed -e 's/^M//g' testfile > testfile.out 也可以，但是要用 ctrl-v ctrl-m 來打出^ 
 ```
 ## 比較詞表
 
