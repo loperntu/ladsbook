@@ -34,6 +34,7 @@ X[1,2]
 HW5.R: For each word in https://ceiba.ntu.edu.tw/course/6d0f76/content/Word_Emotion_DT.csv
 aggregate the mean scores of each word.
 
+```{r}
 #download.file(url='https://ceiba.ntu.edu.tw/course/6d0f76/content/Word_Emotion_DT.csv',destfile='Word_Emotion_DT.csv',method='wget')
 
 #df=read.csv(file='Word_Emotion_DT.csv',header=FALSE)
@@ -45,7 +46,7 @@ aggregate the mean scores of each word.
 #DT=data.table(df)
 
 #DT[,j=.(mean=mean(V1)),by=V2]
-
+```
 {% validation %}
 {% solution %}
 {% endexercise %}
