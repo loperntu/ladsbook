@@ -80,7 +80,9 @@ $sed -e 's/\^M//g' winfile.in > linuxfile.out
 
 - sort 與 uniq
 
-
+```bash
+sort mydata.csv | uniq -c | sort -nr | head -n 5
+```
 
 ## 比較詞表
 
