@@ -84,6 +84,8 @@ $sed -e 's/\^M//g' winfile.in > linuxfile.out
 sort mydata.csv | uniq -c | sort -nr | head -n 5
 ```
 
+- cut
+
 ## 比較詞表
 
 - diff
