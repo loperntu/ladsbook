@@ -49,7 +49,10 @@ Please explain your following figures from https://ceiba.ntu.edu.tw/course/6d0f7
 2. produce summary of eat by min, quantile, median, mean, and max.
 
 
-# HW6-2.R Probability Distribution
+# HW6-2.R
+Probability Distribution
+
+
 ![](http://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Dice_Distribution_%28bar%29.svg/320px-Dice_Distribution_%28bar%29.svg.png)
 
 1. Randomly generate more than 100 data points for the normal distribution with μ=0 and σ=1, e.g. rnorm(n=100)
