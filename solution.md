@@ -43,15 +43,14 @@ DT=data.table(df)
 DT[,j=mean(V1),by=V2]
 ```
 
-# HW6-1.R
+# HW6-1.R (40%)
 Please explain your following figures for https://ceiba.ntu.edu.tw/course/6d0f76/content/Word_Emotion_UTF8.csv
 1. barplot, hist, plot, and boxplot the distribution of scores for eat, with appropriate vector or matrix.
 2. produce summary of eat by min, quantile, median, mean, and max.
 
 
-# HW6-2.R
+# HW6-2.R (60%)
 Probability Distribution
-
 
 ![](http://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Dice_Distribution_%28bar%29.svg/320px-Dice_Distribution_%28bar%29.svg.png)
 
