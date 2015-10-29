@@ -30,13 +30,32 @@ X[1,2]
 {% validation %}
 {% endexercise %}
 
-{% exercise %}
-HW5.R: For each word in https://ceiba.ntu.edu.tw/course/6d0f76/content/Word_Emotion_DT.csv
+# HW5-1.R
+For each word in https://ceiba.ntu.edu.tw/course/6d0f76/content/Word_Emotion_DT.csv
 aggregate the mean scores of each word.
-{% validation %}
-{% solution %}
-good	2.0
-eat     1.6
-cold	3.3
-{% endexercise %}
+```{r}
+download.file(url='https://ceiba.ntu.edu.tw/course/6d0f76/content/Word_Emotion_DT.csv',destfile='Word_Emotion_DT.csv',method='wget')
+df=read.csv(file='Word_Emotion_DT.csv',header=FALSE)
+head(x=df)
 
+library(package=data.table)
+DT=data.table(df)
+DT[,j=mean(V1),by=V2]
+```
+
+# HW6-1.R (40%)
+Please explain your following figures for https://ceiba.ntu.edu.tw/course/6d0f76/content/Word_Emotion_UTF8.csv
+1. barplot, hist, plot, and boxplot the distribution of scores for eat, with appropriate vector or matrix.
+2. produce summary of eat by min, quantile, median, mean, and max.
+
+# HW6-2.R (60%)
+Please read something about [probability distribution](http://books.google.com.tw/books?id=UvWkIg5E4foC):
+![](http://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Dice_Distribution_%28bar%29.svg/320px-Dice_Distribution_%28bar%29.svg.png)
+
+Then randomly generate more than 100 data points for the [normal distribution](http://en.wikipedia.org/wiki/Normal_distribution) with mean μ=0 and sd σ=1, e.g. rnorm(n=100)
+![](http://upload.wikimedia.org/wikipedia/commons/a/a9/Empirical_Rule.PNG)
+
+1. Produces quantiles corresponding to the given probabilities of 50%, 84%, 97.5%, and 99.85%
+2. Check the above quantiles by using qnorm(p) only.
+3. How many data points are less than 0, 1, 2 and 3 respectively? And the corresponding percentages?
+4. Calculate the mean for all data points.
