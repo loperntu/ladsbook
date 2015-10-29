@@ -12,7 +12,7 @@ Please read something about [probability distribution](http://books.google.com.t
 Then randomly generate more than 100 data points for the [normal distribution](http://en.wikipedia.org/wiki/Normal_distribution) with mean μ=0 and sd σ=1, e.g. rnorm(n=100)
 ![](http://upload.wikimedia.org/wikipedia/commons/a/a9/Empirical_Rule.PNG)
 
-1. Produces quantiles corresponding to the given probabilities of 50%, 84%, 97.5%, and 99.85%
+1. Produce quantiles corresponding to the given probabilities of 50%, 84%, 97.5%, and 99.85%
 2. Check the above quantiles by using qnorm(p) only.
 3. How many data points are less than 0, 1, 2 and 3 respectively? And the corresponding percentages?
 4. Calculate the mean for all data points.
