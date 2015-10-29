@@ -48,13 +48,11 @@ Please explain your following figures for https://ceiba.ntu.edu.tw/course/6d0f76
 1. barplot, hist, plot, and boxplot the distribution of scores for eat, with appropriate vector or matrix.
 2. produce summary of eat by min, quantile, median, mean, and max.
 
-
 # HW6-2.R (60%)
-Probability Distribution
-
+Please read something about [probability distribution](http://books.google.com.tw/books?id=UvWkIg5E4foC):
 ![](http://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Dice_Distribution_%28bar%29.svg/320px-Dice_Distribution_%28bar%29.svg.png)
 
-Randomly generate more than 100 data points for the normal distribution with mean μ=0 and sd σ=1, e.g. rnorm(n=100)
+Then randomly generate more than 100 data points for the [normal distribution](http://en.wikipedia.org/wiki/Normal_distribution) with mean μ=0 and sd σ=1, e.g. rnorm(n=100)
 ![](http://upload.wikimedia.org/wikipedia/commons/a/a9/Empirical_Rule.PNG)
 
 1. Produces quantiles corresponding to the given probabilities of 50%, 84%, 97.5%, and 99.85%
