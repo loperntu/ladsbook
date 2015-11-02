@@ -1,4 +1,10 @@
-# 習題解答
+# 習題
+
+# HW7.R
+Segment [Ma_Ying_Ju](dropbox.com/sh/pbbsla84bq6o678/AACtO1WjaMIxVh97eyWO81yNa)'s all talks with POS tagging,
+
+1. Get all nouns by grep and build a frequent table for noun tags (n 587,nr 20 ,nrt 1,ns 110,nt 10,nz 18..) 
+2. Build a frequency table of noun list. (經濟60、台灣42..)
 
 # HW6-1.R (40%)
 Please explain your following figures for https://ceiba.ntu.edu.tw/course/6d0f76/content/Word_Emotion_UTF8.csv
@@ -16,12 +22,6 @@ Then randomly generate more than 100 data points for the [normal distribution](h
 2. Check the above quantiles by using qnorm(p) only.
 3. How many data points are less than 0, 1, 2 and 3 respectively? And the corresponding percentages?
 4. Calculate the mean for all data points.
-
-# HW7.R
-Segment [Ma_Ying_Ju](dropbox.com/sh/pbbsla84bq6o678/AACtO1WjaMIxVh97eyWO81yNa)'s all talks with POS tagging,
-
-1. Get all nouns by grep and build a frequent table for noun tags (n 587,nr 20 ,nrt 1,ns 110,nt 10,nz 18..) 
-2. Build a frequency table of noun list. (經濟60、台灣42..)
 
 # HW5-1.R
 For each word in https://ceiba.ntu.edu.tw/course/6d0f76/content/Word_Emotion_DT.csv
