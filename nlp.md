@@ -43,3 +43,5 @@ getToken(output)
 getDependency(output)
 getSentiment(output)
 ```
+java -cp stanford-corenlp-3.5.2.jar:stanford-chinese-corenlp-2015-04-20-models.jar -Xmx2g edu.stanford.nlp.pipeline.StanfordCoreNLP -props StanfordCoreNLP-chinese.properties -file your-chinese-file.txt
+
