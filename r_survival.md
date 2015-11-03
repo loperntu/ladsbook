@@ -46,19 +46,25 @@ variables, data types and basic arithmetic
     - 邏輯 (logical)：True 或 False `is.logical()`
 
 
-* `NA` (missing value) 是保留字，邏輯常數。許多函式都帶有 `na.rm` 的 (刪除) 參數（預設是 `na.rm = FALSE`）。另外有幾個專門處理 `NA` 內建的函式如下。
-    * `is.na()`
-    * `na.fail()`
-    * `na.pass()`
-    * `na.omit()`, `na.exclude()`
-
-
+* `NA` (missing value) 是保留字，邏輯常數。
 ```
 > NA <-2
 Error in NA <- 2 : (do_set) 賦值公式左側不正確
 > NULL <-2
 Error in NULL <- 2 : (do_set) 賦值公式左側不正確
 ```
+
+許多函式都帶有 `na.rm` 的 (刪除) 參數（預設是 `na.rm = FALSE`）。另外有幾個專門處理 `NA` 內建的函式如下。
+    * `is.na()`
+    * `na.fail()`
+    * `na.pass()`
+    * `na.omit()`, `na.exclude()`
+
+```{r}
+
+
+```
+
 
 - 資料類型之間的強制轉換可透過不同內建函式：`as.numeric()`, `as.integer()`, `as.character()`, 等等。但也不是都可以。
 
@@ -95,7 +101,7 @@ such a facility. It accepts a path to a file (or a file connection) and, optiona
 
 - R also provides a powerful function `scan()` to load the contents of text files into *vectors*.
  
-
+- 
 
 
 文件編碼與轉碼
