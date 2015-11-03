@@ -54,14 +54,16 @@ Error in NA <- 2 : (do_set) 賦值公式左側不正確
 Error in NULL <- 2 : (do_set) 賦值公式左側不正確
 ```
 
-許多函式都帶有 `na.rm` 的 (刪除) 參數（預設是 `na.rm = FALSE`）。另外有幾個專門處理 `NA` 內建的函式如下。
-    * `is.na()`
-    * `na.fail()`
-    * `na.pass()`
-    * `na.omit()`, `na.exclude()`
+    - 許多函式都帶有 `na.rm` 的 (刪除) 參數（預設是 `na.rm = FALSE`）。另外有幾個專門處理 `NA` 內建的函式如下。
 
-```{r}
+        - `is.na()`
+        - `na.fail()`
+        - `na.pass()`
+        - `na.omit()`, `na.exclude()`
 
+
+```
+> air2 <- na.omit(airquality)
 
 ```
 
