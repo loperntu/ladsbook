@@ -186,7 +186,10 @@ x[1]
 
 # 讓元素不重複
 > txt <- "I do not not know"
-> 
+> txt2 <-strsplit(txt," ")[[1]];txt2
+## [1] "I"    "do"   "not"  "not"  "know"
+> unique(txt2)
+## [1] "I"    "do"   "not"  "know"
 
 
 > unlist(strsplit("I do not know", " "))
