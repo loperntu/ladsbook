@@ -183,8 +183,10 @@ x[1]
 > strsplit("I do not know", " ")
 ## [[1]]
 ## [1] "I"    "do"   "not"  "know"
-> 
 
+# 讓元素不重複
+> txt <- "I do not not know"
+> 
 
 
 > unlist(strsplit("I do not know", " "))
