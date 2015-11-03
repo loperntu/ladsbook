@@ -172,26 +172,28 @@ x[1]
 > tolower(aa)
 > toupper(aa)
 > chartr("o", "x", aa)
+```
+    - 也方便用來更改行列的變數名稱
 
+```
 > paste("I", "do", "not", "know", sep = " ")
-# 也方便用來更改行列的變數名稱
 > paste("Student", 1:6, sep="-")
 # 或者將所有文字向量黏貼起來
 > paste("Student", 1:6, sep="-", collapse = ":")
-# 把一段句子採成單字，以空格為界
+```
+    - 把一段句子採成單字，以空格為界
 
+
+```
 > strsplit("I do not know", " ")
 ## [[1]]
 ## [1] "I"    "do"   "not"  "know"
-
 # 讓元素不重複
 > txt <- "I do not not know"
 > txt2 <-strsplit(txt," ")[[1]];txt2
 ## [1] "I"    "do"   "not"  "not"  "know"
 > unique(txt2)
 ## [1] "I"    "do"   "not"  "know"
-
-
 > unlist(strsplit("I do not know", " "))
 ```
 另外特別值得一提的是 `grep()` 和 `sub()`。前者可用來搜尋特定的字串模式，後者可用來將符合搜尋條件的取代字串。
