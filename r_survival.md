@@ -66,7 +66,7 @@ Error in NULL <- 2 : (do_set) 賦值公式左側不正確
 > air2 <- na.omit(airquality)
 
 ```
-
+    
 
 - 資料類型之間的強制轉換可透過不同內建函式：`as.numeric()`, `as.integer()`, `as.character()`, 等等。但也不是都可以。
 
@@ -172,12 +172,21 @@ x[1]
 > tolower(aa)
 > toupper(aa)
 > chartr("o", "x", aa)
+
 > paste("I", "do", "not", "know", sep = " ")
 # 也方便用來更改行列的變數名稱
 > paste("Student", 1:6, sep="-")
 # 或者將所有文字向量黏貼起來
 > paste("Student", 1:6, sep="-", collapse = ":")
+# 把一段句子採成單字，以空格為界
+
 > strsplit("I do not know", " ")
+## [[1]]
+## [1] "I"    "do"   "not"  "know"
+> 
+
+
+
 > unlist(strsplit("I do not know", " "))
 ```
 另外特別值得一提的是 `grep()` 和 `sub()`。前者可用來搜尋特定的字串模式，後者可用來將符合搜尋條件的取代字串。
