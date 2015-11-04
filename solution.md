@@ -37,7 +37,7 @@ Please read some material about [probability distribution](http://books.google.c
 Then randomly generate more than 100 data points for the [normal distribution](http://en.wikipedia.org/wiki/Normal_distribution) with mean μ=0 and sd σ=1, e.g. rnorm(n=100)
 ![](http://upload.wikimedia.org/wikipedia/commons/a/a9/Empirical_Rule.PNG)
 ```{r}
-x=rnorm(n=10000)
+x=rnorm(n=10000) #mean=0,sd=1
 ```
 1. Produce quantiles corresponding to the given probabilities of 50%, 84%, 97.5%, and 99.85%
 ```{r}
