@@ -9,20 +9,60 @@ Segment [Ma_Ying_Ju](http://dropbox.com/sh/pbbsla84bq6o678/AACtO1WjaMIxVh97eyWO8
 
 # HW6-1.R (40%)
 Please explain your following figures for https://ceiba.ntu.edu.tw/course/6d0f76/content/Word_Emotion_UTF8.csv
+```{r}
+df=read.csv(file='Word_Emotion_UTF8.csv')
+attach(df)
+```
 1. barplot, hist, plot, and boxplot the distribution of scores for eat, with appropriate vector or matrix.
+```{r}
+barplot(table(eat))
+hist(eat)
+plot(table(eat))
+boxplot(eat)
+```
 2. produce summary of eat by min, quantile, median, mean, and max.
+```{r}
+min(eat)
+quantile(x=eat,probs=0.25)
+median(x=eat)
+mean(x=eat)
+quantile(x=eat,probs=0.75)
+max(x=eat)
+```
 
 # HW6-2.R (60%)
-Please read something about [probability distribution](http://books.google.com.tw/books?id=UvWkIg5E4foC):
+Please read some material about [probability distribution](http://books.google.com.tw/books?id=UvWkIg5E4foC):
 ![](http://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Dice_Distribution_%28bar%29.svg/320px-Dice_Distribution_%28bar%29.svg.png)
 
 Then randomly generate more than 100 data points for the [normal distribution](http://en.wikipedia.org/wiki/Normal_distribution) with mean μ=0 and sd σ=1, e.g. rnorm(n=100)
 ![](http://upload.wikimedia.org/wikipedia/commons/a/a9/Empirical_Rule.PNG)
-
+```{r}
+x=rnorm(n=10000)
+```
 1. Produce quantiles corresponding to the given probabilities of 50%, 84%, 97.5%, and 99.85%
+```{r}
+quantile(x=x,probs=0.5)
+quantile(x=x,probs=0.84)
+quantile(x=x,probs=0.975)
+quantile(x=x,probs=0.9985)
+```
 2. Check the above quantiles by using qnorm(p) only.
+```{r}
+qnorm(p=0.5)
+qnorm(p=0.84)
+qnorm(p=0.975)
+qnorm(p=0.9985)
+```
 3. How many data points are less than 0, 1, 2 and 3 respectively? And the corresponding percentages?
+```{r}
+sum(x<1)
+sum(x<2)
+sum(x<3)
+```
 4. Calculate the mean for all data points.
+```{r}
+mean(x=x)
+```
 
 # HW5-1.R
 For each word in https://ceiba.ntu.edu.tw/course/6d0f76/content/Word_Emotion_DT.csv
