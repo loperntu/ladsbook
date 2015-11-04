@@ -4,7 +4,13 @@
 
 為什麼語言學/語言分析在 text analytics 中的角色很重要？
 
-先看看說謊的語言行為：
+- 自然語言的表達與理解涉及的認知歷程很複雜。
+- 還有語言的個體性 (expression is individualistic)
+- 還有社會與文化的多重意涵。
+
+
+
+> 先看看說謊的語言行為：
 
 {% youtube %}https://www.youtube.com/embed/H0-WkpmTPrM {% endyoutube %}
 
