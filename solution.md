@@ -1,7 +1,7 @@
 # 習題
 
 # HW7.R
-Segment [Ma_Ying_Ju](dropbox.com/sh/pbbsla84bq6o678/AACtO1WjaMIxVh97eyWO81yNa)'s all talks with POS tagging,
+Segment [Ma_Ying_Ju](http://dropbox.com/sh/pbbsla84bq6o678/AACtO1WjaMIxVh97eyWO81yNa)'s all talks with POS tagging,
 
 1. Get all nouns by grep() and build a frequent table of noun tags (n 587, nr 20 ,nrt 1, ns 110, nt 10, nz 18..) 
 2. Build a frequency table of noun list. (經濟 60, 台灣 42..)
