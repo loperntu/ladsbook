@@ -5,6 +5,7 @@ Segment [Ma_Ying_Ju](http://dropbox.com/sh/pbbsla84bq6o678/AACtO1WjaMIxVh97eyWO8
 
 1. Get all nouns by grep() and build a frequent table of noun tags (n 587, nr 20 ,nrt 1, ns 110, nt 10, nz 18..) 
 2. Build a frequency table of noun list. (經濟 60, 台灣 42..)
+3. Draw appropriate figures to show the above results.
 
 # HW6-1.R (40%)
 Please explain your following figures for https://ceiba.ntu.edu.tw/course/6d0f76/content/Word_Emotion_UTF8.csv
