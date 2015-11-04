@@ -41,17 +41,11 @@ x=rnorm(n=10000)
 ```
 1. Produce quantiles corresponding to the given probabilities of 50%, 84%, 97.5%, and 99.85%
 ```{r}
-quantile(x=x,probs=0.5)
-quantile(x=x,probs=0.84)
-quantile(x=x,probs=0.975)
-quantile(x=x,probs=0.9985)
+quantile(x=x,probs=c(0.5,0.84,0.975,0.9985))
 ```
 2. Check the above quantiles by using qnorm(p) only.
 ```{r}
-qnorm(p=0.5)
-qnorm(p=0.84)
-qnorm(p=0.975)
-qnorm(p=0.9985)
+qnorm(p=c(0.5,0.84,0.975,0.9985))
 ```
 3. How many data points are less than 0, 1, 2 and 3 respectively? And the corresponding percentages?
 ```{r}
