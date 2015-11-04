@@ -49,6 +49,7 @@ qnorm(p=c(0.5,0.84,0.975,0.9985))
 ```
 3. How many data points are less than 0, 1, 2 and 3 respectively? And the corresponding percentages?
 ```{r}
+sum(x<0)
 sum(x<1)
 sum(x<2)
 sum(x<3)
