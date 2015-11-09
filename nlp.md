@@ -10,7 +10,7 @@
 
 ## 自然語言處理技術重點
 
-- 句法剖析 (Syntactic Parsing)
+- 句法剖析 (Syntactic Parsing)/句塊抽取 (Chunking)
 - 詞義排歧 (Word Sense Disambiguation, WSD)
 - 共指消歧 (Co-reference Resolution)
 - 命名實體辨識 (Named Entity Recognition, NER)
@@ -27,7 +27,7 @@ NLP 通常結合了各項**語言資源** (language resources)，如語料庫、
 - [語言雲](http://www.ltp-cloud.com)
 - [玻森](http://bosonnlp.com/)
  
-
+也可以利用 `Gate`平台，整合標記與自然語言處理模組來做。
 
 ---
 ## R 自然語言處理套件
@@ -42,7 +42,7 @@ NLP 通常結合了各項**語言資源** (language resources)，如語料庫、
 - `tmcn` 適應中文的 `tm` 改良，方便編碼轉換。
 - `jiebaR`，`Rwordseg`中文斷詞
 
-以下用 [`coreNLP`](http://cran.r-project.org/web/packages/coreNLP) 為例
+`openNLP` 和 `coreNLP` 是目前比較厲害的成果。以下用 [`coreNLP`](http://cran.r-project.org/web/packages/coreNLP) 為例
 
 <http://github.com/statsmaths/coreNLP>
 ```{r}
