@@ -14,8 +14,9 @@
 
 ## 語料標記工具
 - [GATE](https://gate.ac.uk) 是較有歷史的平台。
+- [WordFreak](http://wordfreak.sourceforge.net/) 是另一個老牌標記工具。
 
-
+如何使用請參見另一本書 COPENS。
 
 
 ---
