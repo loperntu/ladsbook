@@ -1,13 +1,22 @@
 # 自然語言處理
 
+- 目前的文本挖掘都必須是由 NLP 技術來強化。舉例：http://textminingonline.com/
+
+![tm.online](tm.nlp.png)
+
+- NLP 的成熟與語言知識介入多深，決定了文本挖掘有趣到什麼程度。
+- 商用的系統也出現不少。
 
 
+## 自然語言處理技術重點
+
+- 句法剖析 (Syntactic Parsing)
+- 詞義排歧 (Word Sense Disambiguation, WSD)
+- 共指消歧 (Co-reference Resolution)
+- 命名實體辨識 (Named Entity Recognition, NER)
 
 
-
-
-
-
+NLP 通常結合了各項**語言資源** (language resources)，如語料庫、詞彙知識庫 (lexical knowledge base)、知識本體 (ontologies) 等等來提升機器對於文本訊息的理解。
 
 
 
@@ -51,3 +60,4 @@ getToken(output)
 getDependency(output)
 getSentiment(output)
 ```
+
