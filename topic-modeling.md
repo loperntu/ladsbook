@@ -49,6 +49,22 @@ matrix <- create_matrix(cbind(as.vector(data$Title),
             removeNumbers=TRUE, 
             stemWords=TRUE, 
             weighting=weightTf)
+
+# Perform Latent Dirichlet Allocation
+
+## First we want to determine the number of topics in our data. 
+# In the case of the NYTimes dataset, the data have already been classified as a training set for supervised learning algorithms. 
+# Therefore, we can use the unique() function to determine the number of unique topic categories (k) in our data.
+# Next, we use our matrix and this k value to generate the LDA model.
+
+k <- length(unique(data$Topic.Code))
+lda <- LDA(matrix, k)
+
+# View the Results
+## view the results by most likely term per topic, or most likely topic per document.
+
+terms(lda)
+topics(lda)
 ```
 
 
