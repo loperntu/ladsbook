@@ -10,9 +10,8 @@
 
 ### 文本分類基本概念
 
-- It refers to the task of assigning a text document to one or more (pre-defined) classes or categories. 
-- Popular supervised text categorization
-algorithms: Naive Bayes, k Nearest Neighbor (kNN) and Logistic Regression, Support Vector Machines and Decision Trees
+- 類別及其數量要先訂好。
+- 可以用不同的機器學習演算法實驗。Popular supervised text categorization algorithms: Naive Bayes, k Nearest Neighbor (kNN) and Logistic Regression, Support Vector Machines and Decision Trees
 
 
 
