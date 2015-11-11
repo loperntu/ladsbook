@@ -54,8 +54,7 @@
     ```
     > 注意養成資料分析好習慣：隨時看看修改後的資料樣子。`writeLines(as.character(docs[[30]]))`
     
-    
-    
+    - 語詞詞形化 (lemmatisation) 
     
     
     
