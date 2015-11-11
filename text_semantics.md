@@ -79,10 +79,10 @@ freq <- colSums(as.matrix(dtm))
 # length should be total number of terms
 length(freq)
 # create sort order (descending)
-ord <- order(freq,decreasing=TRUE)
+ord <- order(freq, decreasing=TRUE)
 # List all terms in decreasing order of freq and write to disk
 freq[ord]
-write.csv(freq[ord],”word_freq.csv”)
+write.csv(freq[ord],"word_freq.csv")
 ```
 
 
