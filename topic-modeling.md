@@ -29,7 +29,27 @@ $$
 - `topicmodels`: Topic modeling interface to the C code developed by by David M. Blei for Topic Modeling (Latent Dirichlet Allocation (LDA), and Correlated Topics Models (CTM)).
 - `lda`
 - `LDAvis` Interactive visualization of topic models.
+- `RTextTools`
 
+
+```r
+library(RTextTools)
+library(topicmodels)
+
+# loading the data (the bundled NYTimes dataset contains headlines from front-page NYTimes articles)
+# 隨機挑 1000 篇
+data(NYTimes)
+data <- NYTimes[sample(1:3100, size=1000, replace=FALSE),]
+
+# Create a DocumentTermMatrix
+# create_matrix() 建立的 dtm 可以當topimodels 的 LDA() 的input
+matrix <- create_matrix(cbind(as.vector(data$Title),
+            as.vector(data$Subject)), 
+            language="english", 
+            removeNumbers=TRUE, 
+            stemWords=TRUE, 
+            weighting=weightTf)
+```
 
 
 
