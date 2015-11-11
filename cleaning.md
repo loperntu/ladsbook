@@ -16,16 +16,16 @@
     ```r
     # 拼音文字轉小寫
     docs <-tm_map(docs,content_transformer(tolower))
+    
     # 移除可能有問題的符號
     toSpace <- content_transformer(function(x, pattern) {
         return (gsub(pattern, " ", x))
         }
     )
-    
-    docs <- tm_map(docs, toSpace, “-“)
-    docs <- tm_map(docs, toSpace, “’”)
-    docs <- tm_map(docs, toSpace, “‘”)
-    docs <- tm_map(docs, toSpace, “•”)
-    docs <- tm_map(docs, toSpace, “””)
-    docs <- tm_map(docs, toSpace, ““”)
+    docs <- tm_map(docs, toSpace, "-")
+    docs <- tm_map(docs, toSpace, "’")
+    docs <- tm_map(docs, toSpace, "‘")
+    docs <- tm_map(docs, toSpace, "•")
+    docs <- tm_map(docs, toSpace, "”")
+    docs <- tm_map(docs, toSpace, "“")
 ```
