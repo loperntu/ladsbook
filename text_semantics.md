@@ -110,5 +110,12 @@ semantic representation
 
 ## `word2vector` 
 
-
 `tmcn.word2vec`: R interface to word2vec
+
+---
+- `tm` 套件提供一個將文本轉成 **詞文矩陣 (term-document matrix)** 的函式，方便後續各種模式的處理。
+
+
+
+
+
