@@ -33,14 +33,18 @@
     - 移除標點符號 (punctuation)、數字 (digits)、空白 (white space)
     ```r
     docs <- tm_map(docs, removePunctuation)
-#Strip digits
-docs <- tm_map(docs, removeNumbers)
-#remove stopwords
-docs <- tm_map(docs, removeWords, stopwords(“english”))
-#remove whitespace
-docs <- tm_map(docs, stripWhitespace)
-#Good practice to check every now and then
-writeLines(as.character(docs[[30]]))
+    docs <- tm_map(docs, removeNumbers)
+    docs <- tm_map(docs, stripWhitespace)
+    ```
+    - 停用詞 (stop words)
+    ```r
+    docs <- tm_map(docs, removeWords, stopwords("english"))
+    ```
+    
+    > 注意養成資料分析好習慣：隨時看看修改後的資料樣子。`writeLines(as.character(docs[[30]]))`
+
+
+
 #Stem document
 docs <- tm_map(docs,stemDocument)
 
