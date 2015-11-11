@@ -6,7 +6,7 @@ Segment [Ma_Ying_Ju](dropbox.com/sh/pbbsla84bq6o678/AACtO1WjaMIxVh97eyWO81yNa)'s
 library(jiebaR)
 lines=readLines(con='MYJ1030101.txt')
 pos_vector=names(word_vector)
-word_vector=worker('tag')lines
+word_vector=worker('tag')<-lines
 ```
 1. Get all nouns by grep() and build a frequent table of noun tags (n 587, nr 20, nr 1, ...) 30%
 ```{r}
