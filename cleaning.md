@@ -56,7 +56,11 @@
     
     - 語詞詞形化 (lemmatisation) 
     
+- 表情符號 (Emoticon)
+
+    表情符號在社群媒體的意義重大，是當代語言使用的一大特點。可參考 [^1]
     
     
     
-    
+---
+[^1] [Emoticons decoder for social media sentiment analysis in R](http://www.r-bloggers.com/emoticons-decoder-for-social-media-sentiment-analysis-in-r/)
