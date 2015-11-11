@@ -26,9 +26,16 @@ $rm -rf non-empty_dir
 
 ## 輸入輸出與管線
 
+- 指令列的哲學：每個工具應該 do one specific task。根據不同需要在結合起來成為更彈性與強大的工具。如何結合？寫 (bash) **scripts** 或是利用 **pipes**.
+- 當一個程式/指令執行時，有三個 channels 被開啟
+    - `stdin` (called by 0)
+    - `stdout` (called by 1)
+    - `stderr` (called by 2)
 
 
-## 文本處理常用
+
+
+## 文本處理常用指令
 
 - echo
 
@@ -78,8 +85,17 @@ $sed -e 's/\^M//g' winfile.in > linuxfile.out
 # sed -e 's/^M//g' testfile > testfile.out 也可以，但是要用 ctrl-v ctrl-m 來打出 ^ 
 ```
 
-- sort 與 uniq
-
+- `sort` 與 `uniq`
+    - `sort` the lines of text *alphabetically* or *numerically*.
+    ```bash
+    # sort [option] file(s) 
+    # -n   按數值排序
+    # -r   reverse sort order
+    # -kn  sort on the n-th field (1 being the first field)
+    ```
+    - `uniq` 可用來刪除、顯示、計算重複的列。通常收的輸入是 sorted input.
+    
+常結合起來的例子
 ```bash
 sort mydata.csv | uniq -c | sort -nr | head -n 5
 ```
