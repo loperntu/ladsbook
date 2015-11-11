@@ -40,13 +40,24 @@
     ```r
     docs <- tm_map(docs, removeWords, stopwords("english"))
     ```
+    可自訂詞表
     
-    > 注意養成資料分析好習慣：隨時看看修改後的資料樣子。`writeLines(as.character(docs[[30]]))`
-
-
-
-#Stem document
-docs <- tm_map(docs,stemDocument)
-
-
+    ```r
+    myStopwords <- c("can", "it","may","might","great","kind")
+    docs <- tm_map(docs, removeWords, myStopwords)
     ```
+    選擇「停用詞」這是個大學問。
+    
+    - 語詞詞幹化 (stemmization) 
+    ```r
+    docs <- tm_map(docs,stemDocument)
+    ```
+    > 注意養成資料分析好習慣：隨時看看修改後的資料樣子。`writeLines(as.character(docs[[30]]))`
+    
+    
+    
+    
+    
+    
+    
+    
