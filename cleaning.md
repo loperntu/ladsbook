@@ -12,12 +12,13 @@
     ```r
     writeLines(as.character(docs[[30]]))
     ```
-    - 視需要進行各種前處理
+- 視需要進行各種前處理
+    - 拼音文字轉小寫    
     ```r
-    # 拼音文字轉小寫
     docs <-tm_map(docs,content_transformer(tolower))
-    
-    # 移除可能有問題的符號
+    ```
+    - 移除可能有問題的符號
+    ```r
     toSpace <- content_transformer(function(x, pattern) {
         return (gsub(pattern, " ", x))
         }
@@ -28,4 +29,20 @@
     docs <- tm_map(docs, toSpace, "•")
     docs <- tm_map(docs, toSpace, "”")
     docs <- tm_map(docs, toSpace, "“")
-```
+    ```
+    - 移除標點符號 (punctuation)、數字 (digits)、空白 (white space)
+    ```r
+    docs <- tm_map(docs, removePunctuation)
+#Strip digits
+docs <- tm_map(docs, removeNumbers)
+#remove stopwords
+docs <- tm_map(docs, removeWords, stopwords(“english”))
+#remove whitespace
+docs <- tm_map(docs, stripWhitespace)
+#Good practice to check every now and then
+writeLines(as.character(docs[[30]]))
+#Stem document
+docs <- tm_map(docs,stemDocument)
+
+
+    ```
