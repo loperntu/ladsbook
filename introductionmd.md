@@ -148,6 +148,11 @@ Text Analytics with R (III)
 
 
 
+這個圖 [^1] 說出 (之前的!) 文本挖掘作法流程
+![](tm101.jpg)
+
+
+
 
 ---
 ## 相關套件
@@ -192,7 +197,8 @@ The current standard for text analysis in R is the `tm` package. It provides fac
 
 
 
-
+---
+[^1] 出處：https://manoharswamynathan.files.wordpress.com/2015/04/r-text-mining-001.jpg
 
 
 
