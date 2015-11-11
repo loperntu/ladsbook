@@ -38,3 +38,13 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 ## 文本網路
 <http://noduslabs.com/research/pathways-meaning-circulation-text-network-analysis/>
 
+
+字詞的關聯網路可以某個程度揭示 **歷史觀** [^1]
+
+
+![](bighistory.jpg)
+
+
+---
+[^1] [Big data analysis of state of the union remarks changes view of American History](http://phys.org/news/2015-08-big-analysis-state-union-remarks.html?utm_content=bufferc328f&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer)
+
