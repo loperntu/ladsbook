@@ -10,7 +10,7 @@ for(filename in list.files(path)){
   lines=c(lines,readLines(con))
 }
 library(jiebaR)
-word_vector=worker('tag')=lines
+word_vector=worker(type='tag')=lines
 tag_vector=names(word_vector)
 ```
 1. Get all nouns by grep() and build a frequent table of noun tags (n 587, nr 20, nr 1, ...) 30%
