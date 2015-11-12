@@ -9,6 +9,7 @@ for(filename in list.files(path)){
   con=paste(path,filename,sep='')
   lines=c(lines,readLines(con))
 }
+
 library(jiebaR)
 word_vector=worker(type='tag')=lines
 tag_vector=names(word_vector)
