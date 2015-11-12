@@ -1,22 +1,26 @@
 # 習題解答
 
 # HW7
-Segment [Ma_Ying_Ju](dropbox.com/sh/pbbsla84bq6o678/AACtO1WjaMIxVh97eyWO81yNa)'s talks with POS tagging.
+Segment [Ma_Ying_Ju](http://dropbox.com/sh/pbbsla84bq6o678/AACtO1WjaMIxVh97eyWO81yNa)'s talks with POS tagging.
 ```{r}
+lines=vector()
+path='Ma_Ying_Ju/'
+for(filename in list.files(path)){
+  con=paste(path,filename,sep='')
+  lines=c(lines,readLines(con))
+}
 library(jiebaR)
-lines=readLines(con='MYJ1030101.txt')
 word_vector=worker('tag')=lines
-pos_vector=names(word_vector)
+tag_vector=names(word_vector)
 ```
 1. Get all nouns by grep() and build a frequent table of noun tags (n 587, nr 20, nr 1, ...) 30%
 ```{r}
-nountag_vector=grep(pattern='n',x=pos_vector,value=T)
+nountag_vector=grep(pattern='n',x=tag_vector,value=T)
 sorted_tags=sort(table(nountag_vector),decreasing=T)
 ```
 2. Build a frequency table of noun list. (經濟 60, 台灣 42..) 30% 
 ```{r}
-index_vector=grep(pattern='n',x=pos_vector,value=F)
-pos_vector[index_vector]
+index_vector=grep(pattern='n',x=tag_vector,value=F)
 sorted_nouns=sort(table(word_vector[index_vector]),decreasing=T)
 ```
 3. Draw appropriate figures to show the above results. 40%
