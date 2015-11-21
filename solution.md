@@ -1,5 +1,30 @@
 # 習題解答
 
+HW1.R: Segment [1001_chinatimes.txt](https://ceiba.ntu.edu.tw/course/6d0f76/content/1001_chinatimes.txt) and put the words in a vector.
+```{r}
+txt=scan('1001_chinatimes.txt',what='char')
+library(jiebaR)
+word_vecotr=worker()<=txt
+```
+
+HW2.R: Find the most frequent words in [1001_chinatimes.txt](https://ceiba.ntu.edu.tw/course/6d0f76/content/1001_chinatimes.txt)
+```{r}
+table(word_vector)
+```
+
+HW3.sh: Segment [1001_chinatimes.txt](https://ceiba.ntu.edu.tw/course/6d0f76/content/1001_chinatimes.txt) and find the most frequent words.
+```
+cat 1001_chinatimes.txt | Rscript segmentation.R | tr ' ' '\n' | sort | uniq -c | sort -nr
+```
+
+HW4.R: How many times do the word I and like co-occur?
+```{r}
+X=matrix(c(0,2,1,0,0,0,0),
+         c(2,0,0,1,0,1,0,0))
+colnames(X)=c('I','like','enjoy','deep','leanring','NLP','flying','.')
+X[1,2]
+```
+
 # HW7
 Segment [Ma_Ying_Ju](http://dropbox.com/sh/pbbsla84bq6o678/AACtO1WjaMIxVh97eyWO81yNa)'s talks with POS tagging.
 ```{r}
@@ -59,33 +84,3 @@ library(package=data.table)
 DT=data.table(df)
 DT[,j=mean(V1),by=V2]
 ```
-
-{% exercise %}
-HW1.R: Segment 1001_chinatimes.txt
-{% validation %}
-{% solution %}
-library(jiebaR)
-worker()<=txt
-{% endexercise %}
-
-{% exercise %}
-HW2.R: Find the most frequent words in 1001_chinatimes.txt
-{% validation %}
-{% solution %}
-table(words_vector)
-{% endexercise %}
-
-{% exercise %}
-HW3.sh: Segment 1001_chinatimes.txt and find the most frequent words.
-{% validation %}
-{% solution %}
-cat 1001_chinatimes.txt | Rscript segmentation.R | tr ' ' '\n' | sort | uniq -c | sort -nr
-{% endexercise %}
-
-{% exercise %}
-HW4.R: How many times do I and like co-occur?
-{% initial %}
-{% solution %}
-X[1,2]
-{% validation %}
-{% endexercise %}
