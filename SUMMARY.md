@@ -27,7 +27,7 @@
 * [情緒分析](sentiment_analysis.md)
 * [個人文體風格](stylometrics.md)
 * [文本真實性](authenticity.md)
-* [立場與價值偵測](stance-detection.md)
+* [立場、意圖與價值](stance-detection.md)
 * [附錄](appendix.md)
    * [Linux 存活指令](linux_survival.md)
    * [R 存活指令](r_survival.md)
