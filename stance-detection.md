@@ -44,23 +44,45 @@
 
 
 
+## 立場自動偵測
+Reconizing stances in Debates
 
+
+
+## 文本呈現的作者意圖 
+
+
+```
+"I am dying to see the Life of Pi"
+我迫不及待要看少年 pi 的奇幻漂流了
+
+"I am looking for a car to replace my old Ford Focus, any suggestions?"
+
+(Liu, 2015)
+```
+
+- intention mining
 
 
 ---
-## 太陽花學運
-
-
-
-
-
-
 ## 批踢踢立場偵測
+
+
+
+
+
+
+
+
+
 
 ### 批踢踢語料庫
 
 - 每一行潑文受限於 27 個中文字；每則潑文前面可以放推噓標籤。
 - 
+
+---
+## 舉例：太陽花學運
 
 
 
