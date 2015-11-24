@@ -42,17 +42,22 @@ $$
 
 
 
+---
+# 文本的幾何表徵
+
+
+## 多向度標示法 
+
+多向度標示法 (Multi-Dimensional Scaling, MDS) 也是一種可以用在文本分析的多變量資料分析方法。特別是希望呈現處資料內的連續結構 (向度、因素等)，而非離散結構 (分類、分割等) 的時候。
+
+- 常被運用在分析相似度
+- Multidimensional scaling takes a table of similarities among words and turns it into a visual display like a map showing distances among words. And you can use a diagram called **word cloud** to display the results.
+
+- 去摺 (unfolding) 原理可用來詮釋受試者對於物件偏好的潛在機制。將受試者和物件同時標示在同一個空間，受試者距離物件的遠近就反映他對物件的偏好程度。
 
 
 
-
-----
-
-## Multidimensional scaling
-
-    * Multidimensional scaling takes a table of similarities among words and turns it into a visual display like a map showing distances among words.And you can use a diagram called **word cloud** to display the results.
-
-    * Extending word clouds with covers: 
+- Extending word clouds with covers: 
 Drawing boundaries around groups of words is one way to get some of this information. These boundaries are called **covers**. Covers surround the places in the chart where similar words congregate together.(Stuhl, 2015)
 
 ![Word cloud with convex hull covers](wordcloud.jpg) 
