@@ -86,14 +86,39 @@ Warning message:
 
 資料匯入
 
-- `read.table()`, `read.csv()`
+- `read.table()` 或 `read.csv()`
 
 ```{r}
-> mydata <- read.table()
+> cars <- read.csv('/Users/shukai/data4practice/cars.csv', row.names=1)
+> # row.names=1 告訴 R 第一列是名稱
+```
+
+- 如果要一次載入許多 csv 檔成為不同的 data frame
+
+```{r}
+> folder <- "/Users/shukai/data4practice/"
+> file_list <- list.files(path=folder, pattern="*.csv") 
+> for (i in 1:length(file_list)){
+    assign(file_list[i], 
+    read.csv(paste(folder, file_list[i], sep=''))
+>     )
+> }
+
+```
+
+- 如果要一次載入許多 csv 檔成為同一個 data frame
+
+```{r}
+> data <- 
+>   do.call("rbind", 
+>           lapply(file_list, 
+>                  function(x) 
+>                  read.csv(paste(folder, x, sep=''), 
+>                  stringsAsFactors = FALSE)))
 ```
 
 - For unstructured textual data, it is often easier to
-read in the file as lines of texts and then parse the contents￼ ￼ ￼ afterward. readLines() (notice the capital "L") provides
+read in the file as lines of texts and then parse the contents afterward. readLines() (notice the capital "L") provides
 such a facility. It accepts a path to a file (or a file connection) and, optionally, a maximum number of lines to read.
 
 ```
