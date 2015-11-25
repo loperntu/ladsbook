@@ -115,12 +115,13 @@ such a facility. It accepts a path to a file (or a file connection) and, optiona
 
 匯出檔案
 
-- 用 `write.table()` 輸出 csv
+- 用 `write.table()` 或 `write.csv()` 輸出 csv
 
 ```{r}
 > mydata <- rivers 
 # rivers 是 R 內建的資料集。
 > write.table(mydata, file = "rivers.csv", sep = ",")
+> write.csv(mydata, 'rivers.csv', row.names=T)
 ```
 
 
