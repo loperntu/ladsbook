@@ -9,8 +9,10 @@ train=read.csv(file='train.csv',stringsAsFactors=FALSE)
 keywords=list()
 for(i in 1:10){
     words=worker()<=paste(train[train$category==i,]$news,collapse='')
+    
     keywords[[i]]=names(sort(table(words),decreasing=T))[1:100]
 }
+
 categorize=function(words){
     output=1
     max=0
