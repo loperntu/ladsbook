@@ -9,11 +9,11 @@ train=read.csv(file='train.csv',stringsAsFactors=FALSE)
 keywords=list()
 for(i in 1:10){
     words=worker()<=paste(train[train$category==i,]$news,collapse='')
-    keywords[[i]]=names(sort(table(words),decreasing=T))[1:900]
+    keywords[[i]]=names(sort(table(words),decreasing=T))[1:100]
 }
 
 categorize=function(words){
-    output=2
+    output=1
     max=0
     for(i in 1:10){
         score=0
@@ -31,7 +31,7 @@ categorize=function(words){
 df=data.frame(id=NA,category=NA)
 test=read.csv('test.csv',stringsAsFactors=F)
 
-for(i in 1:1000){#nrow(test)){
+for(i in 1:nrow(test)){
     words=worker()<=test$news[i]
     df[i,]=c(test$id[i],categorize(words))
 }
