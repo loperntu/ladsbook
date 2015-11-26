@@ -1,5 +1,45 @@
 # 習題解答
 
+baseline.R
+```{r}
+library(package='jiebaR')
+
+train=read.csv(file='train.csv',stringsAsFactors=FALSE)
+
+keywords=list()
+for(i in 1:10){
+    words=worker()<=paste(train[train$category==i,]$news,collapse='')
+    keywords[[i]]=names(sort(table(words),decreasing=T))[1:900]
+}
+
+categorize=function(words){
+    output=2
+    max=0
+    for(i in 1:10){
+        score=0
+        for(word in words){
+            if(word %in% keywords[[i]])score=score+1
+        }
+        if(score>max){
+            max=score
+            output=i
+        }
+    }
+    return(output)
+}
+
+df=data.frame(id=NA,category=NA)
+test=read.csv('test.csv',stringsAsFactors=F)
+
+for(i in 1:1000){#nrow(test)){
+    words=worker()<=test$news[i]
+    df[i,]=c(test$id[i],categorize(words))
+}
+
+write.csv(df,'baseline900.csv',quote=FALSE,row.names=F)
+
+```
+
 HW1.R: Segment [1001_chinatimes.txt](https://ceiba.ntu.edu.tw/course/6d0f76/content/1001_chinatimes.txt) and put the words in a vector.
 ```{r}
 txt=scan('1001_chinatimes.txt',what='char')
