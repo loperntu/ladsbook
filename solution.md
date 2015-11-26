@@ -37,6 +37,7 @@ for(i in 1:nrow(test)){
     df[i,]=c(test$id[i],categorize(words))
 }
 write.csv(df,'baseline900.csv',quote=FALSE,row.names=F)
+# 10 min
 ```
 
 HW1.R: Segment [1001_chinatimes.txt](https://ceiba.ntu.edu.tw/course/6d0f76/content/1001_chinatimes.txt) and put the words in a vector.
