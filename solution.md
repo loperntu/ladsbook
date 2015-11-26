@@ -4,14 +4,13 @@ baseline.R
 ```{r}
 library(package='jiebaR')
 
+# training
 train=read.csv(file='train.csv',stringsAsFactors=FALSE)
-
 keywords=list()
 for(i in 1:10){
     words=worker()<=paste(train[train$category==i,]$news,collapse='')
     keywords[[i]]=names(sort(table(words),decreasing=T))[1:100]
 }
-
 categorize=function(words){
     output=1
     max=0
@@ -28,16 +27,14 @@ categorize=function(words){
     return(output)
 }
 
-df=data.frame(id=NA,category=NA)
+# testing
 test=read.csv('test.csv',stringsAsFactors=F)
-
+df=data.frame(id=NA,category=NA)
 for(i in 1:nrow(test)){
     words=worker()<=test$news[i]
     df[i,]=c(test$id[i],categorize(words))
 }
-
 write.csv(df,'baseline900.csv',quote=FALSE,row.names=F)
-
 ```
 
 HW1.R: Segment [1001_chinatimes.txt](https://ceiba.ntu.edu.tw/course/6d0f76/content/1001_chinatimes.txt) and put the words in a vector.
