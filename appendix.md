@@ -22,6 +22,7 @@ collaborative text analytics solution (collect, clean, and analyze text and soci
 
 - [fisheye analytics](http://www.fisheyeanalytics.com/media-lens.html)
 
+- [Depechemood](http://www.depechemood.eu/index.html): A simple tool to analyze the emotions evoked by a text
 
 思考其商業模式，核心技術。
 
