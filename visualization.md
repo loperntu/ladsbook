@@ -37,7 +37,7 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 ## 論證視覺化
 
-<http://ch.arguman.org/ci-zhi-can-xuan-zhan-xian-fu-ze-ren-de-tai-du-zhen-de-you-zhe-mo-nan-ma-ru-guo-lian-zhe-mo-ji-ben-de-ge-ju-yu-jue-xin-du-mei-you-zhu-li-lun-ru-he-huan-neng-chi-yan-you-neng-li-dai-ling-zhe-ge-guo-jia>
+[argüma sn](http://ch.arguman.org/ci-zhi-can-xuan-zhan-xian-fu-ze-ren-de-tai-du-zhen-de-you-zhe-mo-nan-ma-ru-guo-lian-zhe-mo-ji-ben-de-ge-ju-yu-jue-xin-du-mei-you-zhu-li-lun-ru-he-huan-neng-chi-yan-you-neng-li-dai-ling-zhe-ge-guo-jia)
 
 
 ## 文本網路
