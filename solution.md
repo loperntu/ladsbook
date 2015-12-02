@@ -84,7 +84,7 @@ barplot(sorted_tags)
 barplot(sorted_nouns)
 ```
 
-baseline.R
+#baseline.R
 ```{r}
 library(package='jiebaR')
 
@@ -120,6 +120,7 @@ for(i in 1:nrow(test)){
     words=worker()<=test$news[i]
     df[i,]=c(test$id[i],categorize(words))
 }
-write.csv(df,'baseline900.csv',quote=FALSE,row.names=F)
-# 10 min
+write.csv(df,'baseline100.csv',quote=FALSE,row.names=F)
+
+# running 10 min
 ```
