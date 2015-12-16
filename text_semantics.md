@@ -120,24 +120,25 @@ semantic representation
 
 
 - 目前在認知科學、資訊檢索或計算語意學中，最常應用的是將詞義 (word meaning) 表達成在高維的語意空間中的向量 (vectors in a   high-dimensional semantic space) (Landauer et al, 2007)。
-- 這種語意表徵式，通常稱為向量空間模式 (Vector Space Model) ，或分佈語意模式 (Distributional Semantic Models, DSM) 在 IR/text mining 領域中應用廣泛。
+- 這種語意表徵式，通常稱為**向量空間模式** (Vector Space Model) ，或**分佈語意模式** (Distributional Semantic Models, DSM)。在計算與模擬詞義距離時有其方便。
+- 模型的假說是：*distributional hypothesis* (Sahlgren,
+2008; Harris,1954), 亦即近義詞出現的語境也接近。 
 
-In  such  a  semantic  space,  words  that  are  similar  in
-meaning will tend to be in similar areas of the space. Such
-models are referred to as
-Vector Semantic Models
-or
+潛在語意分析 (Latent Semantic Analysis, LSA) 算是較被延伸與使用的一種分佈語意模式。思維大概是這樣：
 
-
+1.  
 
 
 
-- 
+
+可以用 `LSAfun` (An R package for computations based on Latent Semantic Analysis) 來做入門練習。此套件使用了預先準備好了的 LSA 空間，提供以下功能 (Günther F et al. 2015)。如果要自行實際建構 LSA 空間，可使用 `lsa` 或其他套件。
+
+- 詞彙、文本的相似度計算 (Similarity Computations between words, word lists, and documents)
+ 
 
 
-- 可以用 `LSAfun` (An R package for computations based on Latent Semantic Analysis) 來做入門練習。此套件使用了預先準備好了的 LSA 空間，提供以下功能 (Günther F et al. 2015)。如果要自行實際建構 LSA 空間，可使用 `lsa` 或其他套件。
 
-    - Similarity Computations between words, word lists, and documents; 
+
     - Neighborhood Computations, such as obtaining a word's or document's most similar words, 
     - plotting such a neighborhood, as well as similarity structures for any word lists, in a two- or three-dimensional approximation using Multidimensional Scaling, 
     - Applied Functions, such as computing the coherence of a text, answering multiple choice questions and producing generic text summaries; and 
