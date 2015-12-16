@@ -126,7 +126,7 @@ semantic representation
 
 潛在語意分析 (Latent Semantic Analysis, LSA) 算是較被延伸與使用的一種分佈語意模式。思維大概是這樣：
 
-1.  
+1. 從文本語料庫建立一個矩陣 **tdm** (term-by-document frequency matrix)。 其中每一列 (row) 表達語料庫中出現的詞，每一行 (column) 則表達一份文件。而每個 cell $m_{ij}$ then specifies how often word i occurs in document j. By applying this proce- dure, words that often occur together will get assigned very similar vectors.
 
 
 
