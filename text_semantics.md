@@ -116,23 +116,23 @@ semantic representation
 
 
 ### 分佈語意 
-distributional semantics：語意的向量表達
+語意的向量表達
 
 
-- 最常應用的是將詞義 (word meaning) 表達成在高維的語意空間中的向量 (vectors in a   high-dimensional semantic space) (Landauer et al, 2007).
+- 目前在認知科學、資訊檢索或計算語意學中，最常應用的是將詞義 (word meaning) 表達成在高維的語意空間中的向量 (vectors in a   high-dimensional semantic space) (Landauer et al, 2007)。
+- 這種語意表徵式，通常稱為向量空間模式 (Vector Space Model) ，或分佈語意模式 (Distributional Semantic Models, DSM) 在 IR/text mining 領域中應用廣泛。
+
 In  such  a  semantic  space,  words  that  are  similar  in
 meaning will tend to be in similar areas of the space. Such
 models are referred to as
 Vector Semantic Models
 or
-Dis-
-tributional Semantic Models
 
 
 
 
-- 語意的向量空間模式 (Vector Space Model) 在 IR/text mining 領域中應用廣泛。
 
+- 
 
 
 - 可以用 `LSAfun` (An R package for computations based on Latent Semantic Analysis) 來做入門練習。此套件使用了預先準備好了的 LSA 空間，提供以下功能 (Günther F et al. 2015)。如果要自行實際建構 LSA 空間，可使用 `lsa` 或其他套件。
