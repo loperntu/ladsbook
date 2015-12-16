@@ -108,31 +108,30 @@ semantic representation
 
 潛在語意分析 (Latent Semantic Analysis, LSA) 算是較被延伸與使用的一種分佈語意模式。演算法步驟大概是這樣：
 
-1. 從文本語料庫建立一個矩陣 **tdm** (term-by-document frequency matrix)。 其中每一列 (row) 表達語料庫中出現的詞 (word)，每一行 (column) 則表達一份文件 (document)。而每個 cell $$m_{ij}$$ 則表示 word *i* 出現在 document *j* 的頻率。
-    - 要注意的是 word 可以是其他語詞單位 (如 phrase); document 也可以是其他文段 (如 paragraph)
-2. 為了平衡高低頻度可能產生的影響，施用不同的 **weighting scheme**。
-3. 施用 **SVD** (single value decomposition) 於這個 weighted matrix， 讓它變成
+[1]. 從文本語料庫建立一個矩陣 **tdm** (term-by-document frequency matrix)。 其中每一列 (row) 表達語料庫中出現的詞 (word)，每一行 (column) 則表達一份文件 (document)。而每個 cell $$m_{ij}$$ 則表示 word *i* 出現在 document *j* 的頻率。
+- 要注意的是 word 可以是其他語詞單位 (如 phrase); document 也可以是其他文段 (如 paragraph)
+
+[2]. 為了平衡高低頻度可能產生的影響，施用不同的 **weighting scheme**。
+
+[3]. 施用 **SVD** (single value decomposition) 於這個 weighted matrix， 讓它變成
 
 $$
 M_{w} = U\Sigma V^{T}
 $$
 
-where $$U$$ is a $$m×r$$ orthogonal matrix, $$V$$ is a $$n×r$$ orthogonal matrix, and $$\Sigma$$ is a $$r×r$$ diagonal matrix.
+where $$U$$ is a $$m×r$$ orthogonal matrix, $$V$$ is a $$n×r$$ orthogonal matrix, and $$\Sigma$$ is a $$r×r$$ diagonal matrix..........
 
-4.  
+SVD 可以使得 LSA 獲得更基本的語意維度。
 
-
-
-
+[4]. 施用降維計算 (dimensionality reduction) 刪除雜訊。 
 
 
 
 
+優缺點
 
-
-
-
-
+- 似乎提供掌握文本的「主題」或「隱藏語意」。
+- 無法掌握句法 (syntax) 或詞序 (word order) 訊息。
 
 實際計算例子請見本書「文本相似與關聯計算」章節。
 
@@ -146,8 +145,6 @@ where $$U$$ is a $$m×r$$ orthogonal matrix, $$V$$ is a $$n×r$$ orthogonal matr
 
 
 
-
-> Treating words as vectors means that we are ignoring the order of the words and the meanings that they might take from the words around them. This may seem like a great deal to disregard, but in the more advanced forms of analysis, and in particular predictive analytical methods, the ways words are present (and absent) alone can give us a great deal of information, and allow us to build powerful models that can forecast or predict liking, preference and even behaviour.(Stuhl, 2015)
 
 
 ## `word2vector` 
