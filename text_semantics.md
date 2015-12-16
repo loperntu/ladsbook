@@ -131,12 +131,6 @@ semantic representation
 
 
 
-可以用 `LSAfun` (An R package for computations based on Latent Semantic Analysis) 來做入門練習。此套件使用了預先準備好了的 LSA 空間，提供以下功能 (Günther F et al. 2015)。如果要自行實際建構 LSA 空間，可使用 `lsa` 或其他套件。
-
-- 詞彙、文本的相似度計算 (Similarity Computations between words, word lists, and documents)
- 
-
-
 
 
 
