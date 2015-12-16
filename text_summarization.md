@@ -10,3 +10,9 @@
     4. Select the *k'th* right singular vector from this matrix.
     5. Select the sentence which has the largest index value with this *k'th* right singular vector, which is then included in the summary. Given the assumption that each row vector represents a topic of the text, this is exactly the sentence that scores the highest value on this topic, compared to the other sentences.
     6. Repeat until *k* reaches a predefined number.
+    
+
+```r
+D <- ""
+```
+    
