@@ -46,6 +46,20 @@ $$
 # 文本的幾何表徵
 
 
+
+
+    - Neighborhood Computations, such as obtaining a word's or document's most similar words, 
+    - plotting such a neighborhood, as well as similarity structures for any word lists, in a two- or three-dimensional approximation using Multidimensional Scaling, 
+    - Applied Functions, such as computing the coherence of a text, answering multiple choice questions and producing generic text summaries; and 
+    - Composition Methods for obtaining vector representations for two-word phrases. 
+
+
+
+
+
+
+
+
 ## 多向度標示法 
 
 多向度標示法 (Multi-Dimensional Scaling, MDS) 也是一種可以用在文本分析的多變量資料分析方法。特別是希望呈現處資料內的連續結構 (向度、因素等)，而非離散結構 (分類、分割等) 的時候。
