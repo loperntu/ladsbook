@@ -107,6 +107,14 @@ write.csv(freq[ord],"word_freq.csv")
 ## 文本語意表徵 
 semantic representation
 
+- 對於語意表徵有許多想法。最常應用的是將詞義 (word meaning) 表達成在高維的語意空間中的向量 (vectors in a   high-dimensional semantic space) (Landauer et al, 2007).
+In  such  a  semantic  space,  words  that  are  similar  in
+meaning will tend to be in similar areas of the space. Such
+models are referred to as
+Vector Semantic Models
+or
+Dis-
+tributional Semantic Models
 
 
 
