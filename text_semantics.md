@@ -135,6 +135,15 @@ semantic representation
 
 
 
+實際計算例子請見本書「文本相似與關聯計算」章節。
+
+
+
+
+
+
+
+
 
 
 
