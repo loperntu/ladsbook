@@ -2,6 +2,8 @@
 ## Linguistic Analysis and Data Science
 台大通識課課程講義 
 
+台大語言學研究所語言處理與人文計算實驗室   謝舒凱
+
 ---
 ## 背景知識
 
