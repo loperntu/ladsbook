@@ -139,14 +139,6 @@ semantic representation
 
 
 
-    - Neighborhood Computations, such as obtaining a word's or document's most similar words, 
-    - plotting such a neighborhood, as well as similarity structures for any word lists, in a two- or three-dimensional approximation using Multidimensional Scaling, 
-    - Applied Functions, such as computing the coherence of a text, answering multiple choice questions and producing generic text summaries; and 
-    - Composition Methods for obtaining vector representations for two-word phrases. 
-
-
-
-
 
 
 
