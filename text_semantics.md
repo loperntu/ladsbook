@@ -117,10 +117,22 @@ semantic representation
 
 
 ### 分佈語意 
+distributional semantics：語意的向量表達
 
-- distributional semantics：語意的向量表達
+- 語意的向量空間模式 (Vector Space Model) 在 IR/text mining 領域中應用廣泛。
 
-語意的向量空間模式 (Vector Space Model，VSM) 在 IR/text mining 領域中應用廣泛。
+
+
+- 可以用 `LSAfun` (An R package for computations based on Latent Semantic Analysis) 來做入門練習。此套件使用了預先準備好了的 LSA 空間，提供以下功能
+
+    - Similarity Computations between words, word lists, and documents; 
+    - Neighborhood Computations, such as obtaining a word's or document's most similar words, 
+    - plotting such a neighborhood, as well as similarity structures for any word lists, in a two- or three-dimensional approximation using Multidimensional Scaling, 
+    - Applied Functions, such as computing the coherence of a text, answering multiple choice questions and producing generic text summaries; and 
+    - Composition Methods for obtaining vector representations for two-word phrases. 
+
+
+
 
 
 
