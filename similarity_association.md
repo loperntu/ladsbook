@@ -39,6 +39,24 @@ Degree of Similarity (T1 & T3) = (T1 %*% T3) / (sqrt(sum(T1^2)) * sqrt(sum(T3^2)
 $$
 
 
+---
+- `tm` 套件提供一個將文本轉成 **文詞矩陣 (document-term matrix)** 的函式，方便後續各種計量分析與模式的處理。
+
+
+```r
+dtm <- DocumentTermMatrix(docs)
+# convert rownames to filenames
+rownames(dtm) <- filenames
+# collapse matrix by summing over columns
+freq <- colSums(as.matrix(dtm))
+# length should be total number of terms
+length(freq)
+# create sort order (descending)
+ord <- order(freq, decreasing=TRUE)
+# List all terms in decreasing order of freq and write to disk
+freq[ord]
+write.csv(freq[ord],"word_freq.csv")
+```
 
 
 
