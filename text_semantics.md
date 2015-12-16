@@ -110,7 +110,7 @@ semantic representation
 
 1. 從文本語料庫建立一個矩陣 **tdm** (term-by-document frequency matrix)。 其中每一列 (row) 表達語料庫中出現的詞 (word)，每一行 (column) 則表達一份文件 (document)。而每個 cell $$m_{ij}$$ 則表示 word *i* 出現在 document *j* 的頻率。
     - 要注意的是 word 可以是其他語詞單位 (如 phrase); document 也可以是其他文段 (如 paragraph)
-2. dd 
+2. 
 
 
 
