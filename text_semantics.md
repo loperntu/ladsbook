@@ -130,8 +130,11 @@ SVD 可以使得 LSA 獲得更基本的語意維度。
 
 優缺點
 
+- 假定了 Documents are represented as “bags of words”, where the order of the words in a document is not important, only how many times each word appears in a document.無法掌握句法 (syntax) 或詞序 (word order) 訊息。
+- Concepts are represented as patterns of words that usually appear together in documents. For example “leash”, “treat”, and “obey” might usually appear in documents about dog training.
+- Words are assumed to have only one meaning. This is clearly not the case (banks could be river banks or financial banks) but it makes the problem tractable.
 - 似乎提供掌握文本的「主題」或「隱藏語意」。
-- 無法掌握句法 (syntax) 或詞序 (word order) 訊息。
+
 
 應用
 
