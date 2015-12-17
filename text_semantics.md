@@ -123,6 +123,9 @@ where $$U$$ is a $$m×r$$ orthogonal matrix, $$V$$ is a $$n×r$$ orthogonal matr
 
 SVD 可以使得 LSA 獲得更基本的語意維度。
 
+it finds a reduced dimensional representation of our matrix that emphasizes the strongest relationships and throws away the noise. In other words, it makes the best possible reconstruction of the matrix with the least possible information.
+
+
 [4]. 施用降維計算 (dimensionality reduction) 刪除雜訊。 
 
 
