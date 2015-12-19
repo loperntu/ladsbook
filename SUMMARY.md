@@ -27,7 +27,7 @@
 * [情緒分析](sentiment_analysis.md)
 * [個人文體風格](stylometrics.md)
 * [文本真實性](authenticity.md)
-   * [text_reuse](重複文本偵測)
+   * [重複文本偵測](text_reuse.md)
 * [立場、意圖與價值](stance-detection.md)
 * [附錄](appendix.md)
    * [Linux 存活指令](linux_survival.md)
