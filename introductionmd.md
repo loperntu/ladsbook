@@ -189,7 +189,16 @@ The current standard for text analysis in R is the `tm` package. It provides fac
 
 
 
+```r
+library(RCurl)
+library(googleVis)
 
+# 本書範例檔都放在 dropbox 的 public folder 底下
+URL <- "https://www.dropbox.com/sh/7uenyjjl81wo3x9/AAAPfYVIEkONCyIXjcDn2WGfa?dl=0/test.csv"
+x <- getURL(URL, ssl.verifypeer = FALSE)
+y <- read.csv(text = x, header = TRUE)
+
+```
 
 
 
