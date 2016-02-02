@@ -14,6 +14,9 @@
 {% youtube %}https://www.youtube.com/embed/H0-WkpmTPrM {% endyoutube %}
 
 
+- 如果一開始就用數值思維，急著套用 data mining 的統計計算，很難理解文本語意。語言有趣也麻煩的地方，在**語境脈絡**，在**多義**。
+
+
 ---
 ## 語言學與文本分析
 
@@ -32,6 +35,8 @@
 **I made her duck**
 
 
+### 樣式語法 
+- 以 pattern grammar 為例。
 
 
 
