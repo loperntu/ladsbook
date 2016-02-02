@@ -58,7 +58,7 @@
 
 * 對於人文歷史與社會科學也是很重要。e.g., `historical text mining`
 
-* 文本分析的前途，在於各種 transformation (`text2number`, `text2speech`,`text2score`, `text2image`, 與反向操作，etc)
+* 文本分析的新亮點，在於各種 transformation (`text2number`, `text2speech`,`text2score`, `text2image`, 與反向操作，etc)
 
 
 
