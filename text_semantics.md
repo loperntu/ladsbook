@@ -87,9 +87,10 @@ $$
 
 
 ## 文本語意表徵 
-semantic representation
 
-對於語意表徵有許多想法，比方說`邏輯`、`向量`、`網路`或晚近的`量子語意`。
+- Different **semantic representation** strongly influence the designs and selection of machine learning methods.
+
+- 對於語意表徵有許多想法，比方說`邏輯`、`向量`、`網路`或晚近的`量子語意`。
 
 ---
 ### 邏輯語意
