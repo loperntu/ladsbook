@@ -51,7 +51,7 @@ $head -n 3 data.csv
 - tail
 - more（看檔案內容，滿頁暫停按 space 鍵繼續，按 q 結束）
 - less（同上，但允許游標鍵上下捲動對內容進行瀏覽）
-
+- cut  用來抽取文本中指定的 columns/characters 
 - wc （計算字數、行數、字元數）
 
 ```bash
