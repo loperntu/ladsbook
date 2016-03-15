@@ -51,7 +51,23 @@ $head -n 3 data.csv
 - tail
 - more（看檔案內容，滿頁暫停按 space 鍵繼續，按 q 結束）
 - less（同上，但允許游標鍵上下捲動對內容進行瀏覽）
-- cut  用來抽取文本中指定的 columns/characters 
+- cut  (用來抽取文本中指定的 columns/characters)
+  + -c: Will specify the filtering of characters
+  + -d: Will specify the delimiter for fields
+  + -f: Will specify the field number
+
+```bash
+//used the –d: option to specify that the field or columns are separated by a colon (:)
+$cut -d: -f 1,3 /etc/passwd    
+```
+- paste (paste two files horizontally, such as file_1, which will become the first column and file_2 will become the second column
+
+```bash
+$paste file_1 file_2
+```
+- join 
+
+
 - wc （計算字數、行數、字元數）
 
 ```bash
@@ -100,7 +116,6 @@ $sed -e 's/\^M//g' winfile.in > linuxfile.out
 sort mydata.csv | uniq -c | sort -nr | head -n 5
 ```
 
-- cut
 
 ## 比較詞表
 
