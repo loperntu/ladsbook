@@ -9,7 +9,15 @@
 ## 動機
 
 
+## 情緒的語言表達
+
+- 語言細節常被忽略
+在語言處理上， stop word removal 這個步驟會造成重要訊息的忽略。
+
+
+
 ## Aspect, entity and their sentiment classification
+
 
 
 ## 情緒詞表
