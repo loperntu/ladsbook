@@ -3,10 +3,10 @@
 
 
 ---
-## 資料科學是什麼？資料科學家會什麼
+## 資料科學是什麼？資料科學家會什麼？
 
 * To retrieve, transform, explore and model data as well as interprete and communicate results in a compelling way. 
-* Be able to do useful real data science work with programming languages (R/Python) as well work with big data technology (Hadoop, Spark). 
+* Be able to gain insights into your data and solve real-world problems with programming languages (e.g., R/Python) as well work with big data technology (Hadoop, Spark). 
 * 'number guys' vs 'text miners'.
 
 
