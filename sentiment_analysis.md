@@ -17,9 +17,7 @@
 
 * 要知道想要偵測的對象：speaker\/writer, reader, 還是 one or more entities mentioned in the utterance，如：
 
-  ```
-
-  ```
+  > 李小姐說謝老師很傷心。
 
 
 * 此外，不同讀者在不同情境的反應也不同。
