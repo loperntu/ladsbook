@@ -58,7 +58,8 @@ sarcastic, ironic, or hyperbolic.
 
 
 * 不同類型的詞表
-  * 
+  * 情緒組合：Lexicons that include sentiment associations for phrases as well as their constituent words are referred to as sentiment composition lexicons \(SCLs\).
+
 
 
 ## 訓練與測試語料
