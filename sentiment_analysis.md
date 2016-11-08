@@ -58,16 +58,10 @@ sarcastic, ironic, or hyperbolic.
 
 
 * 不同類型的詞表
-
-
-
-
-
+  * 
 
 
 ## 訓練與測試語料
-
-
 
 * （SemEval-2016 shared task competition）, Task \#6: Detecting Stance from Tweets \(Mohammad, Kiritchenko, Sobhani, Zhu, & Cherry, 2016a\).  2,914 training instances labeled for stance for the five targets. The test data included 1,249 instances. 免費。
 
