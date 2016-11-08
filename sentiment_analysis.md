@@ -15,7 +15,14 @@
   * 在語言處理上， stop word removal 這個步驟會造成重要訊息的忽略。
 
 
-* 要知道想要偵測的對象：speaker\/writer, reader, 還是  one or more entities mentioned in the utterance. 
+* 要知道想要偵測的對象：speaker\/writer, reader, 還是 one or more entities mentioned in the utterance，如：
+
+  ```
+
+  ```
+
+
+* 此外，不同讀者在不同情境的反應也不同。
 
 ## Aspect, entity and their sentiment classification
 
@@ -24,6 +31,7 @@
 ## 情緒詞表
 
 * 通常會利用手工或自動化產生的 **word–sentiment \(or valence\) association lexicon**
+
   * ```
     快樂 - positive
     難過 - negative
@@ -32,10 +40,6 @@
 
   * 
   * 
-
-
-
-
 
 
 ## 進階主題
