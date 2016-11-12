@@ -73,8 +73,10 @@
 
   * [重複文本偵測](textreuse_md.md)
 
-* ## Reproducible report and deployment : Shiny and Dashboard
 
+* Reproducible report and deployment : Shiny and Dashboard
+
+---
 
 ## [附錄](appendix.md)
 
