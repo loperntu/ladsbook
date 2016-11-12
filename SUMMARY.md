@@ -7,8 +7,8 @@
 * [語言學](linguistic_fundamentals.md)
 
 * [自然語言處理](nlp.md)
-  * [語料庫](corpus.md)
 
+  * [語料庫](corpus.md)
 
 * [數學與統計](math_fundamentals.md)
 
@@ -24,6 +24,7 @@
   * 支持向量機 Support Vector Machines
 
   * 神經網路與深度學習 Neural Network and Deep Learning
+
   * 關聯規則挖掘 Association Rules
   * k-means 分群 Clusterings
 
