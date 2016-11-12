@@ -49,4 +49,6 @@
 ## 附錄
 * [參考書目](references.md)
 * [OSEMN 模式](osemn-模式.md)
+* Linux存活指令(linux_survival.md)
+* R 存活指令(r_survival.md)
 
