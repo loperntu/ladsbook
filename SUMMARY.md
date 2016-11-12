@@ -26,6 +26,7 @@
   * 神經網路與深度學習 Neural Network and Deep Learning
 
   * 關聯規則挖掘 Association Rules
+
   * k-means 分群 Clusterings
 
 
@@ -47,6 +48,7 @@
 * [分類](text_classification.md)
 
   * [垃圾訊息偵測](spam.md)
+
 
 * [聚類](text-clustering.md)
 
@@ -70,14 +72,13 @@
 * [文本真實性](authenticity.md)
   * [重複文本偵測](textreuse_md.md)
 
-
 * Reproducible report and deployment : Shiny and Dashboard
+  ---
 
----
 
-* [附錄](appendix.md)
+## [附錄](appendix.md)
 
-  * [Linux 存活指令](linux_survival.md)
+* * [Linux 存活指令](linux_survival.md)
   * [R 存活指令](r_survival.md)
   * [XML tutorial](xml_tutorial.md)
   * [正則表示法](regular expression.md)
