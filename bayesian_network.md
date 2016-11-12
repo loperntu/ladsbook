@@ -11,3 +11,21 @@
 - Developing models of cause and effect (in the right circumstances);
 - Incorporating expert judgment into data-driven models;
 - Solving problems in conditional probability.
+
+
+#### 素樸貝氏 Naive Bayes
+
+```
+# Import required library
+library(e1071)
+
+# Fitting model
+fit <- naiveBayes(y_train ~ ., data = x)
+summary(fit)
+
+# Predict Output
+predicted <- predict(fit, x_test)
+
+```
+
+

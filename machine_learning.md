@@ -78,17 +78,6 @@ x <- cbind(x_train,y_train)
 
 
 
-#### 素樸貝氏 Naive Bayes
-
-```
-# Import required library
-library(e1071)
-# Fitting model
-fit <- naiveBayes(y_train ~ ., data = x) 
-summary(fit)
-# Predict Output
-predicted <- predict(fit, x_test)
-```
 
 
 
