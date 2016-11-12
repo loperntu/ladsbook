@@ -6,13 +6,11 @@
 * [導論](introductionmd.md)
 * [語言學](linguistic_fundamentals.md)
 
-
 * [自然語言處理](nlp.md)
   * [語料庫](corpus.md)
 
 
 * [數學與統計](math_fundamentals.md)
-
 
 * [資料科學的 OSEMN 模式](osemn-模式.md)
 
@@ -24,18 +22,10 @@
   * 迴歸分析 Regression models
 
   * 支持向量機 Support Vector Machines
+
   * 神經網路與深度學習 Neural Network and Deep Learning
   * 關聯規則挖掘 Association Rules
   * k-means 分群 Clusterings
-
-
-
-
-
-
-
-
-
 
 
 ---
@@ -60,6 +50,7 @@
 * [聚類](text-clustering.md)
 
 * [文本語意與統計](text_semantics.md)
+
   * [文本相似與關聯](similarity_association.md)
   * [文本訊息視覺化](visualization.md)
 
@@ -79,7 +70,7 @@
   * [重複文本偵測](textreuse_md.md)
 
 
-* Reproducible report and system: Shiny and Dashboard
+* Reproducible report and deployment : Shiny and Dashboard
 
 ---
 
@@ -94,4 +85,5 @@
 * [參考書目](references.md)
 
 * [OSEMN 模式](osemn-模式.md)
+
 
