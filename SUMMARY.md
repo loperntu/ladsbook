@@ -30,6 +30,7 @@
   * k-means 分群 Clusterings
 
 
+
 ---
 
 ## PART II： 文本分析：資料處理、表徵與語意計算
@@ -70,10 +71,10 @@
 * [立場、意圖與價值](stance-detection.md)
 * [個人文體風格](stylometrics.md)
 * [文本真實性](authenticity.md)
+
   * [重複文本偵測](textreuse_md.md)
 
-* Reproducible report and deployment : Shiny and Dashboard
-  ---
+* ## Reproducible report and deployment : Shiny and Dashboard
 
 
 ## [附錄](appendix.md)
