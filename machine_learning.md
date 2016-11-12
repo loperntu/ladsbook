@@ -1,9 +1,15 @@
 # 機器學習基本概念
 
-* 監督式學習
-* 非監督式學習
+* 監督式學習：分類(Classification)、迴歸分析(Regression)
+* 非監督式學習：分群(Clustering)
 * 訓練、測試與評估概念
 
+
+
+
+### 機器學習基本想法 
+- 從過往資料的特徵來對未知資料做預測判斷。
+- 例子：書籍或電影推薦、匯率預測、從臉書資料分類朋友人格
 
 
 
@@ -38,7 +44,6 @@
 
 
 
-
 ---
 ### 監督式學習 (Supervised learning)
 
@@ -56,6 +61,10 @@ x_test <- input_variables_values_test_datasets
 x <- cbind(x_train,y_train)
 # Train the model using the training sets and evaluate
 ```
+
+
+
+
 
 
 #### 決策樹 Decesion Tree
@@ -176,6 +185,8 @@ fit <- kmeans(X, 3)
 
 ---
 ## Evaluation of Performance
+評量機器學習模型的表現
+
 
 
 
