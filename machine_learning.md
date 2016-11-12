@@ -122,15 +122,7 @@ test_reduced <- predict(pca, test)
 
 
 
-#### k-means
 
-
-```
-# Assumed you have X attributes for training data set 
-# Import required library 
-library(cluster) 
-fit <- kmeans(X, 3)
-```
 
 #### Hierarchical Clustering
 

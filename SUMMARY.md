@@ -16,7 +16,7 @@
     * [支持向量機 Support Vector Machines](支持向量機-support-vector-machines.md)
     * 神經網路與深度學習 Neural Network and Deep Learning
     * 關聯規則挖掘 Association Rules
-    * k-means 分群 Clusterings
+    * [k-means 分群 Clusterings](k-means-分群-clusterings.md)
 
 ## PART II： 文本分析：資料處理、表徵與語意計算
 * 文本分析是什麼
