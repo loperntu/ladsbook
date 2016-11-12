@@ -67,38 +67,13 @@ x <- cbind(x_train,y_train)
 - 給訂標記好的資料，選用分類演算法訓練分類器，用來預測新資料的所屬的類別。
 
 
+---
+### 分群
 
-#### k-Nearest Neighbours (kNN)
+- 組內差異小、組間差異大的預設
 
-**k-nearest neighbors algorithm (k-NN)** 可能是最簡單的機器學習演算法，但是在許多場合還是很好用。 
-
-- 不預設資料的分佈型態。
-- 如果很難定義概念，但是知道資料何時出現時。
-- 利用資料的「同類相聚」特徵，classifying unlabeled examples by assigning them the class of similar labeled examples.
-
-
-
-
-
-
-
-
-
-
-
-
-```
-# Import required library
-library(knn)
-
-# Fitting model
-fit <-knn(y_train ~ ., data = x, k = 4)
-summary(fit)
-
-# Predict Output
-predicted <- predict(fit, x_test)
-```
-
+---
+### 迴歸分析
 
 
 
