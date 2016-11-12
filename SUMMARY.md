@@ -19,19 +19,19 @@
     * [k-means 分群 Clusterings](k-means-分群-clusterings.md)
 
 ## PART II： 文本分析：資料處理、表徵與語意計算
-* 文本分析是什麼
+* [文本分析是什麼](文本分析是什麼.md)
 * [文本前處理](text_preprocessing.md)
     * [文本收集](text_collection.md)
     * [文本清理](cleaning.md)
     * [自動分詞與詞類標記](cws_pos.md)
     * [文本標記](text_annotation.md)
-* [迴歸預測](regression.md)
-* [分類](text_classification.md)
-    * [垃圾訊息偵測](spam.md)
-* [聚類](text-clustering.md)
 * [文本語意與統計](text_semantics.md)
     * [文本相似與關聯](similarity_association.md)
     * [文本訊息視覺化](visualization.md)
+* [文本迴歸預測](regression.md)
+* [文本分類](text_classification.md)
+    * [垃圾訊息偵測](spam.md)
+* [文本聚類](text-clustering.md)
 
 ## PART III：文本分析：應用與報告
 * [檢索與儲存](text_retrieval_storage.md)
