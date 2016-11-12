@@ -6,7 +6,6 @@
 
 
 
-
 ### 機器學習基本想法 
 - 從過往資料的特徵來對未知資料做預測判斷。
 - 例子：書籍或電影推薦、匯率預測、從臉書資料分類朋友人格
@@ -62,11 +61,15 @@ x <- cbind(x_train,y_train)
 # Train the model using the training sets and evaluate
 ```
 
+---
+### 分類 Classification
+
+- 給訂標記好的資料，選用分類演算法訓練分類器，用來預測新資料的所屬的類別。
 
 
 
 
-
+---
 #### 決策樹 Decesion Tree
 ```
 # Import required library
