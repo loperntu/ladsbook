@@ -1,5 +1,5 @@
 # Summary
-
+---
 ## PART I：基礎知識
 * [README](README.md)
 * [導論](introductionmd.md)
@@ -17,7 +17,7 @@
     * 神經網路與深度學習 Neural Network and Deep Learning
     * 關聯規則挖掘 Association Rules
     * [k-means 分群 Clusterings](k-means-分群-clusterings.md)
-
+---
 ## PART II： 文本分析：資料處理、表徵與語意計算
 * [文本分析是什麼](文本分析是什麼.md)
 * [文本前處理](text_preprocessing.md)
@@ -32,7 +32,7 @@
 * [文本分類](text_classification.md)
     * [垃圾訊息偵測](spam.md)
 * [文本聚類](text-clustering.md)
-
+---
 ## PART III：文本分析：應用與報告
 * [檢索與儲存](text_retrieval_storage.md)
 * [自動摘要](text_summarization.md)
@@ -43,10 +43,9 @@
 * [個人文體風格](stylometrics.md)
 * [文本真實性](authenticity.md)
     * [重複文本偵測](textreuse_md.md)
-
------
 * Reproducible report and deployment : Shiny and Dashboard
 
+-----
 ## 附錄
 * [參考書目](references.md)
 * [OSEMN 模式](osemn-模式.md)
