@@ -1,41 +1,77 @@
 # Summary
 
+## PART I：基礎知識
+
 * [README](README.md)
 * [導論](introductionmd.md)
 * [語言學基礎](linguistic_fundamentals.md)
-    * [語料庫](corpus.md)
-    * [自然語言處理](nlp.md)
+  * [語料庫](corpus.md)
+  * [自然語言處理](nlp.md)
+
 * [數學基礎](math_fundamentals.md)
-    * [機器學習基本概念](machine_learning.md)
-    * [貝氏網路](bayesian_network.md)
-* [OSEMN 模式](osemn-模式.md)
+* [機器學習基本概念](machine_learning.md)
+  * [貝氏網路](bayesian_network.md)
+
+* [資料科學的 OSEMN 模式](osemn-模式.md)
+
+  ---
+
+
+## PART II： 文本分析：資料處理、表徵與語意計算
+
+* 文本分析是什麼
+
 * [文本前處理](text_preprocessing.md)
-    * [文本收集](text_collection.md)
-    * [文本清理](cleaning.md)
-    * [自動分詞與詞類標記](cws_pos.md)
-    * [文本標記](text_annotation.md)
+  * [文本收集](text_collection.md)
+  * [文本清理](cleaning.md)
+  * [自動分詞與詞類標記](cws_pos.md)
+  * [文本標記](text_annotation.md)
+
 * [迴歸預測](regression.md)
 * [分類](text_classification.md)
-    * [垃圾訊息偵測](spam.md)
+  * [垃圾訊息偵測](spam.md)
+
 * [聚類](text-clustering.md)
 * [文本語意與統計](text_semantics.md)
-    * [文本相似與關聯](similarity_association.md)
-    * [文本訊息視覺化](visualization.md)
+  * [文本相似與關聯](similarity_association.md)
+  * [文本訊息視覺化](visualization.md)
+
+
+
+
+
+---
+
+## PART III：文本分析：應用與報告
+
+
+
 * [檢索與儲存](text_retrieval_storage.md)
 * [自動摘要](text_summarization.md)
-* [文本自動產生](text_generator.md)
+* [文本自動生成](text_generator.md)
 * [主題模型](topic-modeling.md)
 * [情緒分析](sentiment_analysis.md)
+* [立場、意圖與價值](stance-detection.md)
 * [個人文體風格](stylometrics.md)
 * [文本真實性](authenticity.md)
-    * [重複文本偵測](textreuse_md.md)
-* [立場、意圖與價值](stance-detection.md)
+  * [重複文本偵測](textreuse_md.md)
+
+
+* Reproducible report and system: Shiny and Dashboard
+
+
+
+---
+
+
+
 * [附錄](appendix.md)
-    * [Linux 存活指令](linux_survival.md)
-    * [R 存活指令](r_survival.md)
-    * [XML tutorial](xml_tutorial.md)
-    * [正則表示法](regular expression.md)
-    * [習題解答](solution.md)
+  * [Linux 存活指令](linux_survival.md)
+  * [R 存活指令](r_survival.md)
+  * [XML tutorial](xml_tutorial.md)
+  * [正則表示法](regular expression.md)
+  * [習題解答](solution.md)
+
 * [參考書目](references.md)
 * [OSEMN 模式](osemn-模式.md)
 
