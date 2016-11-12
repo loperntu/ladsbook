@@ -13,7 +13,7 @@
     * [Probabilistic learning using Naive Bayes ](bayesian_network.md)
     * 決策樹 Decision Trees
     * 迴歸分析 Regression models
-    * 支持向量機 Support Vector Machines
+    * [支持向量機 Support Vector Machines](支持向量機-support-vector-machines.md)
     * 神經網路與深度學習 Neural Network and Deep Learning
     * 關聯規則挖掘 Association Rules
     * k-means 分群 Clusterings
