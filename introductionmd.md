@@ -60,7 +60,7 @@
 
 * 文本分析的新亮點，在於各種 transformation (`text2number`, `text2speech`,`text2score`, `text2image`, 與反向操作，etc)
 
-
+* Story telling
 
 ---
 ## 涉及學門間的關係
