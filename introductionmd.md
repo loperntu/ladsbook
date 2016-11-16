@@ -60,7 +60,7 @@
 
 * 文本分析的新亮點，在於各種 transformation (`text2number`, `text2speech`,`text2score`, `text2image`, 與反向操作，etc)
 
-* Story telling
+* Story telling and Narrative
 
 ---
 ## 涉及學門間的關係
@@ -209,6 +209,10 @@ y <- read.csv(text = x, header = TRUE)
 
 ---
 [^1] 出處：https://manoharswamynathan.files.wordpress.com/2015/04/r-text-mining-001.jpg
+
+[^2] 新工作類型興起 陳良基：矽谷story telling年薪近500萬
+http://news.ltn.com.tw/news/life/breakingnews/1841618
+
 
 
 
