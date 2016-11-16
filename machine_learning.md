@@ -143,6 +143,19 @@ test_reduced <- predict(pca, test)
 
 
 
+----
+深入鑽研
+
+[Andrew Ng, Machine Learning](https://www.coursera.org/learn/machine-learning)
+
+[Johns Hopkins University, Practical Machine Learning](https://www.coursera.org/learn/practical-machine-learning)
+
+
+林軒田，機器學習基石
+
+林軒田，機器學習技法
+
+
 
 
 
