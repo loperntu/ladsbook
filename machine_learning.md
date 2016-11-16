@@ -150,10 +150,9 @@ test_reduced <- predict(pca, test)
 
 [Johns Hopkins University, Practical Machine Learning](https://www.coursera.org/learn/practical-machine-learning)
 
+[林軒田，機器學習基石](https://www.youtube.com/user/hsuantien/playlists)
 
-林軒田，機器學習基石
-
-林軒田，機器學習技法
+[林軒田，機器學習技法](https://www.youtube.com/playlist?list=PLXVfgk9fNX2IQOYPmqjqWsNUFl2kpk1U2)
 
 
 
