@@ -24,7 +24,7 @@ $cat mydata.csv | awk -F "|" '{ sum += $4 } END { printf "%.2f\n", sum }'
 
 我們一開始會在自己的 HOME 資料夾開始做事，目前所在的資料夾就是工作資料夾 (working directory)。
 
-**絕對路徑** 指的是說從root開始的路徑，這種路徑不管你的working directory在哪裡都不會影響執行。Example: /home/shukai/XD.txt。而**相對路徑**指的是從 working directory 開始的路徑，這種路徑如果你在不同的 working directory 使用會得到不同的效果。
+**絕對路徑** 指的是說從root開始的路徑，這種路徑不管你的工作資料夾在哪裡都不會影響執行。Example: /home/shukai/XD.txt。而**相對路徑**指的是從工作資料夾開始的路徑，這種路徑如果你在不同的 working directory 使用會得到不同的效果。
 
 * pwd（顯示目前工作目錄）
 * cd (更換工作資料夾到指定的資料夾)
