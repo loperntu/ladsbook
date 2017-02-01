@@ -22,7 +22,7 @@ $cat mydata.csv | awk -F "|" '{ sum += $4 } END { printf "%.2f\n", sum }'
 
 整個檔案系統是由root 開始，之後會向樹一樣不斷分支長出去，也就是說，一開始會有一個全部的起源的資料夾被稱作root，符號是 `/`，而 root 底下有很多其他的資料夾或資料，每個資料夾又可以包含很多資料夾或者資料，如此延伸下去建立的檔案系統。
 
-我們一開始會在自己的 HOME 資料夾開始做事，目前所在的資料夾就是 working directory。
+我們一開始會在自己的 HOME 資料夾開始做事，目前所在的資料夾就是工作資料夾 (working directory)。
 
 **絕對路徑** 指的是說從root開始的路徑，這種路徑不管你的working directory在哪裡都不會影響執行。Example: /home/shukai/XD.txt。而**相對路徑**指的是從 working directory 開始的路徑，這種路徑如果你在不同的 working directory 使用會得到不同的效果。
 
