@@ -51,10 +51,29 @@ $rm -rf non-empty_dir
 ## 輸入輸出、重導與管線
 
 * 指令列的哲學：每個工具應該 do one specific task。根據不同需要在結合起來成為更彈性與強大的工具。如何結合？寫 \(bash\) **scripts** 或是利用 **pipes**.
+
 * 當一個程式/指令執行時，有三個 channels 被開啟
   * `stdin` \(called by 0\)
   * `stdout` \(called by 1\)
   * `stderr` \(called by 2\)
+
+「萬物皆為檔案」\('everything is a file'\) 可以使用**重導運算子 &gt; ** 來重導標準輸出。
+
+```
+$ls -l /usr/bin > ls-output.txt
+# 將輸出加在原有檔案後面
+$ls -l /usr/bin >> ls-output.txt
+```
+
+* 錯誤訊息
+
+```
+$ls -l /bin/usr 2> ls-error.txt
+# 不要訊息
+$ls -l /bin/usr 2> /dev/null
+```
+
+## 
 
 ## 文本處理常用指令
 
@@ -65,6 +84,11 @@ $echo "語言學很重要" > note.txt
 ```
 
 * cat（依標準輸出顯示檔案內容; 串接檔案）
+
+```
+$cat corpus.txt.* > corpus.txt
+```
+
 * head
 
 ```bash
