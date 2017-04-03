@@ -53,6 +53,7 @@ $rm -rf non-empty_dir
 * 指令列的哲學：每個工具應該 do one specific task。根據不同需要在結合起來成為更彈性與強大的工具。如何結合？寫 \(bash\) **scripts** 或是利用 **pipes**.
 
 * 當一個程式/指令執行時，有三個 channels 被開啟
+
   * `stdin` \(called by 0\)
   * `stdout` \(called by 1\)
   * `stderr` \(called by 2\)
@@ -73,10 +74,6 @@ $ls -l /bin/usr 2> ls-error.txt
 $ls -l /bin/usr 2> /dev/null
 ```
 
-## 
-
-## 文本處理常用指令
-
 * echo
 
 ```bash
@@ -89,6 +86,17 @@ $echo "語言學很重要" > note.txt
 $cat corpus.txt.* > corpus.txt
 ```
 
+#### 管線
+
+輸送命令的標準輸出到其他標準輸入。
+
+```
+$ls -l /usr/bin | less
+$ls -l /bin /usr/bin | sort | less
+```
+
+## 文本處理常用指令
+
 * head
 
 ```bash
@@ -98,6 +106,13 @@ $head -n 3 data.csv
 * tail
 * more（看檔案內容，滿頁暫停按 space 鍵繼續，按 q 結束）
 * less（同上，但允許游標鍵上下捲動對內容進行瀏覽）
+* sort
+* uniq \(移除重複，常和 sort 連用。參數 -d 可以看重複的內容清單\)
+
+```
+$ls /bin /usr/bin | sort | uniq | less
+```
+
 * cut  \(用來抽取文本中指定的 columns/characters\)
   * -c: Will specify the filtering of characters
   * -d: Will specify the delimiter for fields
@@ -127,6 +142,8 @@ $wc -l mydata.csv
 
 ```bash
 $grep -i -A 1 -B 10  work mydata.csv | head -n 5
+# 結合管線
+$ls /bin | sort | uniq | grep zip
 ```
 
 * sed
@@ -225,6 +242,14 @@ $cat lex3.txt
 * `kill` 終止執行中的程式，加上-9參數的話代表要強制終止。
 * `wget`
 * `curl`
+
+### 檔案搜尋
+
+* `locate`  以名稱尋找檔案
+* `find`  在目錄階層下收尋檔案
+* `xargs`  取得標準輸入，建置並執行命令列  Build and execute command lines from standard output
+
+### 
 
 ### 背景執行
 
