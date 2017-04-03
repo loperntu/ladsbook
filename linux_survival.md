@@ -43,14 +43,12 @@ $rm -rf non-empty_dir
 * `touch` \(建立一個空白的檔案\)
 * `clear`
 * `file` \(確認檔案類型\)
-* `less `\(看檔\)
+* `less`\(看檔\)
 * `tree`
 
-```bash
-$
-```
+> 可以利用 tldr
 
-## 輸入輸出與管線
+## 輸入輸出、重導與管線
 
 * 指令列的哲學：每個工具應該 do one specific task。根據不同需要在結合起來成為更彈性與強大的工具。如何結合？寫 \(bash\) **scripts** 或是利用 **pipes**.
 * 當一個程式/指令執行時，有三個 channels 被開啟
@@ -66,7 +64,7 @@ $
 $echo "語言學很重要" > note.txt
 ```
 
-* cat（依標準輸出顯示檔案內容）
+* cat（依標準輸出顯示檔案內容; 串接檔案）
 * head
 
 ```bash
