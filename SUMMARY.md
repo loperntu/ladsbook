@@ -58,5 +58,3 @@
 * [正則表示法](/regular expression.md)
 * [R 存活指令](r_survival.md)
 
-
-

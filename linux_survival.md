@@ -97,7 +97,11 @@ $ls -l /bin /usr/bin | sort | less
 
 ## 文本處理常用指令
 
-* head
+* cat  
+
+
+
+* `head`
 
 ```bash
 $head -n 3 data.csv
@@ -113,23 +117,23 @@ $head -n 3 data.csv
 $ls /bin /usr/bin | sort | uniq | less
 ```
 
-* cut  \(用來抽取文本中指定的 columns/characters\)
+* `cut ` \(用來抽取文本中指定的 columns/characters\)
   * -c: Will specify the filtering of characters
   * -d: Will specify the delimiter for fields
   * -f: Will specify the field number
 
 ```bash
-//used the –d: option to specify that the field or columns are separated by a colon (:)
+#used the –d: option to specify that the field or columns are separated by a colon (:)
 $cut -d: -f 1,3 /etc/passwd
 ```
 
-* paste \(paste two files horizontally, such as file\_1, which will become the first column and file\_2 will become the second column
+* `paste` \(合併檔案行列 Merge lines of files.。paste two files horizontally, such as file\_1, which will become the first column and file\_2 will become the second column
 
 ```bash
 $paste file_1 file_2
 ```
 
-* join
+* join（Join lines of two files on a common field.）
 
 * wc （計算字數、行數、字元數）
 
@@ -153,7 +157,9 @@ $ls /bin | sort | uniq | grep zip
 $sed -e 's/keke/科科/g' mydata.csv > mydata2.csv
 ```
 
-> \[注意\]  轉不同系統處理的文件時常用這個指令！
+> ### \[注意\]  轉不同系統處理的文件時常用這個指令！
+
+
 
 因為不同系統對於「換行字元」有不同的編碼方式。  
 Windows 系統用了`\r\n`，亦即「回車」 CR \(carriage return\) 與 「換行」LF \(line feed\) 來表達換行。在編輯器裡會在一行的節尾看到 `^M`，那就是`\r\n`。蘋果每行的結尾則是用 CR `\r`, linux/unix 用 LF `\n`。[^1]
@@ -183,10 +189,10 @@ sort mydata.csv | uniq -c | sort -nr | head -n 5
 
 ## 比較詞表
 
-* diff
-* sdiff
-* comm （需要先將文件排序過）
-* cmp
+* `diff`
+* `sdiff`
+* `comm` （逐行比較兩個排序後的檔案 Compare two sorted files line by line）
+* `cmp`
 
 假定你有兩份詞表 lex1.txt 和 lex2.txt,分別長這樣。
 
@@ -234,6 +240,14 @@ $cat lex3.txt
 美麗
 豐富
 ```
+
+## 
+
+### 格式化輸出
+
+## 
+
+## 
 
 ## \(雲端\)伺服器上工作會用到的指令
 
