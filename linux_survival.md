@@ -22,23 +22,32 @@ $cat mydata.csv | awk -F "|" '{ sum += $4 } END { printf "%.2f\n", sum }'
 
 整個檔案系統是由root 開始，之後會向樹一樣不斷分支長出去，也就是說，一開始會有一個全部的起源的資料夾被稱作root，符號是 `/`，而 root 底下有很多其他的資料夾或資料，每個資料夾又可以包含很多資料夾或者資料，如此延伸下去建立的檔案系統。
 
-我們一開始會在自己的 HOME 資料夾開始做事，目前所在的資料夾就是工作資料夾 (working directory)。
+我們一開始會在自己的 HOME 資料夾開始做事，目前所在的資料夾就是工作資料夾 \(working directory\)。
 
-**絕對路徑** 指的是說從root開始的路徑，這種路徑不管你的工作資料夾在哪裡都不會影響執行。Example: /home/shukai/XD.txt。而**相對路徑**指的是從工作資料夾開始的路徑，這種路徑如果你在不同的 working directory 使用會得到不同的效果。
+**絕對路徑** 指的是說從root開始的路徑，這種路徑不管你的工作資料夾在哪裡都不會影響執行。Example: /home/shukai/XD.txt。  
+而**相對路徑**指的是從工作資料夾開始的路徑，這種路徑如果你在不同的 working directory 使用會得到不同的效果。
 
 * `pwd`（顯示目前工作目錄）
-* `cd` (更換工作資料夾到指定的資料夾)
+* `cd` \(更換工作資料夾到指定的資料夾\)
 * `ls`（列出當前目錄下的內容）
 * `cd`（更換工作忙碌）
 * `cp`（拷貝檔案及目錄）
 * `mv`（移動或重新命名檔案）
 * `mkdir`（建立目錄）
 * `rm`（刪除檔案或目錄）
-* `touch` (建立一個空白的檔案)
+
+```
+$rm -rf non-empty_dir
+```
+
+* `touch` \(建立一個空白的檔案\)
 * `clear`
+* `file` \(確認檔案類型\)
+* `less `\(看檔\)
+* `tree`
 
 ```bash
-$rm -rf non-empty_dir
+$
 ```
 
 ## 輸入輸出與管線
@@ -74,7 +83,7 @@ $head -n 3 data.csv
 
 ```bash
 //used the –d: option to specify that the field or columns are separated by a colon (:)
-$cut -d: -f 1,3 /etc/passwd    
+$cut -d: -f 1,3 /etc/passwd
 ```
 
 * paste \(paste two files horizontally, such as file\_1, which will become the first column and file\_2 will become the second column
@@ -83,7 +92,7 @@ $cut -d: -f 1,3 /etc/passwd
 $paste file_1 file_2
 ```
 
-* join 
+* join
 
 * wc （計算字數、行數、字元數）
 
@@ -114,7 +123,7 @@ Windows 系統用了`\r\n`，亦即「回車」 CR \(carriage return\) 與 「�
 
 ```bash
 $sed -e 's/\^M//g' winfile.in > linuxfile.out
-# sed -e 's/^M//g' testfile > testfile.out 也可以，但是要用 ctrl-v ctrl-m 來打出 ^ 
+# sed -e 's/^M//g' testfile > testfile.out 也可以，但是要用 ctrl-v ctrl-m 來打出 ^
 ```
 
 * `sort` 與 `uniq`
@@ -187,25 +196,23 @@ $cat lex3.txt
 豐富
 ```
 
-## (雲端)伺服器上工作會用到的指令
+## \(雲端\)伺服器上工作會用到的指令
 
-- `ssh` 
-- `ps` 查看現在你有哪些程式在執行，若加上 `aux` 參數則可以顯示系統全部的執行中的程式
-- `kill` 終止執行中的程式，加上-9參數的話代表要強制終止。
-- `wget`
-- `curl`
+* `ssh` 
+* `ps` 查看現在你有哪些程式在執行，若加上 `aux` 參數則可以顯示系統全部的執行中的程式
+* `kill` 終止執行中的程式，加上-9參數的話代表要強制終止。
+* `wget`
+* `curl`
 
 ### 背景執行
 
 在指令的後面加上`&`就可以讓它在背景中執行，如果想要回去看程式執行的情況，可以使用`fg`指令。若你已經開始跑程式了，但是忘了加`&`，這時候可以用`CTRL+Z`來暫停程式的執行，然後使用`bg [job id]`來讓他在背景繼續執行，如果想要回去看執行情況一樣用`fg`就可以了。
 
-- `screen`
+* `screen`
 
 ### 以 AWS 為例
 
-
-
--------
+---
 
 附註：
 
