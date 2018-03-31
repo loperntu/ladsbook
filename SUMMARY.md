@@ -21,6 +21,7 @@
   * [神經網路與深度學習 Neural Network and Deep Learning](神經網路與深度學習-neural-network-and-deep-learning.md)
   * 關聯規則挖掘 Association Rules
   * [k-means 分群 Clusterings](k-means-分群-clusterings.md)
+  * [社會網路分析](she-hui-wang-lu-fen-xi.md)
 
 ## PART II： 文本分析：資料處理、表徵與語意計算
 
