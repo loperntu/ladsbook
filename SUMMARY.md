@@ -10,13 +10,14 @@
 * [自然語言處理](nlp.md)
   * [語料庫](corpus.md)
 * [數學與統計](math_fundamentals.md)
+  * [統計](math_fundamentals/tong-ji.md)
 * [資料科學的 OSEMN 模式](osemn-模式.md)
 * [機器學習](machine_learning.md)
   * [kNN](knn.md)
   * [Probabilistic learning using Naive Bayes ](bayesian_network.md)
   * [決策樹 Decision Trees](決策樹-decision-trees.md)
-  * 迴歸分析 Regression models
   * [支持向量機 Support Vector Machines](支持向量機-support-vector-machines.md)
+  * [迴歸分析 Regression models](hui-gui-fen-xi-regression-models.md)
   * [神經網路與深度學習 Neural Network and Deep Learning](神經網路與深度學習-neural-network-and-deep-learning.md)
   * 關聯規則挖掘 Association Rules
   * [k-means 分群 Clusterings](k-means-分群-clusterings.md)
