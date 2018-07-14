@@ -32,17 +32,19 @@
   * [自動分詞與詞類標記](cws_pos.md)
   * [文本標記](text_annotation.md)
 * [文本語意與統計](text_semantics.md)
-  * [文本相似與關聯](similarity_association.md)
+  * [語言語意表徵](yu-yan-yu-yi-biao-zheng.md)
   * [文本訊息視覺化](visualization.md)
-* [文本迴歸預測](regression.md)
-* [文本分類](text_classification.md)
-  * [垃圾訊息偵測](spam.md)
+  * [文本相似與關聯](similarity_association.md)
+* 文本知識抽取
 * [文本聚類](text-clustering.md)
 
 ## PART III：文本分析：應用與報告
 
 * [檢索與儲存](text_retrieval_storage.md)
 * [自動摘要](text_summarization.md)
+* [文本分類](text_classification.md)
+  * [垃圾訊息偵測](spam.md)
+* [文本迴歸預測](regression.md)
 * [文本自動生成](text_generator.md)
 * [主題模型](topic-modeling.md)
 * [情緒分析](sentiment_analysis.md)
