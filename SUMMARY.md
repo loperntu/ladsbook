@@ -58,6 +58,7 @@
 
 * [參考書目](references.md)
 * [OSEMN 模式](osemn-模式.md)
+* Git and Github 入手
 * [Linux存活指令](linux_survival.md)
 * [正則表示法](/regular expression.md)
 * [R 存活指令](r_survival.md)

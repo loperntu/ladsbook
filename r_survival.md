@@ -124,8 +124,7 @@ Warning message:
 
 * R also provides a powerful function `scan()` to load the contents of text files into _vectors_.
 
-* 
-文件編碼與轉碼
+* 文件編碼與轉碼
 
 ```{r}
 
@@ -182,6 +181,7 @@ x[1]
 ```
 
 * 文字向量 \(character vector\) 有一些特殊的運算函式。
+
   ```
   > aa <- c("I", "do", "not", "know") 
   > nchar(aa)
@@ -451,7 +451,7 @@ scaleFun(C)
 Deploying data product
 
 * DS reporting with `R Markdown`
-* Inforgraphics
+* Infographics
 
 ## 機器學習
 
