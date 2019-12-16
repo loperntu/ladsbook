@@ -1,13 +1,21 @@
-# 機率與機率分配
+# 機率與機率分佈
 
 * 事件
 * 機率
 * 隨機變數
-* 機率分配
+* 機率分佈
 
 
 
 
+
+
+
+
+
+
+
+* **機率密度函數：**隨機變數值 $$x$$ 和機率 $$\mathcal{P}$$ 之間的函數關係。 
 
 
 
@@ -16,6 +24,10 @@
 
 
 ### 常態\(機率\)分佈 normal distribution \(a.k.a 高斯分佈 Gaussian distribution\)
+
+
+
+*     
 
 $$
 P(x) = \frac{1}{\sigma\sqrt{2\pi}}e^{-\left[\frac{(x - \mu)^2}{2\sigma^2}  \right]}
@@ -37,9 +49,14 @@ rnorm(n=10)
 
 
 
+### Poisson Distribution
 
+$$
+P(x) = \frac{\mu^{x}e^{-\mu}}{x!}
+$$
 
-
+* 針對計數資料 count data
+* trial 次數很多 \(n 很大\)， 事件發生機率（P）很小時的二項分布。 
 
 
 
