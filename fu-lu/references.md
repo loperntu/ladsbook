@@ -1,5 +1,9 @@
 # 參考書目
 
+
+
+Andrew Bruce and Peter Bruce. 2017. **Practical Statistics for Data Scientists.** Publisher: O'Reilly Media, Inc.
+
 Tony OjedaRebecca Bilbro, Benjamin Bengfort and . 2018. **Applied Text Analysis with Python**. Publisher: O'Reilly Media, Inc.
 
 Steven Struhl. 2015. _Practical Text Analytics_. Publisher: Kogan Page.
