@@ -30,9 +30,23 @@ description: 統計方法是資料科學的核心，在 EDA 的階段更扮演�
     * Spearman 等級相關係數
     * Kendal 等級相關係數
 
+```text
+require(languageR)
+require(GGally)
 
+data(package="languageR")
+head(ratings)
 
+# 計算相關係數
+cor(ratings$Frequency,ratings$FamilySize)
+[1] 0.7075396
 
+# 兩兩變數散佈圖
+ggpairs(ratings[,c(2,3:4)])
+
+```
+
+![ratings &#x8CC7;&#x6599;&#x7684;&#x6210;&#x5C0D;&#x5716;](../../../.gitbook/assets/image.png)
 
 
 
