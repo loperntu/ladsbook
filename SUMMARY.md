@@ -11,7 +11,7 @@
   * [統計](partiji-chu-zhi-shi/math_fundamentals/tong-ji/README.md)
     * [機率與機率分佈](partiji-chu-zhi-shi/math_fundamentals/tong-ji/ji-lv-yu-ji-lv-fen-pei/README.md)
       * [推論統計](partiji-chu-zhi-shi/math_fundamentals/tong-ji/ji-lv-yu-ji-lv-fen-pei/tui-lun-tong-ji.md)
-      * [線性模式](partiji-chu-zhi-shi/math_fundamentals/tong-ji/ji-lv-yu-ji-lv-fen-pei/xian-xing-mo-shi.md)
+    * [迴歸模型](partiji-chu-zhi-shi/math_fundamentals/tong-ji/xian-xing-mo-shi.md)
   * [線性代數](partiji-chu-zhi-shi/math_fundamentals/xian-xing-dai-shu.md)
 * [自然語言處理](partiji-chu-zhi-shi/nlp/README.md)
   * [語料庫](partiji-chu-zhi-shi/nlp/corpus.md)

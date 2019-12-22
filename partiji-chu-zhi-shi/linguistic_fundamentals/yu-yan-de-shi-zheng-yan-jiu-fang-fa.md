@@ -8,7 +8,7 @@ description: empirical methods
 
 ## 實驗方法
 
-
+實驗設計 experimental design
 
 
 
