@@ -59,5 +59,5 @@ Reconizing stances in Debates： automatically determining from text whether the
 
 * 每一行潑文受限於 27 個中文字；每則潑文前面可以放推噓標籤。
 * 
-## 舉例：太陽花學運
+## 舉例
 

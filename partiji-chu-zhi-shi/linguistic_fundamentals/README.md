@@ -1,4 +1,10 @@
+---
+description: 極簡入門 minimalist linguistics
+---
+
 # 語言學
+
+## 為何資料科學需要語言學
 
 > ... for now, the preeminence of statistical approaches has been shaped by the increasing capabilities of computer resources. Most important has been the outpouring of digital data, ready for analysis by text-mining methods... At some point in the future, a deeper semantic understanding may demonstrate clear performance advantages.
 
@@ -21,6 +27,7 @@
 * 語意
 * 語用與言談分析
 * 文本修辭
+* 語音、體勢與多模態
 
 ### 語意複雜度
 

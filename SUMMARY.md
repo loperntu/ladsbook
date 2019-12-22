@@ -5,7 +5,8 @@
 ## PART I：基礎知識
 
 * [導論](partiji-chu-zhi-shi/introductionmd.md)
-* [語言學](partiji-chu-zhi-shi/linguistic_fundamentals.md)
+* [語言學](partiji-chu-zhi-shi/linguistic_fundamentals/README.md)
+  * [語言的實證研究方法](partiji-chu-zhi-shi/linguistic_fundamentals/yu-yan-de-shi-zheng-yan-jiu-fang-fa.md)
 * [數學與統計](partiji-chu-zhi-shi/math_fundamentals/README.md)
   * [統計](partiji-chu-zhi-shi/math_fundamentals/tong-ji/README.md)
     * [機率與機率分佈](partiji-chu-zhi-shi/math_fundamentals/tong-ji/ji-lv-yu-ji-lv-fen-pei/README.md)
@@ -28,12 +29,14 @@
 
 ## PART II： 文本分析：資料處理、表徵與語意計算
 
-* [文本分析是什麼](part-ii-wen-ben-fen-xi-zi-liao-chu-li-biao-zhi-yu-yu-yi-ji-suan/wen-ben-fen-xi-shi-shi-mo.md)
+* [文本分析是什麼](part-ii-wen-ben-fen-xi-zi-liao-chu-li-biao-zhi-yu-yu-yi-ji-suan/wen-ben-fen-xi-shi-shi-mo/README.md)
+  * [程式處理架構](part-ii-wen-ben-fen-xi-zi-liao-chu-li-biao-zhi-yu-yu-yi-ji-suan/wen-ben-fen-xi-shi-shi-mo/cheng-shi-chu-li-jia-gou.md)
 * [文本前處理](part-ii-wen-ben-fen-xi-zi-liao-chu-li-biao-zhi-yu-yu-yi-ji-suan/text_preprocessing/README.md)
   * [文本收集](part-ii-wen-ben-fen-xi-zi-liao-chu-li-biao-zhi-yu-yu-yi-ji-suan/text_preprocessing/text_collection.md)
   * [文本清理](part-ii-wen-ben-fen-xi-zi-liao-chu-li-biao-zhi-yu-yu-yi-ji-suan/text_preprocessing/cleaning.md)
   * [自動分詞與詞類標記](part-ii-wen-ben-fen-xi-zi-liao-chu-li-biao-zhi-yu-yu-yi-ji-suan/text_preprocessing/cws_pos.md)
   * [文本標記](part-ii-wen-ben-fen-xi-zi-liao-chu-li-biao-zhi-yu-yu-yi-ji-suan/text_preprocessing/text_annotation.md)
+* [文本數據探索性分析](part-ii-wen-ben-fen-xi-zi-liao-chu-li-biao-zhi-yu-yu-yi-ji-suan/wen-ben-shu-ju-tan-suo-xing-fen-xi.md)
 * [文本語意與統計](part-ii-wen-ben-fen-xi-zi-liao-chu-li-biao-zhi-yu-yu-yi-ji-suan/text_semantics/README.md)
   * [語意表徵](part-ii-wen-ben-fen-xi-zi-liao-chu-li-biao-zhi-yu-yu-yi-ji-suan/text_semantics/yu-yan-yu-yi-biao-zheng.md)
   * [文本訊息視覺化](part-ii-wen-ben-fen-xi-zi-liao-chu-li-biao-zhi-yu-yu-yi-ji-suan/text_semantics/visualization.md)

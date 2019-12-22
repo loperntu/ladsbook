@@ -1,3 +1,7 @@
+---
+description: machine learning
+---
+
 # 機器學習
 
 * 監督式學習：分類\(Classification\)、迴歸分析\(Regression\)
@@ -16,7 +20,7 @@
 
 ```text
 爭論的底層其實涉及更深一層的哲學問題：知識和知識的表徵是什麼？
-讓機器*自己學習*很酷，但是不知道機器學習的機制來自什麼人類認知機制
+讓機器「自己學習」很酷，但是不知道機器學習的機制來自什麼人類認知機制
 不是很危險的一件事？
 ```
 
@@ -29,6 +33,10 @@
   2. If $$Prob(C) <$$ threshold, request a label; otherwise, ignore the document.
 
 > Experimenting with text categorization and with some numerical data-mining applications, researchers have found that active learning can often drastically reduce their overall sample size while achieving results comparable to training on the full set of labeled documents.\(Weiss et al. 2005\)
+
+### 
+
+### 
 
 ### 監督式學習 \(Supervised learning\)
 

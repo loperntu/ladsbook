@@ -11,13 +11,11 @@
 
 * [GATE](https://gate.ac.uk) 是較有歷史的平台。
 * [WordFreak](http://wordfreak.sourceforge.net/) 是另一個老牌標記工具。
+* Webanno
 
 如何使用請參見另一本書 COPENS。
 
-## 文本前處理的管線回顧
+## 
 
-## 相關會議
 
-* The Linguistic Annotation Workshop \(Boguraev et al. 2007\)
-* SIGANN \(a Special Interest Group for Annotation\)
-* 
+
