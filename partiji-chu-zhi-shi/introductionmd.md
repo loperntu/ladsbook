@@ -1,7 +1,5 @@
 # 導論
 
-### Linguistic Analysis and Data Science
-
 ## 資料科學是什麼？資料科學家會什麼？
 
 * To retrieve, transform, explore and model data as well as interprete and communicate results in a compelling way. 
@@ -138,16 +136,6 @@ The current standard for text analysis in R is the `tm` package. It provides fac
 * 網路文本 web
 * 實體感測器：即時紀錄語音轉文本後的各種訊息。physical sensor \(**sensory description** obtained by rating a set of products/events/ according to a list of sensory attributes.\)
 * 各種社會媒體作為社會感測器：social sensor \('ptt','FB','twitter',...\) 
-
-```r
-library(RCurl)
-library(googleVis)
-
-# 本書範例檔都放在 dropbox 的 public folder 底下
-URL <- "https://www.dropbox.com/sh/7uenyjjl81wo3x9/AAAPfYVIEkONCyIXjcDn2WGfa?dl=0/test.csv"
-x <- getURL(URL, ssl.verifypeer = FALSE)
-y <- read.csv(text = x, header = TRUE)
-```
 
  出處：[https://manoharswamynathan.files.wordpress.com/2015/04/r-text-mining-001.jpg](https://manoharswamynathan.files.wordpress.com/2015/04/r-text-mining-001.jpg)
 

@@ -1,6 +1,18 @@
-# 語言語意表徵
+---
+description: Text representation
+---
 
-## Embeddings
+# 語意表徵
 
-## Word Embeddings
+## 
+
+## 
+
+## 
+
+## Distributional semantic representation
+
+## Distributed semantic representation
+
+### Word Embeddings
 

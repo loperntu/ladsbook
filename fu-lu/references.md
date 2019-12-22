@@ -33,3 +33,5 @@ Sebastien Le and Thierry Worch. 2015. **Analyzing Sensory Data with R**. CRC Pre
 
 Graham Wilcock. 2009. **Introduction to Linguistic Annotation and Text Analytics**. Morgan & Claypool.
 
+R 的學習歷程：[https://yongfu.name/2018/01/31/RlearningPath.html](https://yongfu.name/2018/01/31/RlearningPath.html)
+
