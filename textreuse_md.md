@@ -1,6 +1,6 @@
 # 重複文本偵測
 
-* text reuse 可以用 [`textreuse`](https://github.com/ropensci/textreuse) 來練習。
+- text reuse 可以用 [`textreuse`](https://github.com/ropensci/textreuse) 來練習。
 
 ```r
 > library(textreuse)
@@ -9,13 +9,13 @@
     meta = list(title = "Civil procedure"),
     tokenizer = tokenize_ngrams, n = 7)
 ```
-
-```text
+```
 > coprus
 TextReuseCorpus
 Number of documents: 3 
 hash_func : hash_string 
 title : Civil procedure 
-tokenizer : tokenize_ngrams
+tokenizer : tokenize_ngrams 
 ```
+
 

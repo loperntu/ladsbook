@@ -15,3 +15,7 @@
 > freq <- findFreqTerms(dtm,10)
 ```
 
+#### 多變量統計
+
+
+
