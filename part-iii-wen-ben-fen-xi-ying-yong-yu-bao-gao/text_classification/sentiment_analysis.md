@@ -59,7 +59,25 @@ sarcastic, ironic, or hyperbolic.
 
 \(Liu, 2015\)
 
+
+
+## 入門實作
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## R 相關套件
 
-* `syuzhet` - Extracts sentiment from text using three different sentiment dictionaries.
-
+* [`syuzhet`](https://cran.r-project.org/web/packages/syuzhet/vignettes/syuzhet-vignette.html) - Extracts sentiment from text using three different sentiment dictionaries.
+* [`sentimentr`](https://github.com/trinker/sentimentr)
+* [`SentimentAnalysis`](https://cran.r-project.org/web/packages/SentimentAnalysis/vignettes/SentimentAnalysis.html)
+* 
