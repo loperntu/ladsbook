@@ -539,15 +539,21 @@ while (a > 4) {
 * `ggvis`
 * `ggplot2`
 
+### 
+
 ### 資料統計
 
-\(增效小訣竅\)
 
-* `setwd()`
-* `crtl + l` 清除 console 畫面
-* `rm(list = ls())` 清楚 workspace 所有物件
-* `?`看對於內建資料或是指令的輔助說明，如 `?iris`, `?rep` 
-* 好習慣提早養成。參考像是 [Google's R Style Guide](http://google-styleguide.googlecode.com/svn/trunk/Rguide.xml#assignment)
+
+### ggplot2 繪圖
+
+
+
+
+
+
+
+
 
 > EDA with data.table
 
@@ -581,4 +587,12 @@ scaleFun(C)
 
 
 ## 
+
+\(增效小訣竅\)
+
+* `setwd()`
+* `crtl + l` 清除 console 畫面
+* `rm(list = ls())` 清楚 workspace 所有物件
+* `?`看對於內建資料或是指令的輔助說明，如 `?iris`, `?rep` 
+* 好習慣提早養成。參考像是 [Google's R Style Guide](http://google-styleguide.googlecode.com/svn/trunk/Rguide.xml#assignment)
 
