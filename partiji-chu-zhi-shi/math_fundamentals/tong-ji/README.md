@@ -46,7 +46,7 @@ ggpairs(ratings[,c(2,3:4)])
 
 ```
 
-![ratings &#x8CC7;&#x6599;&#x7684;&#x6210;&#x5C0D;&#x5716;](../../../.gitbook/assets/image.png)
+![ratings &#x8CC7;&#x6599;&#x7684;&#x6210;&#x5C0D;&#x5716;](../../../.gitbook/assets/image%20%282%29.png)
 
 
 

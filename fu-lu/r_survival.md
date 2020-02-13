@@ -13,7 +13,7 @@
 > plot(iris)
 ```
 
-### 變數、資料類型與基本運算
+## 變數、資料類型與基本運算
 
 variables, data types and basic arithmetic
 
@@ -41,14 +41,19 @@ variables, data types and basic arithmetic
   * 實數 \(或數值\) \(numeric\)：`is.numeric()`
   * 整數 \(integer\)：`is.integer()`
   * 複數 \(complex\)：`is.complex()`
-  * 邏輯 \(logical\)：True 或 False `is.logical()`
+  * 邏輯 \(logical\)：TRUE \(1\) 或 FALSE \(0\) `is.logical()`
+  * 日期 \(data\): `as.Data`和 `as.POSTXct` 進一步可考慮 `lubridate` 套件
+
+### 遺失值
+
+R 有兩種記錄遺失/遺漏值的方法：NA 和 NULL。一般資料都有遺漏的部分，在 R 中使用 NA 來表示，
+
 * `NA` \(missing value\) 是保留字，邏輯常數。
 
   ```text
   > NA <-2
   Error in NA <- 2 : (do_set) 賦值公式左側不正確
-  > NULL <-2
-  Error in NULL <- 2 : (do_set) 賦值公式左側不正確
+
   ```
 
   * 許多函式都帶有 `na.rm` 的 \(刪除\) 參數（預設是 `na.rm = FALSE`）。另外有幾個專門處理 `NA` 內建的函式如下。
@@ -61,7 +66,9 @@ variables, data types and basic arithmetic
 > air2 <- na.omit(airquality)
 ```
 
-* 資料類型之間的強制轉換可透過不同內建函式：`as.numeric()`, `as.integer()`, `as.character()`, 等等。但也不是都可以。
+
+
+
 
 ```text
 > as.character(c(1,3,5))
@@ -144,7 +151,7 @@ Warning message:
 
 ### 向量 Vector
 
-* 利用 `c()` 建立向量，向量元素必須是同個資料類型，不然就會按照 _character &gt; complex &gt; numeric &gt; integer &gt; logical_ 進行資料類型迫轉 \(type coercion\) 
+* 利用 `c()` 建立向量，向量元素必須**是同個資料類型**，不然就會按照 _character &gt; complex &gt; numeric &gt; integer &gt; logical_ 進行資料類型迫轉 \(type coercion\) 
 
 ```text
 > x <- c(1,2,3)
@@ -243,7 +250,7 @@ sub(pattern, replacement, x, ignore.case = FALSE)
 Levels: 2 3 5 6 7 8
 ```
 
-上述例子說明 x 是個因子，共有 8 個分量以及 6 個等級 \(levels\)。
+上述例子說明 x 是個因子，共有 8 個分量以及 6 個等級 \(levels\)。所謂的等級 \(levels\) 可以想成是該因子中不重複的分量。
 
 ### 陣列 Array 與矩陣 Matrix
 
@@ -434,20 +441,7 @@ scaleFun(C)
 # 比較 scale(C)
 ```
 
-\(選修\)
 
-## 資料科學的報告與表達
 
-Deploying data product
-
-* DS reporting with `R Markdown`
-* Infographics
-
-## 機器學習
-
-Machine learning
-
-## 大數據處理
-
-Big data
+## 
 
