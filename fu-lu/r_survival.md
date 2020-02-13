@@ -6,7 +6,7 @@ description: The R survival guide for LADs (Linguistic Analysis and Data Science
 
 > ## 三分鐘上手指令
 
-```text
+```r
 > head(iris)
 > str(iris)
 > summary(iris)
@@ -21,7 +21,7 @@ variables, data types and basic arithmetic
   * 變數命名大小寫有區別 \(x 和 X 不一樣\)
   * 賦值算子 `<-`，`=` 貌似可以，但 R 官方文件強調不該使用，在某些地方會失效。
 
-```text
+```r
 > x <- 38
 > x
 ```
@@ -30,7 +30,7 @@ variables, data types and basic arithmetic
 
   加減乘除、次方、平方根、商數與餘數、指數與對數、等等。
 
-```text
+```r
 > 20^3
 > exp(20)
 > logl0(100)
@@ -44,18 +44,18 @@ variables, data types and basic arithmetic
   * 邏輯 \(logical\)：TRUE \(1\) 或 FALSE \(0\) `is.logical()`
   * 日期 \(data\): `as.Data`和 `as.POSTXct` 進一步可考慮 `lubridate` 套件
 
-### 遺失值
+### 遺失值與虛無值
 
-R 有兩種記錄遺失/遺漏值的方法：NA 和 NULL。一般資料都有遺漏的部分，在 R 中使用 NA 來表示，亦即 `NA` \(missing value\) 是保留字，作為一種邏輯**常數**。
+一般資料都有遺漏的部分，在 R 中使用 NA 來表示，亦即 `NA` \(missing value\) 是保留字，作為一種邏輯**常數**。
 
-```text
+```r
 > NA <-2
 Error in NA <- 2 : (do_set) 賦值公式左側不正確
 ```
 
 NA 會被 vector 視為一個元素，可用 `is.na` 來檢查。
 
-```text
+```r
 > natest <-c(1,6,NA,20,3)
 > natest[1]  
 1  6 NA 20  3
@@ -65,11 +65,14 @@ NA 會被 vector 視為一個元素，可用 `is.na` 來檢查。
 
 ```
 
-要注意在運算時，
+要注意在運算 mean, min, sd 時，NA 會全局的影響。所以要設 `na.rm = TRUE。`
 
+```r
+> mean(natest, na.rm=TRUE)
+[1] 7.5
+```
 
-
-```text
+```r
 > as.character(c(1,3,5))
 [1] "1" "3" "5"
 > as.integer(c("i", "like","you"))
@@ -78,22 +81,52 @@ Warning message:
 強制變更過程中產生了 NA
 ```
 
-* 文本資料
+
+
+**虛無值 \(NULL\)** 則不是遺失的值，而是根本不存在的值。所以不能存入向量裡面。
+
+```r
+> nulltest <- c(2, NULL,100); nulltest
+[1]   2 100
+```
+
+{% hint style="info" %}
+指令之間的串接，可以使用 \(magrittr 套件提供的\) **pipe 運算子** %&gt;%
+
+如此一來，sum\(is.na\(natest\)\) 和 natest %&gt;% is.na %&gt;% sum 的結果是一樣的。
+{% endhint %}
+
+
+
+
 
 ## 資料匯入與匯出
 
-資料匯入
+### 內建資料
 
-* `read.table()` 或 `read.csv()`
+* 用 `data()` 來載入
 
-```text
-> cars <- read.csv('/Users/shukai/data4practice/cars.csv', row.names=1)
-> # row.names=1 告訴 R 第一列是名稱
+### 資料匯入（讀取）
+
+* 要了解絕對、相對與當前的目錄路徑。
+* `read.table()` 或 `read.csv()` 幾個重要的參數
+  * header = 
+  * sep = 
+  * stringAsFactor = FALSE
+  * quote = 
+  * colClass = 
+
+```r
+> lang <- read.table('/Users/shukai/data4practice/languages.csv',
+    header = TRUE, sep = ",")
+> lang <- read.csv('/Users/shukai/data4practice/languages.csv', 
+    row.names=1)
+# row.names=1 告訴 R 第一列是名稱
 ```
 
 * 如果要一次載入許多 csv 檔成為不同的 data frame
 
-```text
+```r
 > folder <- "/Users/shukai/data4practice/"
 > file_list <- list.files(path=folder, pattern="*.csv") 
 > for (i in 1:length(file_list)){
@@ -105,7 +138,7 @@ Warning message:
 
 * 如果要一次載入許多 csv 檔成為同一個 data frame
 
-```text
+```r
 > data <- 
 >   do.call("rbind", 
 >           lapply(file_list, 
@@ -114,13 +147,26 @@ Warning message:
 >                  stringsAsFactors = FALSE)))
 ```
 
-* For unstructured textual data, it is often easier to
+資料量較大時，可以考慮 `readr` 套件，專門用來讀取有分隔符號的文件，也不會自動將 character 轉成 factor。回傳的是一個從 dataframe 衍生出來的資料結構 **tibble。**
 
-  read in the file as lines of texts and then parse the contents afterward. readLines\(\) \(notice the capital "L"\) provides
+* `read_delim()`
+* `read_csv() #分隔符號是 ,`
+* `read_csv2() #分隔符號是 ;`
+* `read_tsv() #分隔符號是 \t`
 
-  such a facility. It accepts a path to a file \(or a file connection\) and, optionally, a maximum number of lines to read.
+```r
+> library(readr)
+> data <- read_delim(file = theURL, delim = ',')
+```
 
-```text
+
+
+#### 文本資料
+
+* For unstructured textual data, it is often easier to read in the file as lines of texts and then parse the contents afterward. 
+  * `readLines()` \(notice the capital "L"\) provides such a facility. It accepts a path to a file \(or a file connection\) and, optionally, a maximum number of lines to read.
+
+```r
 > alice <- readLines( "http://www.gutenberg.org/ebooks/11.txt.utf-8" )
 > alice[1920:1927]
 ```
@@ -132,7 +178,46 @@ Warning message:
 
 ```
 
-匯出檔案
+#### R 二進位檔 RData 與 RDS
+
+* 儲存 R 物件的二進位檔，也方便不同系統交換。
+
+```r
+> save(data, file = "/Users/shukai/data4practice/data.rdata")
+> load("/Users/shukai/data4practice/data.rdata")
+```
+
+* 也可以將物件存成 rds 檔，但是不會連同物件名稱一併儲存，所以讀入時要指派名稱。
+
+```text
+> saveRDS(data, file = 'data.rds')
+> myData <-readRDS('data.rds')
+
+> identical(data, myData)
+[1] TRUE
+```
+
+#### 
+
+#### 網路資料
+
+
+
+
+
+#### JSON 檔案
+
+* JSON \(Javascript Object Notation\) 是普遍的資料格式，特別在 API 與文件資料庫中。
+* 巢狀結構，純文字檔。
+* `jsonlite` 套件
+
+
+
+
+
+
+
+### 資料匯出
 
 * 用 `write.table()` 或 `write.csv()` 輸出 csv
 
@@ -253,7 +338,7 @@ Levels: 2 3 5 6 7 8
 
 ### 陣列 Array 與矩陣 Matrix
 
-* 陣列 \(array\) 可視為多維度的向量變數，跟向量一樣，所有陣列元素的資料類型必須一致。
+* 陣列 \(array\) 可視為多維度的向量結構。跟向量一樣，所有陣列元素的資料類型必須一致。
 * **當陣列是 2 維時** 稱作矩陣 \(matrix\)
 
 ```text
@@ -265,13 +350,16 @@ Levels: 2 3 5 6 7 8
 ### 資料框 Data Frame
 
 * 最常用的資料結構物件。
+  * 建立 `data.frame()` 
+  * 查找 `DF(row, column)`, `DF$column`
 
 進階學習者可以考慮使用增強版的 `data.table`
 
 ### 列表 List
 
-* 列表可以包含不同資料類型的資料
-* 可用 `list()` 來建立，`[[]]` 來存取。
+* 列表可以包含不同資料類型和長度的資料。
+  * 可用 `list()` 來建立
+  * `[[]]` 來存取。
 
 ## 資料處理流程邏輯
 
@@ -343,6 +431,56 @@ while (a > 4) {
 
 * `tapply()` `sapply()` `lapply()`
 * 進階學習者可以考慮使用 [dplyr 套件](https://www.datacamp.com/courses/dplyr-data-manipulation-r-tutorial)。
+
+
+
+### 管線處理思維
+
+
+
+#### 利用 purrr 對於 list 作迭代
+
+* 強化與加速迭代運算的套件。
+* 運作方式和 lapply 一樣，有個函數 `map()` 可以獨立套用到 list 中的每個元素，回傳的結果長度和 list 的長度一樣，但它是基於管線處理思維。
+
+
+
+```r
+> myList <-list(a = matrix(1:9,3), b = 1:10, c=matrix(1:4,2), d=5)
+> lapply(myList, sum)
+# 一樣結果
+> library(purrr)
+> myList %>% map(sum)
+```
+
+假設我們的 list 資料中有 NA，那如何設 sum 函式的引數 na.rm=TRUE 呢？
+
+```r
+> myList2 <-myList
+> myList2[[1]][2,1] <-NA
+> myList2[[2]][4] <-NA
+
+#方法一:直接在 map 中傳遞
+> myList2 %>% map(sum, na.rm = TRUE)
+
+#方法二：若遇到函式的引數不方便直接使用，可使用匿名函式
+> myList2 %>% map(function(x) sum(x, na.rm = TRUE))
+
+```
+
+* purrr 提供一些 `map_*()` 函式，可以指定輸出的結果資料類型。
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## 資料探索分析
 
