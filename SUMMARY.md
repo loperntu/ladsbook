@@ -61,8 +61,8 @@
 
 ## 附錄
 
-* [Python 存活指令](fu-lu/python-cun-huo-zhi-ling.md)
 * [R 存活指令](fu-lu/r_survival.md)
+* [Python 存活指令](fu-lu/python-cun-huo-zhi-ling.md)
 * [Git and Github 入手](fu-lu/git-and-github-ru-shou.md)
 * [Linux 存活指令](fu-lu/linux_survival.md)
 * [正則表示法](fu-lu/regular-expression.md)

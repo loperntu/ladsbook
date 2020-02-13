@@ -1,10 +1,10 @@
+---
+description: The R survival guide for LADs (Linguistic Analysis and Data Science)
+---
+
 # R 存活指令
 
-> The R survival guide for LADs \(Linguistic Analysis and Data Science\)
-
-\(必修\)
-
-## 三分鐘上手指令
+> ## 三分鐘上手指令
 
 ```text
 > head(iris)
@@ -46,27 +46,26 @@ variables, data types and basic arithmetic
 
 ### 遺失值
 
-R 有兩種記錄遺失/遺漏值的方法：NA 和 NULL。一般資料都有遺漏的部分，在 R 中使用 NA 來表示，
-
-* `NA` \(missing value\) 是保留字，邏輯常數。
-
-  ```text
-  > NA <-2
-  Error in NA <- 2 : (do_set) 賦值公式左側不正確
-
-  ```
-
-  * 許多函式都帶有 `na.rm` 的 \(刪除\) 參數（預設是 `na.rm = FALSE`）。另外有幾個專門處理 `NA` 內建的函式如下。
-    * `is.na()`
-    * `na.fail()`
-    * `na.pass()`
-    * `na.omit()`, `na.exclude()`
+R 有兩種記錄遺失/遺漏值的方法：NA 和 NULL。一般資料都有遺漏的部分，在 R 中使用 NA 來表示，亦即 `NA` \(missing value\) 是保留字，作為一種邏輯**常數**。
 
 ```text
-> air2 <- na.omit(airquality)
+> NA <-2
+Error in NA <- 2 : (do_set) 賦值公式左側不正確
 ```
 
+NA 會被 vector 視為一個元素，可用 `is.na` 來檢查。
 
+```text
+> natest <-c(1,6,NA,20,3)
+> natest[1]  
+1  6 NA 20  3
+
+> is.na(natest)
+[1] FALSE FALSE  TRUE FALSE FALSE> 
+
+```
+
+要注意在運算時，
 
 
 
