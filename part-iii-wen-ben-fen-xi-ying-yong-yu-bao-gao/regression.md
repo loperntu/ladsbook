@@ -1,8 +1,18 @@
+---
+description: regression model
+---
+
 # 文本迴歸預測
 
 Text regression using `tm` and `glmnet`
 
-## 線性迴歸 R
+## 簡單線型迴歸
+
+
+
+## 
+
+## 線性迴歸 with R
 
 ```text
 # Load Train and Test datasets
@@ -20,7 +30,7 @@ summary(linear)
 predicted <- predict(linear,x_test)
 ```
 
-## Logistic 迴歸 R
+## Logistic 迴歸 with R
 
 ```text
 # Train the model using the training sets and check score
@@ -29,4 +39,16 @@ summary(logistic)
 # Predict Output
 predicted <- predict(logistic, x_test)
 ```
+
+
+
+
+
+
+
+## 多元（複）迴歸模型
+
+* 多了許多預測變數
+
+
 
